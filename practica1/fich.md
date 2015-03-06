@@ -12,5 +12,6 @@ Esto va en **negrita**
 Aquí enlazamos a otro sitio
 
 Aquí incluimos una imagen 
+
 ![imagen](https://github.com/pacastillo/swap1415/blob/master/practica1/m.png)
 
