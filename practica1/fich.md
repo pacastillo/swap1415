@@ -33,6 +33,12 @@ Y aquí terminamos poniendo dos tablas con caracteres ASCII:
 ║ 3 ║ Auto Align ║ Off         ║
 ╚═══╩════════════╩═════════════╝
 
+dog | bird | cat
+:-- | :--: | --:
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
+
 y con texto más grande
 
 ### ¡Adiós!
