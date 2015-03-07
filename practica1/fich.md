@@ -15,6 +15,7 @@ Aquí incluimos una imagen
 
 ![imagen](https://github.com/pacastillo/swap1415/blob/master/practica1/m.png)
 
+
 Y aquí terminamos poniendo una tabla:
 
 dog | bird | cat
@@ -37,4 +38,5 @@ baz | baz  | baz
 y con texto más grande
 
 ### ¡Adiós!
+
 
