@@ -9,7 +9,7 @@ Esto va en *cursiva*
 
 Esto va en **negrita**
 
-Aquí enlazamos a otro sitio
+Aquí enlazamos a la [web de google](http://www.google.com)
 
 Aquí incluimos una imagen 
 
