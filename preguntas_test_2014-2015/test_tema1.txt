@@ -1,0 +1,23 @@
+
+Preguntas Tema 1:
+1. A la hora de montar una granja web, ¿qué ventajas/desventajas podemos tener?
+a) La instalación y configuración es fácil, pero no es escalable.
+b) Es escalable, pero tiene muy baja disponibilidad.
+c) Es escalable y con alta disponibilidad, pero la instalación y configuración
+es compleja.
+d) Ninguna de las anteriores.
+CORRECTA: C.
+2.¿Cuál de las siguientes afirmacines es FALSA?
+a) Las granjas web resuelven los problemas de sistemas más simples para dar
+servicio a un número alto de usuarios.
+b) Las granjas web son sistemas muy sencillos pero sumamente inflexibles.
+c) Las granjas web, en muchos casos, albergarán muchos sitios web.
+d) Una granja web es un conjunto de servidores dedicados a servir contenido
+web a los usuarios finales.
+CORRECTA: B.
+3.¿Qué posibles problemas debemos evitar a la hora de planificar un sitio web?
+a) Problemas de la arquitectura del sistema.
+b) Problemas con la disponibilidad.
+c) Problemas con la carga del sistema.
+d) Todas las anteriores son correctas.
+CORRECTA: D.
