@@ -1,0 +1,26 @@
+
+1.A la hora de configurar la red del sistema web.. ¿qué es backbone?
+a) Es una medida que indica la eficiencia del sistema web.
+b) Es el eje principal de enlace entre máquinas.
+c) Es el que recupera el servicio si el sistema web falla.
+d) Todas las anteriores son correctas.
+CORRECTA: B.
+2.¿Qué alternativas tenemos para conectar la granja web a otras redes?
+a) Configuración sin DMZ( zona desmilitarizada)
+b) Configuración de DMZ simple.
+c) Configuración de DMZ tradicional.
+d) Todas las anteriores son correctas.
+CORRECTA: D
+
+1.- En una granja web, los posibles peligros llegan:
+a) Desde Internet
+b) Por la red WiFi.
+c) Por los pen de los administradores
+d) Ninguna es correcta.
+respuesta correcta: D (Ya que llegan desde Internet y desde dentro de la red corporativa (propios empleados) )
+2.- En una configuración de DMZ tradicional, el principal problema es... :
+a) El elevado ancho de banda que se necesita.
+b) La configuración de los servidores web.
+c) La configuración y capacidad de trabajo del cortafuegos.
+d) El software del cortafuegos.
+respuesta correcta: C
