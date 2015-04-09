@@ -1,0 +1,22 @@
+
+1.Escalabildad. Si la CPU está cerca del 100% too el rato y el resto de subsistemas
+no está sobrecargado...
+a) Apagar todo y dejar que se enfríe.
+b) Comprar ventiladores y métodos de refrigeración para que rinda mejor.
+c) Sustituir la CPU por una CPU más potente.
+d) Todas las anteriores son correctas.
+CORRECTA: C.
+2.Escalabilidad. Si el uso de RAM es muy alto, veremos un uso alto de disco
+(por swapping).Si..
+a) Incrementamos la RAM mejoraremos el rendimiento.
+b) Incrementamos la RAM, el rendimiento seguirá igual, porque no depende de ésta.
+c) Incrementamos la RAM, empeorará el rendimiento.
+d) Todas las anteriores son falsas.
+CORRECTA: A.
+3. El balanceador de carga..
+a) Hace que todas las peticiones pasen por todos los servidores.(de ahí
+el termino balanceador)
+b) Pasa peticiones a los servidores según el tráfico de la red.
+c) Selecciona el servidor más ocupado y lo reinicia.
+d) Siempre selecciona según el mismo algoritmo: Por prioridad.
+CORRECTA: B.
