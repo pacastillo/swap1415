@@ -20,3 +20,612 @@ b) Pasa peticiones a los servidores según el tráfico de la red.
 c) Selecciona el servidor más ocupado y lo reinicia.
 d) Siempre selecciona según el mismo algoritmo: Por prioridad.
 CORRECTA: B.
+
+1.- ¿En qué consiste la ampliación horizontal?:
+a) Es un tipo de escalado en el cual mejoramos una máquina concreta.
+b) Es un tipo de escalado en el cual añadimos máquinas a algún subsistema.
+c) Se llama así al incremento del nivel de estrés debido al incremento de máquinas.
+d) Ninguna es correcta.
+respuesta correcta: b
+2.- En cuanto a alta disponibilidad de un servidor... :
+a) Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más cortos posibles.
+b) Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más largos posibles.
+c) Lo ideal sería tener sólo tiempos de no-disponibilidad no programados lo más cortos posibles.
+d) Lo ideal sería tener sólo tiempos de no-disponibilidad no programados lo más largos posibles.
+respuesta correcta: a
+
+Pregunta 1: ¿Cual de los siguientes algoritmos no se usa en el balanceo de carga?
+a) Round-Robin
+b) Ponderación
+c) Euclides
+d) Tiempo de Respuesta
+Respuesta correcta: c
+Pregunta 2: Con el objetivo de conseguir una alta disponibilidad de la red, ¿A que nivel debe tener redundancia la red?
+a) Solo en la conexión a Internet
+b) Solo en Routers/cortafuegos/balanceadores
+c) Solo en Servidores
+d) Todas las anteriores
+Respuesta correcta: d
+Pregunta 3: ¿Qué tipo de escalado o ampliación consiste en incrementar la RAM, la CPU y el disco de un servidor?
+a) Ampliación frontal
+b) Ampliación horizontal
+c) Ampliación abdominal
+d) Ampliación vertical
+Respuesta correcta: d
+
+Si configuramos los servidores con redundancia mediante el software :
+a) Mejora la escalabilidad
+b) Empeora la escalabilidad
+c) Depende de los servidores que configuremos
+d) Ninguna de las anteriores es correcta
+Respuesta correcta: A
+¿Cuantos tipos de escalado existen?
+a) Solamente 1 -> Ampliación horizontal
+b) Solamente 2 -> Ampliación horizontal y ampliación escalada
+c) La a y b son falsas
+d) A veces bastaría con una ampliación escalada
+Respuesta correcta: C
+
+¿Que entendemos por alta disponibilidad?
+    Capacidad del servidor de aceptar visitas las 24h todos los días
+    Capacidad del servidor de aceptar visitas 13h todos los días
+    Capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse a un nivel de carga nuevo
+    Ninguna es correcta
+Respuesta correcta: 1
+
+¿Que significa "Tiempo de no-disponibilidad programado"?
+    Tiempo en el que el servidor no esta disponible debido a que se encuentra caído
+    Tiempo en el que el servidor no esta disponible debido a actualizaciones (del SO, aplicaciones, hardware..)
+    Tiempo que tarda el servidor en volver a estar operativo tras una caida
+    Ninguna es correcta
+Respuesta correcta: 2
+
+¿Cuál es la fórmula de la escala "punto de nieve"?
+    100 - (tiempoCaido / Periodo de tiempo) * 100
+    100 - (tiempoActivo / Periodo de tiempo) * 100
+    100 - (tiempoCaido / Periodo de tiempo) * 24
+    Ninguna es correcta
+Respuesta correcta: 1
+
+¿Cuál es una buena forma de aumentar la disponibilidad?
+    El uso de componentes de alta calidad
+    Usar subsistemas redundantes
+    No utilizar componentes de segunda mano
+    Adquirir componentes en fase de prueba
+Respuesta correcta: 2
+
+¿Qué significa el termino escalabilidad?
+    Capacidad del servidor de aceptar visitas las 24h todos los días
+    Nivel de estrés del encargado del servidor
+    Capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse a un nivel de carga nuevo
+    Ninguna es correcta
+Respuesta correcta: 3
+
+¿Qué dos tipos de escalado hay?
+    Vertical y diagonal
+    Diagonal e indexado
+    Horizontal y diagonal
+    Vertical y horizontal
+Respuesta correcta: 4
+
+¿Qué entendemos por ampliación o escalado vertical?
+    Incrementar RAM, CPU, disco de un servidor
+    Añadir máquinas a algún subsistema
+    Usar unos servidores mas que otros
+    Ninguna es correcta
+Respuesta correcta: 1
+
+1. ¿Cuál de los siguientes no es un algoritmo utilizado para decidir qué máquina final servirá las peticiones?
+a) Trabajo mas Corto(SJF).
+b) Por turnos(Round-Robin).
+c) Por prioridad.
+d) Según el tiempo de respuesta.
+RESPUESTA CORRECTA: a
+
+2. El uso de subsistemas redundantes y monitorizarlos mejora la...
+a) Disponibilidad de servidor.
+b) Disponibilidad de aplicación.
+c) Disponibilidad de red.
+d) Ninguna de las anteriores es correcta.
+RESPUESTA CORRECTA: d
+
+Pregunta 1:
+¿Cómo podemos mejorar la disponibilidad?
+a) Configurar los servidores con redundancia mediante el software.
+b) a y c son correctas.
+c) Usando subsistemas redundantes y monitorizándolos.
+d) Ninguna es correcta.
+La respuesta correcta es B
+
+Pregunta 2:
+¿Cómo podemos eliminar la sobrecarga?
+a) Intentando no sobrecargar la máquina.
+b) Remplazar el componente sobrecargado o aumentándole la cantidad o simplemente contratando algo mejor.
+c) Con un mantenimiento exhaustivo.
+d) b y c son correctas.
+La respuesta correcta es B
+
+    Pregunta 1 ¿Que es la Disponibilidad?
+        A: Capacidad de aceptar visitas las 24h todos los días.
+        B: Medida, que indica el numero de usuarios que pueden acceder a nuestra página WEB
+        C: Metodología de trabajo, para gestionar una granja WEB
+        D: Ninguna es correcta
+    Respuesta: A
+
+    Pregunta 2 ¿Que es lo que mide la Escala .9?
+        A: Mide el tiempo que esta nuestro servidor operativo en tanto por ciento
+        B: Mide la velocidad de respuesta de un servidor WEB a las peticiones de un cliente
+        C: Mide de manera logarítmica la cantidad de paginas WEB servidas en un año por un servidor WEB
+        D: Ninguna es correcta
+    Respuesta: A
+
+    Pregunta 3 ¿Como se suele implementar la escalabilidad?
+        A: Se ponen mas servidores redundantes
+        B: Se intenta poner el mayor numero de servidores apilados en un mismo armario
+        C: A la hora de escalar las aplicaciones WEB se intenta intercalar los procesos
+        D: Ninguna es correcta
+    Respuesta: A
+
+¿Cuantos tipos de escalado hay?:
+-a)Uno, diseñando de nuevo el sistema o lo que es lo mismo escalado conceptual.
+-b)Uno, escalado LDAP , es decir, defieniendo el acceso ligero a directorios.
+-c)Dos, escalado vertical y horizontal.
+-d)Uno, usando el algoritmo Round Robin.
+Respuesta: c
+
+Para detectar problemas y determinar posibles mejores del sitio web se recomienda usar:
+-a)La herramienta de monitorizacion SAR.
+-b)La herramienta de monitorizacion Nagios.
+-c)El uso del comando top, vmstat o alguno similar.
+-d)Todas son correctas, no solo se recomienda sino que es necesario el uso de alguna de estas herramientas con la finalidad de conseguir un servidor web eficiente y duradero en el tiempo.
+Respuesta: d
+
+¿Si estamos actualizando nuestro servidor web, por ejemplo nginx,en nuestras máquinas, qué tipo de tiempo de no-disponibilidad es?
+    A)Programado
+    B)El servidor está disponible 24/7 por favor!
+    C)No-Programado
+    D)Tiempo perdido
+Respuesta correcta:A
+
+¿Si tenemos una disponibilidad anual del 98%, que tiempo en total estaremos caídos ?
+    A)6.3 días
+    B)8.7 días
+    C)7.3 días
+    D)Con un 98% apenas es perceptible, hablamos de segundos
+Respuesta correcta:C
+
+1. ¿Cuál de estos algoritmos no es un algoritmo de balanceo?
+a) Según el tiempo de respuesta.
+b) Round-Robin.
+c) Minimax.
+d) Por prioridad.
+Respuesta: C
+
+2. BigIP es un balanceador hardaware de la empresa...
+a) F5
+b) Cisco
+c) Foundy
+d) IBM
+Respuesta: A
+
+1.- Podemos decir que un servidor tiene alta disponibilidad cuando...
+a) Entramos al sitio y vemos que esta caido.
+b) Es capaz de soportar pocos usuarios al mismo tiempo.
+c) Solo no esta disponible por la noche.
+d) Es capaz de aceptar visitas las 24h todos los dias.
+Respuesta: D.
+
+2.- Transformar el servidor web en una granja web resulta:
+a) Sencillo, ya que apenas hay que preparar aplicaciones para distribuir la carga.
+b) Un proceso sencillo.
+c) Un proceso complejo.
+d) Complejo, ya que hay que configurar la red para soportar trafico decreciente.
+Respuesta: C
+
+1 Ante la sobrecarga de alguno de los componentes del servidor...
+a) se debe sustituir por otro más potente
+b) se debe dejar así
+c) se debe pensar si se deben añadir más componentes del mismo tipo para distribuir la carga
+d)
+Respuesta correcta: C
+
+2 Una disponibilidad del 99% significa que podemos esperar un downtime máximo de:
+a) 88 Horas al año
+b) 44 horas al año
+c) 88 minutos al año
+d) 526 minutos al año
+Respuesta correcta: A
+
+1. ¿Cuál de estos eventos conllevaría un tiempo de no-disponibilidad no programado?
+a) Actualizaciones del SO
+b) Actualizaciones del hardware
+c) Fallo de un componente del sistema
+d) Actualizaciones de la aplicación
+RESPUESTA CORRECTA: (c)
+
+2. ¿Cuál de estos algoritmos no es utilizado por los balanceadores de carga para decidir qué máquina final servirá cada petición?
+a) Por probabilidades
+b) Según el menor número de conexiones
+c) Según el tiempo de respuesta
+d) Por turnos (round-robin)
+RESPUESTA CORRECTA: (a)
+
+¿Qué nos proporciona un mayor impacto en la escalabilidad de nuestro sistema?
+a) Optimización de nuestros recursos hardware.
+b) Optimización de nuestro código.
+c) Optimización del producto.
+d) Todas producen igual impacto en la escalabilidad.
+Respuesta correcta: B
+
+¿A qué va ligado el concepto de "balanceo de carga"?
+a) A la disponibilidad de nuestro sitio web.
+b) A la escalabilidad de nuestro sitio web.
+c) A la eficiencia de nuestro sitio web.
+d) Todas las anteriores son correctas.
+Respuesta correcta: B
+
+1.Con respecto a la disponibilidad de un sitio web:
+A)Todas las caidas del servidor se producen de forma inesperada.
+B)Unicamente existen tiempos de no-disponibilidad programados.
+C)Solamente debería haber tiempos de no-disponibilidad no programados.
+D)Los tiempos de no-disponibilidad programadas son debidas a actualizaciones de software o hardware.
+Solución:D
+
+2.Si replicásemos un servidor de un sistema con una disponibilidad de un 90%
+A)No se obtendría ninguna mejora
+B)Se obtendría una mejora del 9%
+C)Se obtendría una mejora del 10%
+D)Se obtendría una mejora del 5%
+Solución:B
+
+¿Qué es la disponibilidad?
+a)Capacidad de aceptar visitas las 24h todos los días.
+b)Capacidad de aceptar visitas las 24h todos los días exceptuando festivos.
+c)Capacidad de aceptar mientras el servidor está conectado.
+d)Capacidad de aceptar visitas 12h al dia.
+Respuesta correcta a
+
+1) La réplica de componentes en un sistema web mejora la disponibilidad del sistema.
+a) La mejora, pero no se lleva a cabo puesto que es muy caro.
+b) Siempre se mejora, replicando algún componente.
+c) Falso, replicando componentes no se mejora, y además es caro.
+d) Siempre se mejora, pero se pierde en seguridad.
+Repuesta correcta: b
+
+2) Dentro de la Escabilidad está el tipo de escalado Ampliación Vertical que se trata de:
+a) Incrementar los componentes de un servidor (RAM, CPU, Disco Duro).
+b) Incrementar los componentes y además añadir máquinas.
+c) Añadir máquinas a algún subsistema (servidores web, datos, etc).
+d) Incrementar el ancho de banda.
+Respuesta correcta: a
+
+1. ¿Cuál es la mejor manera de mejorar la disponibilidad?
+a) Uso de sistemas redundantes.
+b) Uso de sistemas no redundantes.
+c) Las 2 anteriores por igual.
+d) Ninguna de las anteriores.
+Respuesta correcta: a)
+
+2. ¿En qué consiste la escalabilidad?
+a) Capacidad de un sistema de manejar la carga.
+b) Capacidad de un sistema de manejar la carga y el esfuerzo para adaptarse al nuevo nivel de carga.
+c) Capacidad de un sistema para manejar la llegada de peticiones.
+d) La a y la c son correctas.
+Respuesta correcta: b)
+
+1. ¿Cual de las siguientes afirmaciones es falsa cuando hablamos de diseñar la escalabilidad de un servidor?
+a. Diseñar aplicaciones no-conmutables, ya que en este caso, dos o más operaciones se pueden aplicar en cualquier orden y obtener el mismo resultado
+b. Un proceso no debe esperar nunca mas de lo necesario
+c. Siempre que podamos, debemos diseñar aplicaciones intercambiables
+d. Debe particionar los recursos y las actividades. Al minimizar las relaciones entre recursos y entre actividades, minimiza el riesgo de crear cuellos de botella resultantes de un participante de la relación que tarda más que el otro
+Respuesta correcta: a
+2. ¿Qué estamos haciendo cuando realizamos una ampliación vertical a un servidor?:
+a. Incremental la RAM, el disco duro ... y en general cualquier elemento físico de éste.
+b. Añadir réplicas a algun subsistema. (un nuevo servidor web, nuevo servidor de datos..)
+c. La dos anteriores son correctas
+d. Todas las anteriores son falsas
+Respuesta correcta: a
+3. ¿Cómo se mejora la disponibilidad de un servidor?
+a. Replicando elementos hardware
+b. Replicando elementos de red
+c. Realizando un desarrollo robusto
+d. Todas las anteriores son correctas
+Respuesta correcta: d
+
+La estabilidad de un sistema se puede conseguir…
+A) obteniendo máquinas más potentes de lo necesario
+B) replicando máquinas para las mismas tareas
+C) A y B son correctas
+D) Ninguna de las anteriores es correcta
+Respuesta correcta: B
+En un sistema escalable…
+A) la optimización del hardware es primordial
+B) la optimización del código es muy importante aunque no tanto como la optimización del hardware
+C) la parte de diseño es la más importante
+D) ninguna de las anteriores es correcta
+Respuesta correcta: C
+
+¿Cuál de las siguientes respuestas NO está relacionada con la disponibilidad del servidor?:
+a) Disponibilidad de Hardware
+b) Disponibilidad de servidor.
+c) Disponibilidad de red.
+d) Disponibilidad de aplicación.
+respuesta correcta: A
+¿Qué es la escalabilidad?
+a) Cuando dos máquinas tienen la posibilidad de trabajar de manera conjunta.
+b) Es alcanzar el objetivo esperado con el menor gasto de recursos.
+c) Es alcanzar el objetivo esperado con el menor gasto de tiempo.
+d) Es la capacidad que tiene un sistema de manejar la carga y de adaptarse al nuevo nivel de carga
+respuesta correcta: D
+
+1. ¿Como se consigue alta disponibilidad?
+a)Con el uso de subsistemas redundantes y monitorizarlos mejora la disponibilidad del sistema global.
+b)Solo con el uso de sistemas redundantes.
+c)Solo monitorizando los sistemas.
+d)Ninguna es correcta.
+Respuesta correcta: a)
+2. ¿A que se refiere la escalabilidad?
+a)Esta pregunta no tiene sentido.
+b)La c) es la correcta.
+c)Se refiere a la capacidad de un sistema de manejar la latencia, la carga y adaptarse a un nivel de carga mas bajo.
+d)Se refiere a la capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse al nuevo nivel de carga.
+Respuesta correcta: d)
+3. ¿Que incrementa la ampliacion vertical?
+a)Incrementa la Ram.
+b)Incrementa la CPU.
+c)Incrementa el disco de un servidor.
+d)Todas las anteriores son correctas.
+Respuesta correcta: d)
+4. ¿Como analizamos la sobrecarga?
+a)Si la CPU está cerca del 100% todo el rato y el resto de subsistemas no está sobrecargado, sustituir por una CPU más potente.
+b)Todas las demas son ciertas.
+c)Si el uso de RAM es muy alto, veremos un uso alto de disco(por swapping). Incrementando la cantidad de RAM mejoraremos el rendimiento.
+d)Un ancho de banda insuficiente afectará al rendimiento. Contratando una mejor conexión será suficiente.
+Respuesta correcta: b)
+
+Los porcentajes de disponibilidad medidos según la escala 'punto nueve' son...
+    A. Indiferentes siempre y cuando superen el 90%.
+    B. Suficientes siempre y cuando superen el 80%.
+    C. Muy importantes ya que se mide la disponibilidad de un servicio un año completo.
+    D. Importantes pero no cruciales para el éxito o fracaso de una empresa.
+Respuesta correcta: C.
+
+El porcentaje de disponibilidad...
+    A. Crece cuantas más máquinas repliquemos en la granja web.
+    B. No crece, se mantiene. Las máquinas se replican por seguridad del sistema.
+    C. Crece pero dicho crecimiento es muy poco notable en el sistema.
+    D. Crece pero siempre con un límite. Tiene efectos notables al comienzo pero esos efectos disminuyen con cada máquina replicada.
+Respuesta correcta: D.
+
+Las aplicaciones en los servidores que integran las granjas web...
+    A. Pueden provocar problemas en la disponibilidad de los servidores ya que pueden darse conflictos entre los módulos que las componen. Por este motivo es imprescindible monitorizarlas y usar librerías específicas para hacerlas altamente disponibles.
+    B. Son independientes y no influyen en la disponibilidad de los servidores.
+    C. dependen de la gestión que el SO haga de ellas.
+    D. no influyen en la percepción que el usuario final tenga de la web.
+Respuesta correcta: A
+
+Los tiempos de no disponibilidad se clasifican en:
+A) Mantenimiento y testeo.
+B) Programados y no programados.
+C) Graves y muy Graves.
+D) Justificados e injustificados.
+Respuesta correcta: B
+
+La ampliacion vertical consiste en:
+A) Ampliar el número de servidores de un rack.
+B) Ampliar el número de rack de una granja de servidores.
+C) Ampliar el hardware de un servidor.
+D) Todas son correctas.
+Respuesta correcta: C
+
+1- El diseño debe tener redundancia a todos los niveles:
+a) Conexión a Internet
+b) Routers/cortafuegos/balanceadores
+c) Servidores
+d) Todas las anteriores
+Respuesta correcta: D
+2- ¿Cuantos tipos de escalabilidad existen?
+a) 3
+b) 2
+c) 5
+d) 4
+Respuesta correcta: B
+
+Si nuestro servidor sufre una caída de 2.5 horas en una semana, ¿cuál es su disponibilidad?
+a) 99.4047%
+b) 98.8095%
+c) 98.5119%
+d) 98.2142%
+Respuesta Correcta: c
+Para mantener la alta disponibilidad en nuestro servidor, ¿qué tipo de no-disponibilidad debería haber?
+a) Tiempos de no-disponibilidad programados.
+b) Tiempos de no-disponibilidad programados y lo más cortos posibles.
+c) Tiempos de no-disponibilidad no programados.
+d) Tiempos de no-disponibilidad no programados y lo más cortos posibles.
+Respuesta Correcta: b
+
+1) ¿Que factores influyen en la escalabilidad de un sistema?
+a) Adquirir productos hardware con elementos duplicados.
+b) Sustituir elementos hardware por otros con mayores prestaciones.
+c) Desarrollar aplicaciones redundantes.
+d) Todas son ciertas.
+respuesta correcta: B
+2) ¿Para qué sirve un balanceador de carga?
+a) Para comprobar que peticiones son más importantes y atenderlas primero.
+b) Para comprobar el porcentaje de uso de los elementos hardware.
+c) Nos informa de los momentos en los que se ha registrado más actividad en el servidor.
+d) Para repartir las peticiones entre los servidores disponibles.
+respuesta correcta: D
+
+1.- Seleccione cual de las siguientes afirmaciones sobre el concepto de escalabilidad es correcta:
+a) La escalabilidad es la capacidad de un sistema a manejar la carga y el esfuerzo para adaptarse al nuevo nivel de carga.
+b) Decidir como añadir más recursos al sistema web es crucial en el diseño inicial y en el mantenimiento.
+c) Las opciones a y b son las correctas.
+d) La escalabilidad es la capacidad que tiene un sistema de manejar una cantidad fijada de carga, si sobrepasamos dicha cantidad, el sistema cae.
+Respuesta correcta: c
+
+2.- Referente a los tipos de escalado:
+a) Existen dos tipos de escalado: escalado vertical y escalado horizontal. La escalabilidad vertical consiste en añadir máquinas al sistema, por eso, este tipo de escalado es suficiente.
+b) La escalabilidad horizontal es la mejor opción, incrementando la RAM y CPU de nuestro servidor, conseguiremos una gran capacidad de procesamiento.
+c) Las opciones a y b son incorrectas. La mejor opción es la escalabilidad diagonal.
+d) Todas las respuestas son incorrectas.
+Respuesta correcta: d
+
+3.- La alta disponibilidad se consigue:
+a) Replicando los sistemas cuya disponibilidad sea más baja.
+b) No es posible mejorar la disponibilidad de un sistema. Cuando el sistema empieza a fallar hay que cambiar el sistema entero.
+c) Es posible medir la disponibilidad de un sistema usando la fórmula "punto nueve". Calculando esto, es posible conocer los cuellos de botella de nuestro sistema y realizar mejoras.
+d) La a y la c son correctas.
+Respuesta correcta: d
+
+Cuando hablamos de escalar un sitio web, ¿a que nos referimos cuando nos hablamos de la transparencia de ubicación?
+a) A que exista dependencia de una máquina concreta para ejecutarse la aplicación.
+b) A que quede claro donde está cada servidor.
+c) A la opacidad o no del sitio web.
+d) A que no debe haber dependencia de una máquina concreta para ejecutarse la aplicación.
+respuesta correcta: D
+
+Hablando de escalabilidad, ¿qué tipo de escalados existen?
+a) Solo de ampliación vertical.
+b) Ampliación vertical y ampliación horizontal.
+c) Ampliación a la alza y ampliación a la baja.
+d) No existen tipos de escalados al tratarse de algo genera.
+respuesta correcta: B
+
+Los aspectos más importantes a la horas de implementar una granja web son:
+a) La seguridad.
+b) La disponibilidad.
+c) La escalabilidad.
+d) Los más importantes son tanto la b) como la c).
+Correcta: d) Los más importantes son tanto la b) como la c).
+
+Si nuestro sistema estuvo activo 8000 horas en un año, y estuvo caido 800 horas durante ese año.
+¿Cual fue sus disponibilidad?
+a) 79.1%
+b) 100%
+c) 90%
+d) 67.78%
+Correcta: c) 90%
+
+Estamos en el mismo supuesto que la pregunta 1 del tema 1. La empresa va muy bien y contactan contigo para escalar el sistema que les montaste, ya que se queda corto ante tal número de peticiones. ¿Por dónde comenzarías a cambiar elementos del sistema?
+a) Escalamiento horizontal del hardware, montando más máquinas junto a las antiguas que ya tenían
+b) Añadir un balanceador web
+c) Escalamiento vertical del hardware, ya que las máquinas usadas eran MUY antiguas y es fácil mejorar el rendimiento y la fiabilidad con máquinas más especializadas
+d) Intentar optimizar el código del servidor Apache o de MySQL
+Correcta: c
+
+Supongamos un sistema con dos servidores que tienen 75% y 66.666% de disponibilidad. ¿Cuál es el porcentaje de mejora de la disponibilidad si hiciéramos redundante el segundo servidor?
+a) 22.222%
+b) 75%
+c) 16.666%
+d) 30%
+Respuesta correcta: C
+
+A la hora de escalar el nivel de aplicaciones se requiere:
+a) Software diseñado para ejecutarse en varios servidores.
+b) Conocer qué servidor puede ser el cuello de botella.
+c) Estar obligatoriamente en la zona DMZ.
+d) Un servidor en producción que tenga una base de datos propia.
+Respuesta correcta: A
+
+1. Si un módulo de una aplicación necesita ejecutarse obligatoriamente en una máquina con un hardware determinado, ¿qué es lo que no estamos consiguiendo?
+a) Paralelismo
+b) Transparencia de ubicación
+c) Dependencia
+d) Disponibilidad
+Respuesta correcta: B
+
+2. Supongamos un sistema con dos componentes, funcionando el 93.5% y el 99.9% del tiempo respectivamente, y replicamos el primer componente, ¿cuáles serán las disponibilidades antes y después de replicarlo?
+a) 92.6% y 99.5
+b) 92.6% y 98.33
+c) 93.4% y 98.33
+d) 93.4% y 99.5
+Respuesta correcta: D
+
+¿Qué es la escalabilidad? Seleccione la más correcta
+    A) La capacidad del servidor para dar soporte a un gran número de usuarios.
+    B) La capacidad del servidor para adaptarse a aumentos de la carga del sistema.
+    C) La capacidad del servidor para proveer un nivel aceptable del servicio a pesar de los fallos y las complicaciones que pudieran surgir.
+    D) La capacidad del servidor para evitar ataques de scalada de privilegios.
+Solución: B) La capacidad del servidor para adaptarse a aumentos de la carga del sistema.
+
+Supongamos tenemos un cliente con IP 192.168.1.12 que se conecta a un servidor con IP 254.25.53.34. El servidor está tras un router NAT con dirección 243.12.42.22. El cliente le manda una petición y el servidor le responde. En la respuesta que le llegua al cliente, ¿que dirección de origen aparece?
+    A) 254.25.53.0
+    B) 254.25.53.1
+    C) 243.12.42.22
+    D) 254.25.53.34
+Solución: C) 243.12.42.22
+
+1) Cuando queramos mejorar la disponibilidad de nuestro servidor web lo indicado es:
+A) Mejorar el software de alguno de los componentes de nuestro sistema.
+B) Aumentar el ancho de banda.
+C) Mejorar aquel componente que esté sufriendo mayor demanda.
+D) Añadir más servidores de correo.
+Correcta: C
+
+2) Aumentar el número de máquinas dentro de nuestro sistema...
+A) Siempre aumentará las prestaciones de nuestro servidor.
+B) Siempre aumentará las prestaciones del servicio al que destinemos las nuevas máquinas.
+C) Podría aumentar el estrés del sistema al, por ejemplo, aumentar el número de accesos a la base de datos.
+D) Simplemente aumentará la complejidad del mantenimiento del sistema.
+Correcta: C
+
+1. ¿Cómo podemos mejorar la disponibilidad del servidor si es baja por un fallo en uno de los elementos del hardware?
+a) Mejorando las aplicaciones y el acceso a ellas.
+b) Mejorando el rendimiento del elemento hardware.
+c) Mejorar la disponibilidad del servidor ayuda a mejorar la de red.
+d) Reemplazando el elemento hardware que falló.
+Respuesta correcta: d
+2. ¿Qué característica produce un mayor impacto en la escalabilidad de un sistema?
+a) La optimización del código.
+b) El diseño del sistema.
+c) La optimización del hardware.
+d) Las respuestas a) y c) son correctas.
+Respuesta correcta: c
+
+1. ¿Cómo podemos calcular la disponibilidad de un sistema con varios servidores? (Medimos la disponibilidad en tanto por ciento)
+a) Sumando las disponibilidades de los servidores
+b) Haciendo una media aritmética de las disponibilidades de los servidores
+c) Multiplicando las disponibilidades de los servidores
+d) Ninguna de las anteriores es correcta.
+Respuesta correcta: c
+2. ¿Cómo podemos mejorar la disponibilidad de red si es baja?
+a) Mejorando el ancho de banda.
+b) Mejorando las aplicaciones y el acceso a ellas.
+c) Mejorar la disponibilidad del servidor ayuda a mejorar la de red.
+d) Tanto b) como c) son correctas.
+Respuesta correcta: a
+
+Si la CPU de nuestro servidor tiene un uso muy alto, deberíamos:
+    No hacer nada, es bueno que el uso sea alto.
+    No hacer nada, no es necesario.
+    Ampliar el sistema, en previsión de un aumento de las peticiones.
+    Adquirir un servidor de repuesto, el servidor se romperá pronto y hay que tener otro para sustituirlo.
+Opción correcta: 3
+
+1. ¿Con qué tanto por cierto (y su tiempo al año no disponible correspondiente) se conforman los sitios web?
+a) Alcanzar el 90% de disponibilidad (36.5 días no disponible)
+b) Alcanzar el 99.99% de disponibilidad (52.56 minutos no disponible)
+c) Alcanzar el 99.9% de disponibilidad (8.76 horas no disponible)
+d) Las respuestas b) y c) son ambas correctas.
+Respuesta correcta: d
+2. ¿Cómo podemos calcular la disponibilidad de un sistema?
+a) Availability = Uptime / (2*Uptime + Downtime)
+b) Availability = Downtime / (Uptime + Downtime)
+c) Availability = Uptime / (Uptime - Downtime)
+d) Ninguna de las anteriores es correcta.
+Respuesta correcta: d
+
+1- ¿Cuál de estos cambios puede ser suficiente para mejorar la escalabilidad?
+a) Añadir máquinas a algún subsistema e incrementar la RAM.
+b) Incrementar la RAM y CPU.
+c) Incrementar la RAM, CPU, disco de un servidor.
+d) Realizar una ampliación horizontal.
+Respuesta correcta: c
+2- Para escalar un sitio web, tenemos que configurar...
+a) Aplicaciones y almacenamiento.
+b) Máquinas como servidores web.
+c) Módulos de aplicación.
+d) a) y b) son ciertas.
+Respuesta correcta: d
+
