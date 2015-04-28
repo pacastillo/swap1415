@@ -1,1 +1,691 @@
 
+1.¿cual no es un algoritmo de balanceo de carga?
+
+     a) Round-Robin
+     b) Basado en el menor numero de conexiones
+     c) Basado en ponderacion
+     d) basado en el usuario
+
+        correcta: d
+
+2.¿ventajas del balanceo de carga global?
+
+     a) Facilidad de implementar
+     b) Facilidad de comprender
+     c) Alta disponibilida y permite montar varios sitios web en distintas localizaciones
+     d) El trafico del usuario se lleva al centro mas lejano.
+
+        correcta: c
+
+3.VIP
+
+     a) Direccion privada a la que acceden los usuarios 
+     b) Direccion publica a la que acceden los usuarios
+     c) Persona muy importante
+     d) direccion a la que solo tienen acceso los administradores
+
+        correcta: b
+
+
+1. En el proceso al teclear una URL en el navegador...:
+a) Lo primero que ocurre es que el servidor devuelve la página HTML completa.
+b) Lo primero que ocurre es que el navegador hace la petición HTTP.
+c) Lo primero que ocurre es que el navegador resuelve el nombre del sitio web (DNS).
+d) Lo primero que ocurre es que el navegador contacta por telnet con el servidor.
+CORRECTA: C
+
+2.Algunos de los algoritmos más comunes de balanceo de carga son... :
+a) basado en turnos (round-roubin) y balanceo por menor número de conexiones.
+b) basado en ponderación y por prioridad.
+c) Balanceo basado en tiempo por respuesta.
+d) Todas son correctas.
+CORRECTA: D.
+
+3.En el algoritmo round-robin..:
+a) El servidor se denomina round y el balanceador roubin.
+b) Iguala los potenciales de las máquinas a el menor potencial que ya exista.
+c) Iguala todos los potenciales de las máquinas a el mayor potencial que exista.
+d) Supone todas las máquinas con la misma potencia.
+CORRECTA:D
+
+4.En el algoritmo de balanceo basado en el menor número de conexiones...:
+a) Iguala todos los servidores con los mismos números de conexiones(el menor).
+b) Envía la primera petición al servidor con menor prestaciones.
+c) Las peticiones irán al servidor que esté sirviendo menos conexiones.
+d) Las peticiones se irán siempre al mismo servidor( al más potente) porque tendrá menos conexiones.
+CORRECTA: C
+
+
+1.- La persistencia consiste en:
+a) Evitar que los equipos se infecten por virus.
+b) Tener varios equipos configurados por si alguno falla.
+c) Mantener el tráfico de un usuario en el servidor que lo atendió primero.
+d) Que las aplicaciones no se actualicen a una nueva versión.
+respuesta correcta: C
+
+2.- ¿Qué intenta conseguir el balanceo de carga global? :
+a) Distribuir carga de trabajo entre centros de datos.
+b) Disminuir tiempos de conexión.
+c) Redundancia.
+d) Todas son correctas.
+respuesta correcta: D
+
+
+Pregunta 1: El balanceo de carga consiste en interceptar el tráfico para redirigirlo a varios servidores. Indica cual de las siguientes es una tecnología similar:
+a) Balanceo de carga en cortafuegos
+b) Balanceo de carga global
+c) Clustering
+d) Todas las anteriores
+Respuesta correcta: d
+
+Pregunta 2: Con respecto al Balanceo de carga global, supone una mejora en:
+a) Alta Disponibilidad y Tiempo de Respuesta
+b) Tolerancia a Fallos
+c) Redireccionamineto del Tráfico
+d) Disminuir Sobrecarga
+Respuesta correcta: a
+
+
+En los algoritmos de balanceo de carga basado en turnos:
+a) El algoritmo supone cada máquina con diferente potencia
+b) Es adecuado usarlo si todas las máquinas tienen una potencia similar
+c) Se evita la sobrecarga de las máquinas que puedan tener mas trabajo
+d) Es adecuado usarlo cuando el número de conexiones no es un buen indicador
+Respuesta correcta: B
+
+La redundancia como concepto del balanceo de carga:
+a) No trata de evitar la degradación del servicio
+b) Existe una relación maestro-maestro solamente
+c) Si un dispositivo falla, otro pasa a hacer su función
+d) Puede manejar los protocolos de alto nivel
+Respuesta correcta: C
+
+
+¿Qué es un balanceador de carga?
+a) Un dispositivo software que distribuye el tráfico entre varios servidores.
+b) Un dispositivo hardware que distribuye el tráfico entre varios servidores.
+c) Un dispositivo hardware y software que distribuye el tráfico entre varios servidores.
+d) Ninguna de las anteriores es correcta.
+La respuesta correcta es la c).
+
+El algoritmo de balanceo de carga round robin...
+a) No es efectivo nunca.
+b) Reparte el trabajo segun la utilización de cada máquina.
+c) Con él, podemos asignar un peso a cada máquina.
+d) Es efectivo cuando todas las maquinas tienen la misma potencia y si vamos a servir servicios sencillos.
+La respuesta correcta es la d).
+
+
+¿Cual es una característica de los mainframes?
+
+    Caros de adquirir y mantener
+
+    Software y hardware propietario
+
+    Memoria y disco compartidos
+
+    Todas son correctas
+
+Respuesta correcta: 4
+¿Para que sirve un servidor DNS?
+
+    Comprobar disponibilidad de los servidores
+
+    Traducir nombres a IP
+
+    Balancear carga
+
+    Las opciones 3 y 4 son correctas
+
+Respuesta correcta: 4
+¿Que entendemos por balanceador de carga?
+
+    Dispositivo que ejecuta un servicio
+
+    Forma de hacer que el conjunto de maquinas de la granja web aparezca como una sola
+
+    Puente entre la red y los servidores finales
+
+    Todas son correctas
+
+Respuesta correcta: 3
+¿Que entendemos por persistencia?
+
+    Permisos de control de los usuarios
+
+    Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo
+
+    Evitar la degradación del servicio
+
+    Ninguna es correcta
+
+Respuesta correcta: 2
+¿Cómo se puede implementar la comprobación de disponibilidad de servicio?
+
+    Con ICMP
+
+    Con ARP
+
+    Con STP
+
+    Con NAT
+
+Respuesta correcta: 4
+Ventajas del balanceo de carga global
+
+    Redundancia y balanceo
+
+    Se evita un retraso por el viaje de los paquetes a un centro situado a miles de kilómetros
+
+    Es una opción muy barata
+
+    Las opciones 1 y 2 son correctas.
+
+Respuesta correcta: 4
+Si las máquinas van a ser similares y van a servir contenido estático, ¿Qué algoritmos usan?
+
+    Algoritmos basados en ponderación
+
+    Algoritmos estáticos
+
+    Algoritmos basados en indexación
+
+    No se puede saber los algoritmos que usan
+
+Respuesta correcta: 2
+¿Cual de los siguientes NO es un algoritmo de balanceo de carga?
+
+    Basado en turnos (Round-Robin)
+
+    Basado en prioridad
+
+    Basado en el tiempo de respuesta
+
+    Todos son algoritmos de balanceo de carga
+
+Respuesta correcta: 4
+¿Cuándo usaríamos Round-Robin?
+
+    Si todos los servidores tienen potencia similar
+
+    Cuando el software del balanceador lo crea oportuno
+
+    Si vamos a servir aplicaciones o servicios sencillos
+
+    Las respuestas 1 y 3 son correctas
+
+Respuesta correcta: 4
+¿Cuales son las ventajas de usar un algoritmo de balanceo basado en el menor número de conexiones?
+
+    Se consigue una distribución adecuada del trabajo entre las máquinas
+
+    Se evita la sobrecarga de las máquinas que pudieran tener más trabajo
+
+    Las respuestas 1 y 2 son correctas
+
+    Aumenta la fiabilidad de los servidores
+
+Respuesta correcta: 3
+
+
+
+1. ¿Cuál de los siguientes algoritmos es un algoritmo de balanceo de carga?
+a) Balanceo basado en tiempo de respuesta.
+b) Balanceo basado en el menor número de conexiones.
+c) Combinación de los algoritmos de tiempo de respuesta y menor número de conexiones.
+d) Todas son correctas.
+RESPUESTA CORRECTA: d
+
+2. El algoritmo de balanceo basado en turnos es reconmendable si...
+a) Vamos a servir contenidos sencillos.
+b) Tenemos una máquina más lenta que las demas.
+c) Todas las máquinas tienen una potencia similar.
+d) A y C son correctas.
+RESPUESTA CORRECTA: d
+
+
+¿Cuáles son algunos de los beneficios del balanceo de carga?:
+a) Escalabilidad, mantenimiento, seguridad, calidad de servicio.
+b) Coste, escalabilidad, rendimiento, seguridad.
+c) Escalabilidad, mantenimiento, seguridad, coste.
+d) Calidad de servicio, escalabilidad, rendimiento, seguridad.
+respuesta correcta: a
+
+El balanceo de carga global es..:
+a) una nueva forma de balanceo de carga con mayor carga.
+b) una serie de técnicas para distribuir la carga entre varios centros de datos.
+c) poco complejo.
+d) la manera de unir la BD en un solo servidor.
+respuesta correcta: b
+
+
+
+Pregunta 1 ¿Por que el balanceo por servidores DNS no es fiable al 100%?
+    A: Por que el DNS sirve para resolver nombres no para balancear la carga.
+    B: Por que sólo utiliza el algoritmo round robbin.
+    C: Ninguna es la correcta
+    D: Por que el DNS no tiene un feedback del estado de los servidores a balancear.
+Respuesta: D
+
+Pregunta 2 ¿Cúal de las siguientes tecnologías se considera también balanceo de carga?
+    A: Balanceo de carga en Cortafuegos
+    B: Balanceo de carga Global
+    C: Clustering C
+    D: Todas las Anteriores
+Respuesta: D
+
+Pregunta 3 ¿Cuanto algoritmos de balanceo de carga se han explicado en clase?
+    A: 2
+    B: 3
+    C: 4
+    D: 5
+Respuesta: D
+
+Pregunta 4 ¿Cúales de los 5 algoritmos explicados en clase tienden a ir juntos?
+    A: Algoritmos de menor número de conexiones y ponderación
+    B: Algoritmos de round robbin y prioridad
+    C: Algoritmos de ponderación y prioridad
+    D: Algoritmos de tiempo de respuesta y número de conexiones
+Respuesta: D 
+
+
+
+    Cuál de las siguientes afirmaciones es la correcta:
+    a) Varias máquinas trabajando en paralelo no es mejor que una sola máquina mejor.
+    b) El balanceo de carga distribuye el tráfico en un servidor.
+    c) El usuario recibe del DNS la IP privada del balanceador, que distribuye el tráfico.
+    d) La persistencia se refiere a mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo.
+    respuesta correcta: d
+
+    Cuál de las siguientes afirmaciones es la correcta:
+    a) La traducción de direcciones no es una tarea del balanceador de carga.
+    b) Cuando el servidor sirve contenido, el balanceador no puede hacer el cambio de poner la VIP en lugar de la IP final.
+    c) Una vez que las peticiones llegan a cierto centro de datos, se balancea también para distribuir entre el grupo de servidores.
+    d) Clustering es una técnica orientada a disponer de una máquina que aceptarán pequeñas tareas computacionales.
+    respuesta correcta: c
+
+
+
+El concepto de persistencia se refiere a:
+a) Si un dispositivo falla, otro pasa a hacer su función
+b) Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo.
+c) Dispositivo que ejecuta un servicio.
+d) Todas son correctas.
+Respuesta: b
+
+El uso de un algoritmo de balanceo basado en ponderacion esta recomendado cuando:
+a)Se persigue una distribucion del trabajo entre máquinas similares.
+b)Se persigue un metodo dinámico de distribucion del trabajo donde una petición puede tardar mas en una máquina concreta, es decir, está mas cargada que el resto.
+c)Se persigue una distribución del trabajo cuando todas las máquinas tienen una potencia similar.
+d)Se persigue una distribución del trabajo cuando no todas las maquinas tienen una potencia similar ( hay máquinas mas lentas ).
+Respuesta: a
+
+
+1. Con respecto al mantenimiento, los balanceadores de carga:
+a) Son independientes del sistema operativo que haya en las máquinas servidoras.
+b) Dependen del sistema operativo que hay en las máquinas servidores.
+c) Dependen y mucho, porque tienen que conocer el sistema operativo de las máquinas servidoras para balancear correctamente la carga.
+d) Todas las anteriores son correctas.
+Respuesta Correcta: A
+
+2. ¿Cuál de los siguientes algoritmos NO es un algoritmo de balanceo de carga?
+a) Algoritmo basado en ponderación.
+b) Combinación de los algoritmos de tiempo de respuesta y menor número de conexiones.
+c) Algoritmo basado en tiempo de respuesta.
+d) Algoritmo de Backtracking (Vuelta atrás).
+Respuesta Correcta: D
+
+3. Si las máquinas son heterogéneas y vamos a servir contenido dinámico, ¿Cuál sería el algoritmo de balanceo de carga adecuado para ser usado en este caso?
+a) Algoritmo basado en tiempo de respuesta.
+b) Algoritmo basado en prioridad.
+c) Combinación de algoritmos de menor número de conexiones y de tiempo de respuesta.
+d) Algoritmo basado en ponderación.
+Respuesta Correcta: D
+
+
+1.- Un servidor es...
+a) Un dispositivo que no ejecuta un servicio.
+b) Aquella entidad software que realiza de alguna manera peticiones de servicio a los proveedores del mismo.
+c) Un dispositivo que ejecuta un servicio.
+d) Un computador configurado para conectarse a un servidor
+Respuesta: C.
+
+2.- Si nos referimos al balanceo de carga, ¿Cuáles son algunos de los algoritmos más comunes?
+a) Balanceo basado en turnos, balanceo basado en el mayor número de conexiones y balanceo basado en ponderación.
+b) Balanceo basado en turnos, balanceo basado en el menor número de conexiones y balanceo basado en ponderación.
+c) Balanceo basado en turnos, balanceo basado en el mayor número de conexiones y balanceo basado en tiempo de llamada.
+d) Ninguna de las anteriores es correcta.
+Respueta: B.
+
+
+1 El balanceador de carga...
+a) Solamente se ocupa de redirigir el tráfico a los servidores finales
+b) Debe devolver los recursos que tenga en caché directamente a los clientes para no sobrecargar a los servidores finales
+c) Puede comprobar la disponibilidad y la carga de los servidores finales para adecuar el tráfico que redirige a cada uno
+d) Siempre reparte el tráfico siguiendo un algoritmo Round-Robin, pues este reparte la carga equitativamente.
+Respuesta correcta: C
+
+2 En una granja web, los servidores finales...
+a) Devuelven la respuesta directamente a la IP del cliente, estableciendo como IP de origen la VIP del balanceador
+b) Devuelven la respuesta al balanceador, estableciendo como IP de origen la VIP del balanceador
+c) Devuelven la respuesta al balanceador, estableciendo como IP de origen su propia IP
+d) B y C son correctas, aunque la B es más eficiente
+Respuesta correcta: D
+
+
+1. ¿Cuál de estos algoritmos de balanceo sólo es adecuado si vamos a servir aplicaciones o servicios sencillos?
+a) Balanceo basado en tiempo de respuesta
+b) Balanceo basado en prioridad
+c) Balanceo basado en menor número de conexiones
+d) Balanceo basado en ponderación
+RESPUESTA CORRECTA: (c)
+
+2. ¿Cuál de estos servicios de balanceo es software propietario?
+a) NginX
+b) BIG-IP
+c) HAProxy
+d) Apache
+RESPUESTA CORRECTA: (b)
+
+
+1-Cual de los siguientes enunciados sobre el balanceo mediante DNS en el funcionamiento básico de un servidor es cierta:
+A)Su implementación no es para nada sencilla
+B)Los DNS se inventaron realmente para resolver nombres a IP
+C)DNS tiene información sobre la disponibilidad de casa máquina servidora final
+D)Todas las anteriores son correctas
+Respuesta correcta:B
+
+2-Respecto al balanceo de carga con dispositivos hardware:
+A)No se puede balancear la carga de dispositivos como cortafuegos o concentradores.
+B)Si un grupo de servidores o un balanceador falla , no se puede mantener la navegación de ninguna forma.
+C)Los balanceadores hardware mantienen y aseguran la sesión de navegación de los usuarios. Así se hace compatible el uso de cookies.
+D)Este tipo de balanceadores no hacen traducción NAT.
+Respuesta correcta: C
+
+
+1) ¿De qué trata el clustering?
+a) Solución basada en la seguridad de servidores web.
+b) Ejecución paralela repartiendo el trabajo entre varias máquinas.
+c) Solución basada en balanceadores de carga.
+d) Ejecución en una sola máquina.
+Repuesta correcta: b
+
+2) Los algoritmos de balanceo de carga:
+a) Son métodos para repartir la carga entre servidores.
+b) Todos los algoritmos son independientes de las máquinas servidores.
+c) En la elección del algoritmo se debe de tener en cuenta el contenido estático.
+d) No se sigue ningún tipo de criterio para la elección de un algoritmo.
+Respuesta correcta: a 
+
+
+1. ¿En que caso funciona bien el algoritmo de balanceo basado en el menor número de conexiones?
+a. Cuando las máquinas a balancear son muy diferentes entre si.
+b. Cuando las máquinas a balancear son bastante homogéneas.
+c. Cuando tenemos pocas máquinas que balancear
+d. Todas las anteriores son falsas
+Respuesta correcta: b
+
+
+DNS usa la técnica
+A) Round-Robin
+B) SPN, Shortest Process Next
+C) FIFO, First IN First Out
+D) LIFO, Last In First Out
+Respuesta correcta: A
+
+El balanceador de carga se configura
+A) Como punto de entrada para los usuarios
+B) Como punto de entrada a dos servidores
+C) Como punto de entrada al servidor
+D) Ninguna es correcta
+Respuesta correcta: A
+
+
+SWAP tema 4:
+¿Qué funciones realiza el balanceador de carga?
+a) Ninguna respuesta es correcta.
+b) Comprueba la disponibilidad de los servidores.
+c) Distribuir el trabajo entre varios servidores.
+d) B y C son correctas
+respuesta correcta: D
+
+Ventajas que ofrece un balanceador de carga:
+a) Mejora la escalabilidad y disponibilidad.
+b) Facilita el mantenimiento.
+c) Mejora la seguridad.
+d) Todas son correctas
+respuesta correcta: D
+
+
+¿Cuál fue la razón principal por la que dejaron de utilizarse los Mainframes como servidores?
+    A. Porque no eran escalables y ofrecían un servicio hardware y software muy costoso.
+    B. Los Mainframes siguen utilizándose como servidores en muchas empresas.
+    C. Los Mainframes nunca se utilizaron como servidores.
+    D. Porque no eran escalables a pesar de ser muy asequibles.
+Respuesta correcta: A.
+
+¿De qué manera se accede a un sitio web si el servidor DNS local no conociese la IP de dicho sitio?
+    A. No sería posible porque significaría que no existe el sitio buscado.
+    B. El servidor DNS local buscaría la IP en los DNS del nivel superior al suyo. Si estos no tuviesen la IP buscada, repetirían el proceso y, como última opción, se llegaría a la máquina original.
+    C. Buscan la IP consultando directamente sobre el servidor original del sitio web.
+    D. Cuando no conocen la IP del sitio devuelven un mensaje de error al usuario en el que le indican que no se puede acceder desde ellos al sitio buscado ya que no lo contienen en su base de datos.
+Respuesta correcta: B.
+
+¿Por qué es importante el concepto de persistencia?
+    A. Porque permite que los servidores trabajen ininterrumpidamente gracias a los algoritmos de persistencia aplicados sobre ellos.
+    B. Porque permiten que los sitios web sean invulnerables a ataques ya que la persitencia consiste en que los sistios web trabajen contra posibles fallos y ataques del exterior.
+    C. Porque permite que las consultas o el uso de una aplicación web sea fluido.
+    D. No es un concepto muy importante en los sitios web.
+Respuesta correcta: C.
+
+
+
+1- ¿Qué algoritmo no se utiliza para el de balanceo de carga?
+a) balanceo basado en tiempo de respuesta
+b) balanceo basado en el menor número de conexiones
+c) balanceo basado en FIFO
+d) combinación de los algoritmos de tiempo de respuesta y menor número de conexiones
+Respuesta correcta: C
+
+2- Selecciona la respuesta correcta sobre una Granja web con balanceo de carga:
+a) Mantenimiento complejo
+b) Mejora la seguridad y Mejora la escalabilidad
+c) El usuario recibe del DNS la IP privada del balanceador
+d) Todo el conjunto de servidores aparece como dos solos sistemas
+Respuesta correcta: B
+
+
+A la hora de realizar un balanceo de carga, ¿usarías balanceo mediante DNS?
+a) Sí, es igual de eficiente que usar un balanceador de carga HW independientemente de las circunstancias
+b) No, porque un balanceador de carga HW debe hacerlo mucho mejor
+c) No, porque en el caso de que no esté disponible una máquina servidora final, el servidor DNS no tiene constancia de ello, además de que los DNS no se inventaron con esta finalidad.
+d) Sí, porque al realizarse las peticiones de resolución de nombres usando UDP, esto es más rápido, y el sistema global iría mejor.
+Respuesta Correcta: C
+
+El balanceo de carga global tiene como fin..:
+a) Distribuir la carga entre varios centros de datos y evitar retrasos en las comunicaciones dirigiendo a sus visitantes a los servidores más cercanos de ellos geográficamente
+b) Reducir la carga de tráfico de todos los servidores de internet, independientemente de si tenemos o no control sobre ellos
+c) Hacer que una petición viaje por todo el planeta antes de llegar a su destino
+d) Ninguna de las anteriores es cierta
+Respuesta Correcta: A
+
+
+1) ¿Cuáles son los incovenientes de usar el algoritmo de balanceo basado
+en el menor número de conexiones?
+a) Sólo se puede implementar en redes que no superen el máximo de 100 conexiones diarias.
+b) No es adecuado cuando existen grandes diferencias entre las máquinas.
+c) Reparte las peticiones según la utilización de cada máquina.
+d) B y C son ciertas.
+respuesta correcta: D
+
+2) ¿Ventajas que ofrece el GSLB?
+a) Todas son ciertas.
+b) Mejora el tiempo de respuesta.
+c) Evita la caida total al estar distribuido en varios centros de datos.
+d) Mejora la disponibilidad.
+respuesta correcta: A
+
+
+1.- Respecto a los algoritmos de balanceo de carga. ¿Cuándo usaremos algoritmos estáticos?
+a) Cuando las máquinas son heterogéneas y queremos servir contenido estático.
+b) Independientemente del tipo de máquinas de las que dispongamos y del contenido que vayamos a servir, podemos usar algoritmos estáticos.
+c) Cuando las máquinas de las que disponemos son similares y queremos servir contenido estático.
+d) Todas las opciones son incorrectas.
+Respuesta correcta: c
+
+2.- En cual de los siguientes casos sería aconsejable utilizar el algoritmo de balanceo basado en turnos (round-robin).
+a) Cuando el número de conexiones no es un buen indicador.
+b) Cuando todas las máquinas tienen la misma potencia y vamos a servir aplicaciones o servicios sencillos.
+c) Si hacemos un estudio preciso y tenemos en cuenta el uso de CPU y memoria de cada máquina, utilizaremos el algoritmo de balanceo basado en turnos para aprovechar al máximo estos recursos.
+d) Las opciones b y c son correctas.
+Respuesta correcta: b
+
+3.- ¿Cuál de las siguientes afirmaciones sobre balanceo de carga global basado en DNS es incorrecta?
+a) La información geográfica es el mejor criterio para realizar balanceo de carga global.
+b) Se está monitorizando continuamente el estado de disponibilidad de los diferentes sitios, con el objetivo de enviar tráfico sólo a los sitios activos.
+c) Puede modificar el sitio obtenido como respuesta por el balanceador para ofrecer el mejor sitio al cliente.
+d) Las opciones a y c son correctas.
+Respuesta correcta: a
+
+
+Señala que afirmación es la correcta:
+a) Los balanceadores solamente se ocupan de organizar la red.
+b) Los balanceadores solamente se ocupan de repartir tráfico entre los servidores de una granja.
+c) Los balanceadores no solo organizan la red y reparten el tráfico entre los servidores de la granja, sino que también monitorizan.
+d) Los balanceadores solo organizan la red y reparten el tráfico entre los servidores de la granja.
+respuesta correcta: C
+
+El algoritmo de balanceo basado en turnos es adecuado ...
+a) si todas las maquinas tienen una potencia similar o si vamos a servir aplicaciones o servicios sencillos.
+b) si todas las maquinas tienen una potencia similar o si vamos a servir aplicaciones o servicios pesados.
+c) si todas las maquinas tienen una potencia muy diferente o si vamos a servir aplicaciones o servicios sencillos.
+d) unicamente cuando los servicios a prestar son muy pesados.
+respuesta correcta: A 
+
+
+1) ¿Cuál es el primer paso cuando se teclea una URL en el navegador?
+a) El servidor devuelve la página HTML completa
+b) El navegador muestra la información
+c)Ya con la IP,el navegador contacta por TCP
+d)El navegador resuelve el nonbre del sitio web.
+Respuesta correcta: d
+
+2) ¿Qué es VIP?
+a) No comprobar si una máquina está disponible
+b) Manejar protocolos de alto nivel
+c) Suele ser la IP del balanceador de carga
+d) Ninguna de las anteriores es correcta
+Respuesta correcta: c
+
+3) ¿Qué es la persistencia?
+a) Si un dispositivo falla, otro pasa a hacer su función
+b) Tratar de evitar la degradación del servicio
+c) Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo
+d) Se puede implementar con ICMP a los servidores finales
+Respuesta correcta: c
+
+4) ¿Cuál de las siguientes es una solución basada en la disponibilidad y escalabilidad?
+a) Balanaceo de carga global
+b) Balanaceo de carga en cortafuegos
+c) Clustering
+d) NAT
+Respuesta correcta: c
+
+
+1. Virtual IP (VIP) es:
+a) La dirección pública a la que acceden los usuarios cuando hacen una petición de servicio a nuestro servidor web.
+b) La dirección privada a la que acceden los usuarios cuando hacen una petición de servicio a nuestro servidor web.
+c) Normalmente es la IP del balanceador.
+d) La A y C son correctas.
+Respuesta correcta: D
+
+2. Un balanceador de carga:
+a) Es un puente entre los servidores y la red.
+b) Puede manejar los protocolos de alto nivel.
+c) Puede manejar los protocolos de nivel de red.
+d) Todas son correctas.
+Respuesta correcta: D
+
+3. Si vamos a tener servidores con diferente configuración y potencia, y vamos a servir diferentes aplicaciones y contenidos:
+a) Usamos algoritmos estáticos.
+b) Usamos algoritmos basados en ponderación.
+c) Usamos el algoritmo estático del tipo round-robin.
+d) Ninguna es correcta.
+Respuesta correcta: B
+
+
+Cuál de estas opciones de balanceo eligirías para una granja web sencilla y de pocos recursos, como por ejemplo la de las preguntas de los dos primeros temas?
+    Hacerse con un servidor antiguo o de bajo coste e instalar ZenLoadBalancer o similar
+    Redirigir el tráfico a uno de los servidores principales e instalar HaProxy
+    Comprar el balanceador web hardware más barato
+    Comprar un balanceador web hardware potente pero de segunda mano.
+Respuesta correcta: 1
+
+
+
+
+
+El concepto "persistencia" hace referencia a:
+a) El servicio está disponible la mayor parte del tiempo.
+b) El balanceador redirige a todos los usuarios al mismo servidor.
+c) El balanceador mantiene a los usuarios en espera si el servicio no está disponible.
+d) El tráfico de un usuario se dirige al servidor que comenzó a atenderlo.
+Respuesta correcta: d)
+
+¿Cómo podemos usar el DNS para balancear la carga y cuál es el principal inconveniente de hacerlo?
+a) Asignar una misma dirección varias IP para repartir mediante round-robin. Round-robin es un algoritmo poco eficaz.
+b) Configurar el DNS para que conozca cuál es el servidor con menos carga y lo redirija a él. Es una configuración difícil y costosa.
+c) Asignar una misma dirección varias IP para repartir mediante round-robin. No sabemos si el servidor está disponible.
+d) Configurar el DNS para que conozca cuál es el servidor con menos carga y lo redirija a él. No sabemos si el servidor está disponible.
+Respuesta correcta: c)
+
+
+Cual de los siguientes algoritmos no es un algoritmo de balanceo de carga
+a) Algoritmo basado en el menor número de conexiones
+b) Algoritmo basado en ponderación
+c) Algoritmo basado en calidad de servicio
+d) Algoritmo basado en prioridad
+RESPUESTA CORRECTA : c)
+
+Cual de las siguientes no es una característica del balanceo de carga global
+a) Presenta alta disponibilidad
+b) No requiere conocimiento de los DNS
+c) Es muy complejo de implementar
+d) Para que funcione, es necesario un entorno de red muy controlado
+RESPUESTA CORRECTA : b)
+
+
+¿Qué tag en html se usa para hacer redirección http básica?
+    A) destination
+    B) meta
+    C) redirect
+    D) location
+Solución: B) Meta
+
+
+
+1) Enviar trabajo a máquinas que no están dando un buen rendimientos es un problema de...
+A) El algoritmo de balanceo basado en turnos.
+B) Ninguno de los dos algoritmos que aparecen en las opciones.
+C) El algoritmo de balanceo basado en el menor número de conexiones.
+D) Es un problema que pueden presentar ambos algoritmos de balanceo.
+La respuesta correcta es: D
+
+2) EL balanceo de carga global usando protocolos de enrutamiento...
+A) Encuentra siempre el mejor camino y por lo tanto no presenta problemas.
+B) Puede ir por un camino poco eficiente y añadir por lo tanto retardo en la respuesta.
+C) Puede encontrar dos caminos adecuados hacia dos servidores finales distintos comprometiendo aquellas aplicaciones web que necesitan de persistencia en la comunicación.
+D) Una vez encuentra un camino hacia un servidor envía todos los paquetes de la conexión a través de él.
+La respuesta correcta es: C
+
+
+1. ¿Cuándo utilizaremos algoritmos basados en ponderación en el balanceo de carga?
+a) Cuando las máquinas van a ser similares y vamos a servir carga contenido estático.
+b) Cuando las máquinas son similares y vamos a servir
+contenido dinámico.
+c) Cuando las máquinas son heterogéneas y vamos a servir
+contenido dinámico.
+d) Nunca utilizaremos este tipo de algoritmos. Usaremos algoritmos estáticos.
+Respuesta correcta: c
+
+
