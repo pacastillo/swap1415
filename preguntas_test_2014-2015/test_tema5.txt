@@ -1,1 +1,808 @@
 
+1. Para establecer una conexión HTTP, el cliente..
+a) Inicia la conexión HTTP enviando un paquete TCP SYN al puerto 8080 del servidor web.
+b) Inicia la conexión UDP enviando un paquete UDP SYN
+al puerto 80 del servidor web.
+c)Inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.
+d) Inicia la conexión UDP enviando un paquete UDP SYN
+al puerto 8080 del servidor web.
+CORRECTA: C
+
+2.El número de conexiones concurrentes está delimitado por...:
+a) Por la memoria del dispositivo.
+b) Por el procesador del dispositivo.
+c) Por los puertos que dispone el dispositivo.
+d) A y B son correctas.
+CORRECTA: D.
+
+3.El rendimiento se puede calcular como.. :
+a) rendimiento = (ratio_transm_paquetes) * (payload)!
+b) rendimiento = (ratio_transm_paquetes) % (payload)!
+c) rendimiento = (ratio_transm_paquetes) - (payload)!
+d) rendimiento = (ratio_transm_paquetes) + (payload)!
+CORRECTA: A.
+
+¿Qué métricas se utilizan para medir las prestaciones de un sistema web? a) Conexiones por segundo.
+b) Número total de conexiones concurrentes.
+c) Rendimiento en bits por segundo.
+d) Todas las anteriores son correctas.
+Respuesta correcta: d.
+
+1.- ¿ Cual de las siguientes afirmaciones es verdadera respecto al tráfico HTTP ?
+a) HTTP 1.0 se emplea cuando se trata de servidores Linux y HTTP 1.1 cuando son servidores Windows.
+b) HTTP 1.0 se emplea cuando se trata de servidores Windows y HTTP 1.1 cuando son servidores Linux.
+c) HTTP 1.0 envía con una sola conexión varios objetos y HTTP 1.1 necesita una conexión para cada objeto enviado.
+d) HTTP 1.0 necesita una conexión para cada objeto enviado y HTTP 1.1 envía con una sola conexión varios objetos.
+respuesta correcta: D
+2.- ¿Por qué Apache Benchmark no simula totalmente el comportamiento de los usuarios reales?
+a) Porque es más rápido que un usuario real.
+b) Porque pide en la evaluación la misma página repetidamente.
+c) Porque guarda las solicitudes en una cache propia y por tanto no se solicitan al servidor.
+d) Porque sólo simula peticiones como si fueran enviadas desde un navegador Mozilla Firefox.
+respuesta correcta: B
+
+Pregunta 1: ¿Cual de las siguientes opciones no es una métrica para la medida de prestaciones de un servidor?
+a) Transacciones por segundo
+b) Horas de servicio ininterrumpido
+c) número de conexiones concurrentes
+d) rendimiento (en bits por segundo)
+Respuesta correcta: b
+Pregunta 2: Las pruebas preliminares que se realizan sobre el sistema para comprobar que esta listo para ser testeado reciben el nombre de:
+a) Carga o Load
+b) Capacidad o Capacity
+c) Humo o Smoke
+d) Sobrecarga u Overload
+Respuesta correcta: c
+Pregunta 3: Las pruebas pruebas que se realizan para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema reciben el nombre de:
+a) Estabilidad o Stability
+b) Capacidad o Capacity
+c) Carga o Load
+d) Estrés o Stress
+Respuesta correcta: d
+
+HTTP 1.1:
+a) Crea una conexión para cada objeto que envía.
+b) Crea varias conexiones para cada objeto que envía.
+c) Crea una conexión para varios objetos que envía. (correcta)
+d) Ninguna es correcta.
+
+Cuando se evalúa el rendimiento de un sitio web:
+a) Se fija un numero bajo de usuarios
+b) Sólo se evalúa el comportamiento del servidor con el doble de usuarios
+c) Primero se fija un número alto de usuarios y luego se evalúa el comportamiento del servidor con el doble de usuarios
+d) Ninguna de las anteriores
+Respuesta correcta: C
+Apache Benchmark:
+a) Simula con total fidelidad el uso del sitio web que pueden hacer los usuarios
+b) Permite comprobar el rendimiento de cualquier servidor
+c) Siempre que ejecutemos el test se obtiene el mismo resultado
+d) Lo ideal es no hacer mas de 15 ejecuciones para sacar los resultados y representarlo gráficamente
+Respuesta correcta: B
+
+A las conexiones por segundo también se les llama:
+
+a) Conexiones de entrada
+
+b) Conexiones concurrentes por segundo
+
+c) Transacciones por segundo
+
+d) Ninguna de las anteriores
+
+Respuesta correcta: c)
+La velocidad en bits por segundo viene determinada por:
+
+a) Transacciones por segundo y el numero de paquetes por segundo.
+
+b) Las conexiones concurrentes por segundo y el MTU.
+
+c) Numero de paquetes por segundo y el MTU
+
+d) Numero de paquetes por segundo y el tamaño del paquete
+
+Respuesta correcta: d)
+
+
+¿Qué diferentes métricas se usan para medir las prestaciones?
+
+    Conexiones por segundo
+
+    Número total de conexiones por año
+
+    Tipo de software del servidor
+
+    Ninguna es correcta
+
+Respuesta correcta: 1
+¿Cual seria la métrica que deberíamos usar si nuestro servidor web tiene un tráfico HTTP muy alto?
+
+    Rendimiento (bits por segundo)
+
+    Conexiones por segundo
+
+    Número de FLOPS del servidores
+
+    Número de conexiones concurrentes
+
+Respuesta correcta: 2
+¿Por que está limitado el numero de conexiones concurrentes?
+
+    Disco duro
+
+    Cache del procesador
+
+    Velocidad del procesador
+
+    Memoria del procesador
+
+Respuesta correcta: 4
+Rendimiento (b/s) es una combinación de las variables...
+
+    Tamaño del paquete y ancho de banda.
+
+    Ancho de banda y estructura del paquete
+
+    Tamaño del paquete y paquetes por segundo
+
+    Las respuestas 1 y 2 son parcialmente correctas
+
+Respuesta correcta: 3
+¿Qué significa payload?
+
+    Información útil
+
+    Información sobre el tipo de protocolo del paquete
+
+    Información sobre el origen del paquete
+
+    Ninguna es correcta
+
+Respuesta correcta: 1
+A más cantidad de información útil por paquete, mayor...
+
+    Sobrecarga de la red
+
+    Eficiencia en los usos de los recursos
+
+    Mayor MTU
+
+    Ninguna es correcta
+
+Respuesta correcta: 2
+Patrones de trafico comunes
+
+    HTTP
+
+    STP
+
+    VLSM
+
+    VLAN
+
+Respuesta correcta: 1
+Simular un número pequeño de clientes....
+
+    Es una opción a tener en cuenta
+
+    No tiene utilidad
+
+    No es realista
+
+    Es necesario
+
+Respuesta correcta: 3
+¿Qué consideraciones debemos tener en cuenta a la hora de evaluar el rendimiento de un sitio web?
+
+    Fijar un número alto de usuarios
+
+    Evaluar el comportamiento del servidor con el doble de usuarios
+
+    Realizar únicamente una prueba
+
+    Las respuestas 1 y 2 son correctas
+
+Respuesta correcta: 4
+Las herramientas para comprobar el rendimiento de los servidores mediante linea de comandos...
+
+    Son mas intuitivas que las que poseen interfaz gráfica
+
+    Sobrecargan menos la máquina
+
+    Realizan mejor su trabajo
+
+    Ninguna es correcta
+
+Respuesta correcta: 2
+¿Cuantas ejecuciones han de hacerse con apache benchmark?
+
+    Al menos 30
+
+    Con una es suficiente
+
+    El número de ejecuciones no afecta a los resultados obtenidos
+
+    Depende del tipo del servidor
+
+Respuesta correcta: 1
+
+
+1. ¿Cuál es la métrica más importante para el tráfico FTP / streaming?
+
+a) Conexiones por segundo.
+
+b) Rendimiento.
+
+c) Total de conexiones concurrentes.
+
+d) Ninguna de las anteriores.
+
+RESPUESTA CORRECTA: b
+2. ¿Qué es el rendimiento en bits por segundo?
+
+a) Velocidad a la que el balanceador maneja y pasa el tráfico.
+
+b) Número de conexiones de entrada que cierto dispositivo puede manejar por segundo.
+
+c) Determina cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo.
+
+d) Ninguna es correcta.
+
+RESPUESTA CORRECTA: a
+
+
+s uso de hacer test es para…:
+a) problemas de rendimiento y degradación de recursos.
+b) detectar las caídas o errores de programación.
+c) detectar posibles cuellos de botella e ineficiencias.
+d) Todas son correctas.
+respuesta correcta: d
+¿Cuándo hay degradación en los tiempos de respuesta?:
+a) Cuando hay un pico en el tráfico de red.
+b) Cuando no hay tráfico de red.
+c) Cuando existe un límite de tráfico de red suficientemente alto.
+d) A y B son corectas.
+respuesta correcta: c
+
+
+¿Qué es el número de sesiones concurrentes?
+
+A) Es la métrica para determinar cuántas sesiones cookies hay almacenadas en el servidor.
+
+B) Es la métrica para determinar cuántas conexiones de entrada puede manejar el balanceador por segundo.
+
+C) Es la métrica para determinar cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo.
+
+D) Todas las anteriores son correctas.
+
+Respuesta correcta: C
+
+El paquete típico tiene un tamaño máximo de...
+
+A) 2KB
+
+B) 1.5KB
+
+C) 2MB
+
+D) 1.5MB
+
+Respuesta correcta: B
+
+
+
+
+    Pregunta 1 ¿Cual es una de las metricas mas importantes en el rendimiento de servidores?
+        A: Cantidad de usuarios
+        B: Conexiones por segundo
+        C: MBytes libres
+        D: Mbps a la hora
+
+    Respuesta: B
+
+    Pregunta 2 ¿Por que hardware estan limitadas las conexiones concurrentes?
+        A: La memoria
+        B: Por la memoria y el procesador
+        C: El procesador
+        D: Ninguna
+
+    Respuesta: B
+
+    Pregunta 3 ¿Cuales son software para el bechmarking?
+        A: httpref
+        B: Siege
+        C: Apache Bechmark
+        D: Todos
+
+    Respuesta: D
+
+
+
+
+
+    Sobre las conexiones por segundo:
+
+    a) No termina siendo un factor determinante, ya que abrir y cerrar conexiones HTTP resulta poco costoso.
+
+    b) La velocidad a la que se gestionan las aperturas y cierres de conexiones no es fundamental.
+
+    c) Si cierto servidor web tiene un tráfico HTTP alto, conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.
+
+    d) Las aperturas y cierres de conexiones consumen pocos recursos.
+
+    respuesta correcta: c
+
+    Sobre el tráfico HTTP:
+
+    a) Consume poco ancho de banda y genera muchas conexiones por segundo.
+
+    b) Necesidad de hacer las páginas web ligeras, de forma que los usuarios puedan cargarlas rápidamente.
+
+    c) HTTP 1.0, se necesita una conexión para varios objetos.
+
+    d) HTTP 1.1 envía con una sola conexión para cada objeto.
+
+    respuesta correcta: b
+
+
+
+
+
+Si cierto servidor web tiene un tráfico HTTP alto:
+
+a) Rendimiento, en bits por segundos será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.
+
+b) Número de conexiones concurrentes será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.
+
+c) Conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga..
+
+d) Todas son correctas.
+
+Respuesta: c
+
+Las pruebas de Estres ( Stress ) consisten en :
+
+a) Aplicar fuertes picos de carga durante cortos periodos.
+
+b) Aplicar cargas lo más similares posibles a la real durante 1 día o 1 semana.
+
+c) Aplicar de forma continuada una carga por encima de la capacidad del sistema.
+
+d) Ninguna es correcta.
+
+Respuesta: c
+
+
+
+¿Cuántos paquetes como mínimo requiere un acceso por HTTP mediante un GET a un recurso de 32KB?
+
+    A)Dos paquetes, uno de 1B para la petición y otro de 32KB para el recurso
+    B)12 paquetes de 3KB de información útil
+    C)21 paquetes de 1.5KB de información útil
+    D)Un solo paquete de 32KB
+
+Respuesta correcta:C
+¿Cuáles son las métricas más importantes (de izquierda a derecha) para una tienda web?
+
+    A) Conexiones por segundo, Rendimiento, Total de conexiones concurrentes
+    B) Total de conexiones concurrentes, Rendimiento, Conexiones por segundo
+    C) Conexiones por segundo, Total de conexiones concurrentes, Rendimiento
+    D) Total de conexiones concurrentes, Conexiones por segundo, Rendimiento
+
+Respuesta correcta:D
+
+
+1. En HTTPerf ¿Qué significa --rate?
+a)Peticiones por conexión
+b)Conexiones por segundo
+c)Número de peticiones
+d)IP
+Respuesta: B
+2. ¿Qué no es importante en un tráfico tipo "tienda web?
+a)Alto ancho de banda
+b)Velocidad
+c)Experiencia de usuario
+d)Ninguna de las anteriores
+Respuesta:A
+
+
+1. A la hora de medir prestaciones:
+a) El número de conexiones que es capaz de abrir un servidor es muy importante.
+b) El número de conexiones no es importante.
+c) Abrir y cerrar conexiones HTTP no es costoso.
+d) La red no se tiene en cuenta.
+Respuesta correcta es: A.
+2. El número de conexiones concurrentes:
+a) Determina cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo y esta limitado por la memoria o el procesador del dispositivo.
+b) No esta limitado.
+c) Para el tráfico UDP no afecta ya que se trata de un protocolo sin conexión.
+d) Las respuestas 1 y 3 son correctas.
+Respuesta correcta es: D.
+
+
+1.- Las conexiones por segundo...
+
+a) Es una de las métricas más importantes cuando hablamos del rendimiento de servidores web.
+b) Hace referencia al número de conexiones de salida que cierto dispositivo puede manejar por segundo.
+c) Es una de las métricas menos importantes cuando hablamos del rendimiento de servidores web.
+d) Ninguna de las anteriores es correcta.
+
+Respuesta: A.
+
+2.- El límite de las prestaciones quiere decir que...
+
+a) Existe un límite de tráfico de red suficientemente alto que produce una degradación leve en las prestaciones.
+b) Existe un límite de tráfico de red suficientemente bajo que produce una degradación leve en las prestaciones.
+c) Existe un límite de tráfico de red suficientemente bajo que produce una degradación grave en las prestaciones.
+d) Existe un límite de tráfico de red suficientemente alto que produce una degradación grave en las prestaciones.
+
+Respuesta: D.
+
+
+1) La herramienta más apropiada a la hora de comprobar el rendimiento de un servidor o una granja web es:
+a) Apache Benchmark
+b) httperf
+c) JMeter
+d) Depende del contexto, no hay ninguna que sea siempre mejor.
+Correcta: d
+2) A la hora de realizar un benchmark...
+a) Este se debe ejecutar en la misma máquina que la que hace de servidor web
+b) Los resultados de cada herramienta siempre serán iguales
+c) Los resultados de todas las herramientas serán iguales
+d) Ninguna es correcta
+Correcta: d
+
+
+
+1. ¿Cuál de estas métricas es más importante en una tienda web?
+a) Tamaño máximo del paquete
+b) Total de conexiones concurrentes
+c) Conexiones por segundo
+d) Rendimiento
+RESPUESTA CORRECTA: (b)
+2. ¿Cuál de éstas herramientas sirve para comprobar el rendimiento de servidores web?
+a) CloudFlare
+b) BIG-IP
+c) OpenSTA
+d) OpenStack
+RESPUESTA CORRECTA: (c)
+
+
+1.Una de las métricas más importantes cuando hablamos del rendimiento de servidores web es : A)Rendimiento , en bits por segundo. b)Conexiones por segundo. c)Número de conexiones concurrentes. D)Ninguna de las opciones anteriores es correcta. Solución : B
+
+2.Con respecto a Apache Benchmark : A)Cada vez que ejecutemos el test obtendremos los mismos resultados por lo que tan solo necesitaremos realizar 1 ejecución. b)Pide siempre diferentes páginas tal y como harían los usuarios reales. c)No simula con total fidelidad el uso del sitio web que pueden hacer los usuarios habitualmente d)Las medidas muestran exactamente el rendimiento real del sitio. Respuesta: C
+
+
+1-Cuales de las siguientes afirmaciones para estabecer una conexion http son ciertas?
+a)el cliente inicia la conexión HTTP enviando un
+paquete TCP SYN al puerto 80 del servidor web
+b)el servidor web envía un paquete ACK al administrador seguido de otro SYN
+c)el cliente envía un paquete ACK como pregunta
+d)Todas son ciertas
+Respuesta:a
+2-En el trafico FTP/streaming...
+a)Tras una conexión inicial (ya que usa UDP como protocolo),
+se envía una gran cantidad de información.
+b)El número de conexiones para este tipo de tráfico es muy
+bajo comparado con la cantidad de información enviada
+c)Consumen el ancho de banda máximo rápidamente.
+d)Todas son correctas.
+respuesta:d
+
+
+1) La métrica conexiones por segundo, hace referencia a:
+a) La cantidad de información que se transfiere en la petición.
+b) El abrir y cerrar conexiones HTTP.
+c) El número de conexiones concurrentes.
+d) Al tiempo de repuesta del servidor.
+Repuesta correcta: b
+2) El tipo de tráfico HTTP:
+a) Su métrica más importante es el rendimiento.
+b) Su métrica menos importante es conexiones por segundo.
+c) Su métrica más importante es el total de conexiones concurrentes.
+d) Su métrica menos importante es el total de conexiones concurrentes.
+Respuesta correcta: d 
+
+
+
+    Los tipos de pruebas a los que podemos (y debemos) someter nuestro servidor web son:
+
+a) Humo(Smoke).
+b) Carga (Load).
+c) Capacidad (Capacity).
+d) Todas son correctas.
+
+Respuesta correcta: d)
+
+    ¿En qué consiste el tipo de prueba "Carga (Load)"?
+
+a) Pruebas preliminares para comprobar que el sistema está listo para los siguientes tests.
+b) Cargas lo más parecidas a la real. Se ejecutan en periodos cortos (1h), para determinar los tiempos de respuesta que tendrán los usuarios.
+c) Actividad creciente hasta detectar el punto de saturación.
+d) Analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema.
+
+Respuesta correcta: b)
+
+
+
+
+1. El tráfico HTTP es aquel que...
+a. Consume ancho de banda intensivamente y genera muchas conexiones por segundo.
+b.Tras una conexión inicial (ya que usa UDP como protocolo), se envía una gran cantidad de información.
+c. La velocidad es el factor más importante
+d. Se forma cuando coges la A-44 a las 8:30 de la mañana
+Respuesta correcta: a
+2. A la hora de ejecutar Apache Benchmark...
+a. Es interesante realizarlo un número reducido de veces, ya que si lo ejecutamos demasiados, saturaremos el servidor y los resultados no serán fiables
+b. Es interesante realizarlo un gran número de veces para que los resultados sean lo mas realistas posibles.
+c. Los resultados no son fiables ya que Apache Benchmark manipula los resultados según su antojo.
+d. Todas las anteriores son falsas.
+Respuesta correcta: b
+
+
+
+ Los resultados de ab y httperf... A) los resultados son equiparables B) los resultados no son equiparables C) los resultados son equiparables si se utilizan páginas estáticas solamente D) los resultados son equiparables si se utilizan páginas dinámicas solamente Respuesta correcta: B El tráfico http... A) Consume ancho de banda intensivamente y genera muchas conexiones por segundo B) Consume poco ancho de banda y genera pocas conexiones por segundo C) Consume poco ancho de banda pero en momentos dados genera muchas peticiones por segundo D) Ninguna de las anteriores es correcta Respuesta correcta: A
+ 
+ 
+ Preguntas SWAP TEMA 5:
+¿Cual de las siguientes afirmaciones es uno de los pasos que se realizan para hacer una conexión HTTP?
+a.- El servidor inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.
+b.- El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web
+c.- El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 44 del servidor web.
+d.- Ninguna de las respuestas son correcta.
+Respuesta correcta: B
+El tráfico FTP/streaming:
+a.- El número de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada
+b.- El número de conexiones para este tipo de tráfico es muy alto comparado con la cantidad de información enviada.
+c.- Este protocolo no necesita conexiones para transferir información.
+d.- Ninguna de las anteriores es correcta.
+Respuesta correcta: A
+
+
+1.¿A qué hace referencia las conexiones por segundo?
+a)Al número de conexiones de entrada que cierto dispositivo puede manejar por segundo.
+b)Todas son falsas.
+c)Al numero de conexiones de salida que cierto dispositivo puede manejar por segundo.
+d)Eso no existe.
+Respuesta correcta: a)
+2.¿Cúal de estos pasos se sigue para establecer una conexión HTTP?
+a)Todas son correctas.
+c)El cliente envía un paquete ACK como respuesta.
+b)El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.
+d)El servidor web envía un paquete ACK al cliente seguido de otro SYN.
+Respuesta correcta: a)
+3. ¿Cúal es la formula del rendimiento?
+a)rendimiento=(ratio_trans_paquetes)*(payload).
+b)rendimiento=(ratio_trans_paquetes)/(payload).
+c)rendimiento=(ratio_trans_paquetes)-(payload).
+d)rendimiento=(ratio_trans_paquetes)+(payload).
+Respuesta correcta: a)
+4. ¿Cúal de las siguientes herramientas se utilizan para comprobar el rendimiento de un servidor web?
+a)openwebload.
+b)opensta.
+c)jmeter.
+d)todas son correctas.
+Respuesta correcta: d)
+
+
+Cuando realizamos pruebas con software como Apache Benchmark, Httperf, OpenWebload o similares generando tráfico en una granja web buscamos...
+
+    A. Medir el rendimiento y calidad de las aplicaciones que se sirven desde la granja web para mejorar la percepcion de los usuarios hacia la misma.
+    B. Probar y asegurarnos del buen funcionamiento del sistema y de las aplicaciones.
+    C. Probar y garantizar el buen funcionamiento de los servidores que forman la granja web para garantizar la alta disponibilidad de la misma.
+    D. Probar el sistema, aunque no suelen ser muy influyentes para los encargados de la granja web.
+
+Respuesta correcta: C.
+Segunda Pregunta.
+
+¿Son las pruebas de carga las más realistas que se pueden generar sobre un sistema?
+
+    A. Si, son las más importantes.
+    B. No, sólo son pruebas informativas para el equipo que mantiene el sistema en el que se llevan a cabo.
+    C. Son las más importantes en lo que a información sobre la carga del sistema se refiere pero las pruebas más realistas que se pueden llevar a cabo sobre un sistema es dar acceso a usuarios al sistema para que lo prueben y lo exploren en busca de fallos o posibles mejoras.
+    D. Si y, además, son las únicas pruebas que hay que realizar para validar un sistema web.
+
+Respuesta correcta: C.
+Tercera Pregunta.
+
+¿Qué son las pruebas Beta y los Beta Testers?
+
+    A. Son pruebas que se realizan sobre el sistema por medio de software que genera carga de trabajo en las máquinas. Los beta tester son cada uno de los programas que generan carga en los distintos servidores de la granja web.
+    B. Son pruebas de validación de un sistema en las que se da acceso a diferentes usuarios para que prueben el sistema. Estos usuarios son los denominamos Beta Testers porque se dedican a probar la versión "Beta" del sistema.
+    C. Son pruebas que simulan usuarios reales (siendo estos virtuales) en un sistema. Cada uno de estos usuarios virtuales representa a un Beta Tester en el sistema.
+    D. Son pruebas que se realizan sobre la versión final de una aplicación por medio de software.
+
+Respuesta correcta: B.
+Cuarta Pregunta.
+
+¿Qué tipo de tráfico puede afectar al rendimiento en el manejo de conexiones del servidor?
+
+    A. TCP.
+    B. UDP.
+    C. IP.
+    D. FTP.
+
+Respuesta correcta: A.
+Quinta Pregunta.
+
+¿Por qué razón existen diversos tipos de prueba para monitorizar y probar las granjas web?
+
+    A. Es falso que existan diversos tipos de prueba, sólo hay pruebas de carga.
+    B. Para aplicar la más conveniente dependiendo de la granja web.
+    C. Porque existen numerosas empresas que se dedican a realizar pruebas y cada una de ellas aporta una o un tipo al conjunto final de pruebas.
+    D. Para testear cuantas más opiniones posibles y asegurarse de que el servicio ofrecido es el correcto y el que se esperaba en la granja web.
+
+Respuesta correcta: D.
+
+
+2- La métrica más importante del patrón de trafico HTTP es:
+a) Total de conexiones concurrentes.
+b) Conexiones por segundo.
+c) El rendimiento.
+d) Todas son correctas.
+Respuesta correcta: B
+2- Cuando vamos a evaluar el rendimiento de un sitio web
+a) Fijar un número alto de usuarios.
+b) Calcular el tiempo medio cuando hay un bajo número de usuarios haciendo peticiones al sitio web.
+c) a y d son correctas.
+d) Evaluar cómo se comporta el servidor cuanto tiene el doble de usuarios.
+Respuesta correcta: C
+
+
+El número de conexiones concurrentes es un factor que no afecta a aquellas que usen el protocolo...:
+a) TCP
+b) UDP
+c) Ambos
+d) Ninguno
+Respuesta correcta: B
+Si queremos conocer el rendimiento de un balanceador, la fórmula que usamos para calcularlo es...:
+a) rendimiento = ( (frecuenciaCPU*0.4)+(memoriaRam*0.5)+(factorDisponibilidad*01) ) /100
+b) rendimiento = 1/ratio_transm_paquetes * payload
+c) rendimiento = (payload * ratio_transm_paquetes ) * 100
+d) rendimiento = ratio_transm_paquetes * payload
+Respuesta correcta= D
+
+
+Indica que opción no es un software para medir el rendimiento de servidores web:
+
+a) OpenWebLoad.
+
+b) Apache benchmark.
+
+c) Httperf.
+
+d) Nginx.
+
+respuesta correcta: D
+
+Señala que afirmación sobre rendimiento no es correcta:
+
+a) Se mide en bits por segundo.
+
+b) Es combinación de las variables "tamaño del paquete" y "paquetes por segundo".
+
+c) A más cantidad de información útil por paquete, mayor eficiencia en el uso de los recursos a todos los niveles.
+
+d) El paquete típico tiene un tamaño máximo de 1.5GB.
+
+respuesta correcta: D
+
+
+
+1) Para el tráfico UDP:
+a) el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "de conexión".
+b)el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "de respuesta".
+c)el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "sin conexión".
+d)Ninguna es correcta.
+Respuesta correcta: c
+2)¿Cuál es el orden de métricas importantes en HTTP?
+a)Conexiones por segundo,rendimiento,total de conexiones concurrentes.
+b)Rendimiento,conexiones por segundo,total conexiones concurentes,
+c)Conexiones por segundo,total conexiones concurrentes,rendimiento.
+d)Total de conexiones concurrentes,conexiones por segundo,rendimiento.
+Repuesta correcta: a
+3)¿Cuál es el orden de métricas importantes en FTP?
+a)Conexiones por segundo,rendimiento,total de conexiones concurrentes.
+b)Rendimiento,conexiones por segundo,total conexiones concurentes,
+c)Conexiones por segundo,total conexiones concurrentes,rendimiento.
+d)Rendimiento,total de conexiones concurrentes,conexiones por segundo
+Repuesta correcta: d
+4)¿Y para una tienda web?
+a)Rendimiento,total de conexiones concurrentes,conexiones por segundo
+b)Rendimiento,conexiones por segundo,total conexiones concurentes,
+c)Conexiones por segundo,total conexiones concurrentes,rendimiento.
+d)Total de conexiones concurrentes,conexiones por segundo,rendimiento.
+Repuesta correcta:d
+
+
+A qué patrón de tráfico le correspondería esta escala de métricas, de más a menos: Conexiones concurrentes, conexiones por segundo, rendimiento?
+
+    Tienda web
+    HTTP
+    Streaming de contenido HD
+    A los 3 anteriores.
+
+Respuesta correcta: 1
+
+
+El rendimiento, en bits por segundo:
+a) Es lo mismo que el ancho de banda de la granja web
+b) Hace referencia a la velocidad a la que el balanceador maneja y pasa el tráfico
+c) Se ve benefiaciado cuanto menor cantidad de información útil haya por paquete
+d) Ninguna de las anteriores es correcta
+RESPUESTA CORRECTA: b)
+Con cual de las siguientes herramientas no podemos comprobar el rendimiento de un servidor web:
+a) Siege
+b) Apache Benchmark
+c) OpenWebLoad
+d) TestLoad
+RESPUESTA CORRECTA: d)
+
+
+1. Las principales limitaciones de los test son:
+a) Las medidas dan una idea aproximada de cómo se comporta el servidor, pero no reflejan el rendimiento real.
+b) No se puede simular el comportamiento de los usuarios.
+c) La dificultad a la hora de hacer pruebas en un entorno de producción.
+d) Todas las anteriores.
+Respuesta correcta: D
+2. Los tipos de prueba que aplican una carga lo más parecida a la real pero en periodos cortos o durante un día o una semana son, respectivamente:
+a) Carga y Estabilidad.
+b) Carga y Capacidad.
+c) Capacidad y Estabilidad.
+d) Sobrecarga y Estabilidad.
+Respuesta correcta: A
+
+
+1. ¿A qué hace referencia conexiones por segundo?
+A) Al número de conexiones de entrada que cierto dispositivo es capaz de manejar por segundo
+B) Al número de usuarios que se conectan al servidor por segundo
+C) Al número de conexiones de salida que cierto dispositivo es capaz de manejar por segundo
+D) Al número de conexiones concurrentes que cierto dispositivo es capaz de manejar por segundo
+Respuesta Correcta: A
+2. ¿En qué tipo de prueba se aplican fuertes picos de carga durante cortos períodos?
+A) Estrés
+B) Estabilidad
+C) Sobrecarga
+D) Carga
+Respuesta Correcta: C
+
+
+¿Cuál de las siguientes acciones puede hacer con Wireshark?
+
+    A) Realizar un ataque DDoS contra un sistema informático
+    B) Modificar el tráfico de la red
+    C) Obtener credenciales que viajen en texto plano por la red
+    D) Descifrar una contraseña en MD5
+
+Solución: C) Obtener credenciales que viajen en texto plano por la red
+
+
+1. ¿Cuales son los posibles problemas que se pueden dar en un sitio web mal planteado?
+a) Un número pequeño de usuarios.
+b) Problemas con la arquitectura del sistema, la disponibilidad y la carga del sistema.
+c) La disponibilidad del sistema es el mayor de los problemas que se pueden dar.
+d) La carga del sistema es el mayor de los problemas que se pueden dar.
+Respuesta correcta: b
+2. La mejor opción para hacer un servidor web que de servicios a millones de usuarios será:
+a) Montar una granja Web
+b) Montar un servidor en una maquina
+c) Adquirir un segundo servidor para desarrollo
+d) Da igual como desarrollamos el servidor
+Respuesta correcta: a
+
+
+1. ¿Qué caracteriza al tipo de tráfico HTTP?
+a) Consumen ancho de banda intesivamente y generan muchas conexiones por segundo.
+b) No es necesario un alto ancha de banda ni existen demasiadas conexiones por segundo.
+c) Consumen el ancho de banda máximo rápidamente y el número de conexiones es inferior a la cantidad de información.
+d) Consumen mucho ancho de banda pero generan pocas conexiones por segundo.
+Respuesta correcta: a)
+2. ¿Cuándo es bueno usar el software de Apache Benchamark?
+a) Nunca, puesto que no simula bien el uso del sitio web que pueden hacer los usuarios habitualmente.
+b) Cuando se quiere comprobar cómo se comporta el servicio después de modificar cierta configuración, dando una idea exacta del rendimiento de este.
+c) Cuando se quiere simular con total fidelidad el uso del sitio, pues da una idea exacta del rendimiento real.
+d) Cuando se quiere comprobar cómo se comporta el servicio después de modificar cierta configuración, aunque no reflejan el rendimiento real del sitio.
+Respuesta correcta: d)
+
+
+
+
