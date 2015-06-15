@@ -852,3 +852,31 @@ d) Los administradores del sistema tendrán cuentas con todos los permisos posib
 Respuesta correcta: A
 
 
+
+
+1. ¿Cuál es el fin último de asegurar una granja Web ?
+A) Evitar que los servidores estén caídos durante mucho tiempo
+B) Tratar de que sea escalable
+C) Intentar que no sufra demasiada carga durante un corto período de tiempo
+D) Evitar o dificultar que un hacker malicioso realice cualquier acción que afecte al sistema
+Respuesta Correcta: D
+
+2. ¿Cuál de las siguientes acciones sobre el cortafuegos no es recomendable?
+A) Eliminar cualquier servicio accesorio en el cortafuegos
+B) No registrar la IP del cortafuegos en ningún servicio de DNS
+C) Configurar el cortafuegos de forma completamente independiente al resto de recursos
+D) Permitir acceso desde Internet para administrar el cortafuegos
+Respuesta Correcta: D
+
+
+¿Cuál de las siguientes NO es una práctica de seguridad recomendada?
+
+    A) Hacer copias de seguridad.
+    B) Instalar un cortafuegos.
+    C) Modificar y/o eliminar las cuentas por defecto.
+    D) No actualizar para evitar la aparición de nuevas vulnerabilidades.
+
+Solución: D) No actualizar para evitar la aparición de nuevas vulnerabilidades.
+
+
+
