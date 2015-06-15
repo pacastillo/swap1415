@@ -911,3 +911,19 @@ d) Eliminar servicios no necesarios.
 Respuesta correcta: d
 
 
+
+1. ¿Cuál de los siguientes procedimientos de autenticación es más efectivo?
+a) Uma tarjeta física que incluirá la clave.
+b) Una huella dactilar o ADN.
+c) Un escáner de retina.
+d) Las respuestas b) y c) son correctas
+Respuesta correcta: d
+
+2. ¿Cuál de estas tareas no realiza un cortafuegos?
+a) Ocultar la verdadera dirección del servidor.
+b) Asegurar un servidor.
+c) Controlar protocolos de aplicación.
+d) Bloquear y filtrar paquetes.
+Respuesta correcta: b
+
+
