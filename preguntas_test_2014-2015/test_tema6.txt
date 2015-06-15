@@ -196,3 +196,85 @@ Respuesta correcta: C
 
 
 
+
+Pregunta 1 ¿Cuál es el cortafuegos por defecto en linux?
+
+    A: Iptables
+    B: Nagios
+    C: Sorewall6
+    D: IpCop
+
+Respuesta: A
+
+Pregunta 2 ¿Las politicas de seguridad son...?
+
+    A: Un elemento activo de la seguridad
+    B: Un elemento pasivo de la seguridad
+    C: Unas reglas a tener en cuenta
+    D: Una metodología de realizar las cosas
+
+Respuesta: D
+
+Pregunta 3 ¿Cuál de los siguientes NO es un tipo de ataque?
+
+    A: Denegación de Servicio (DOS)
+    B: Ping of Death
+    C: dDNS Client
+    D: Ip Spoofing
+
+Respuesta: C 
+
+
+
+1º ¿Cuáles son los 3 principales objetivos de la seguridad?:
+
+    a) Confidencialidad, Integridad y Disponibilidad.
+
+    b) Testing, Redundancia y Backups.
+
+    c) Revisar los log del sistema, crear compias de seguirdad y tener hardware de respaldo.
+
+    d) Ninguna es correcta.
+
+    Respuesta Correcta: a
+
+2º ¿En que consiste la defensa en profunidad?:
+
+    a) Todas son correctas.
+
+    b) Protección del sistema mediante un analisis en detalle de como funciona nuestro sistema.
+
+    c) Protección del sistema testeando cada uno de los elementos software de nuestro servidor.
+
+    d) Protección del sistema mediante diferentes capas de seguridad.
+
+    Respuesta Correcta: d
+
+3º ¿Que tareas realiza un corta fuegos?:
+
+    a) Todas son correctas.
+
+    b) Controlar protocolos de aplicación, configurando reglas relativas a ciertos puertos.
+
+    c) Ocultar la verdadera dirección del servidor, actuando como un proxy.
+
+    d) La tarea principal es bloquear y filtrar paquetes.
+
+    Respuesta Correcta: a
+
+4º El balanceador:
+
+    a) Solo reenvia paquetes de red modificando la ip de destino encargandose de las funciones de seguridad el cortafuegos.
+
+    b) Complementa al cortafuegos.
+
+    c) Puede limitar o denegar completamente el acceso a listas de IP.
+
+    d) b y c son correctas.
+
+    Respuesta Correcta: d 
+    
+    
+
+
+
