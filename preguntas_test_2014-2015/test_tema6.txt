@@ -105,3 +105,94 @@ Respuesta correcta: C
 
 
 
+Algunas de las acciones a tomar para asegurar un servidor son:
+
+a) Renombrar las cuentas de administrador e invitado, solo parchear cuando sea necesario para no introducir nuevos bugs, eliminar servicios no necesarios.
+
+b) Eliminar servicios no necesarios, establecer politicas de seguridad, añadir servicios de red para confundir al atacante.
+
+c) Eliminar cuentas y grupos de usuarios no necesarios, renombrar las cuentas de administrador e invitado, solo parchear cuando sea necesario para no introducir nuevos bugs.
+
+d) Eliminar servicios no necesarios, establecer politicas de seguridad, eliminar los drivers que no sean necesarios.
+
+Respuesta correcta: d)
+Un cortafuegos sirve para:
+
+a) Bloquear y filtrar paquetes de red, como antivirus, para ocultar los servidores finales a otras redes.
+
+b) Bloquear y filtrar paquetes de red, controlar protocolos de aplicación, proteger los servidores y aplicaciones de ataques.
+
+c) Proteger los servidores y aplicaciones de ataques, bloquear y filtrar paquetes de red y como antivirus.
+
+d) Controlar protocolos de aplicación, ocultar los servidores finales a otras redes, como VPN.
+
+Respuesta correcta: b)
+
+
+
+1. Los objetivos de seguridad se basan en los siguientes conceptos:
+
+a) Rendimiento.
+
+b) Accesibilidad.
+
+c) Integridad.
+
+d) Ninguna de las anteriores.
+
+RESPUESTA CORRECTA: c
+2. ¿Qué hace un firewall?
+
+a) Actua como un proxy, ocultando la verdadera dirección del servidor.
+
+b) Bloquea y filtra paquetes.
+
+c) Controla protocolos de aplicación.
+
+d) Todas son correctas.
+
+RESPUESTA CORRECTA: d
+
+
+
+¿El software de cortafuegos por excelencia es?
+a) No hay ninguno por excelencia.
+b) PrivateFirewall.
+c) PeerBlock.
+d) iptables.
+respuesta correcta: d
+
+¿Cómo es más fácil detectar un ataque?
+a) Con una capa de seguridad.
+b) Con una capa de seguridad y claves muy seguras.
+c) Con varias capas de seguridad.
+d) Ninguna es correcta.
+respuesta correcta: c
+
+
+¿Cual de las siguientes acciones a tomar para asegurar un servidor no es la correcta?
+
+A) Eliminar cuentas y grupos de usuarios no necesarios.
+
+B) Mantener los nombres de cuentas de administrador e invitado.
+
+C) Establecer politicas de seguridad.
+
+D) Eliminar los drivers de red que no sean necesarios.
+
+Respuesta correcta: B
+
+Hay que configurar el cortafuegos de tal modo que...
+
+A) Acepte conexiones directas a él.
+
+B) Se pueda acceder a él desde internet.
+
+C) No registremos la ip del cortafuegos en ningún servicio DNS
+
+D) Ejecute cualquier software, aunque no esté relacionado con las funciones del cortafuegos.
+
+Respuesta correcta: C
+
+
+
