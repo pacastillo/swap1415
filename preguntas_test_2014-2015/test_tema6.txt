@@ -551,3 +551,125 @@ d. Todas las anteriores son correctas.
 Respuesta correcta: d
 
 
+
+
+Entre las tareas que realiza un cortafuegos están…
+A) control de protocolos de aplicación y tráfico de red a nivel de protocolo red
+B) procesamiento de instrucciones lógicas
+C) control de accesos al disco duro
+D) ninguna es correcta
+
+Respuesta correcta: A
+
+En el contexto de la defensa en profundidad, cuantos más niveles tengamos, el sistema…
+A) será igual de vulnerable que un sistema con pocos niveles de seguridad
+B) estará mas comprometido frente a posibles ataques
+C) será más difícil de penetrar
+D) será más fácil penetrar ya que si se sobrepasa un nivel, se tiene suficiente información como para pasar los demás. 
+
+Respuesta correcta: C 
+
+
+
+1. ¿Cómo se definen las politicas de seguridad?
+a)Se definen cómo se les permite interaccionar a los usuarios con los servidores y el hardware de la red del sistema web.
+b)Se definen cómo se les permite interaccionar a los usuarios con los servidores y el software de la red del sistema web.
+c)Se definen cómo se les permite interaccionar a los componentes con los servidores y el hardware de la red del sistema web.
+d)Ninguna es cierta.
+Respuesta correcta: a)
+
+2.¿Qué hace el cortafuegos?
+a)Protege el sistema de accesos indebidos.
+b)Corta el fuego.
+c)Funciona como un sistema antiincendios dentro del hardware del pc.
+d)Es un mito en realidad no existe.
+Respuesta correcta: a)
+
+3.¿Cúal de estas es una de las tareas del cortafuegos?
+a)Bloquear y filtrar paquetes.
+b)Debe de prohibir el trafico.
+c)Inspecciona las direcciones y puertos enviado entre las subredes.
+d)Todas son correctas.
+Respuesta correcta: d)
+
+4.¿Cúal de estos es un beneficio de los cortafuegos?
+a)Evita el consumo excesivo de recursos.
+b)Oculta los servidores finales a otras redes.
+c)Protege los servidores de multiples ataques.
+d)Todas son correctas.
+Respuesta correcta: d) 
+
+
+
+¿Qué son las políticas de seguridad en una granja web?
+    A. Son el conjunto de los protocolos de conexión que se utilizan en la granja web.
+    B. Los procedimientos y reglas de uso de los usuarios del sistema.
+    C. Cada una de las restricciones que se aplican a los usuarios y clientes de la aplicaciones que sirve la granja.
+    D. Las restricciones que aplica la empresa a la hora de configurar el sistema.
+Respuesta correcta: B.
+
+¿Existe algún mecanismo que haga invulnerable a un equipo?
+    A. Si, existen algunos mecanismos que evitan que un sistema pueda ser vulnerable aunque no son resistentes a fallos hardware de los servidores.
+    B. Aún no existen pero pueden existir en un futuro debido a la mejora en los servicios e infraestructuras de las granjas web.
+    C. Nunca existirán ya que ninguna máquina es invulnerable a errores software, hardware o humanos con el paso del tiempo.
+    D. Puede que los haya.
+Respuesta correcta: C.
+
+¿Qué filtros se aplican sobre el cortafuegos de una granja web?
+    A. Filtros TCP/IP usando Iptables para redireccionar y restringir las máquinas del sistema.
+    B. No suelen aplicarse filtros en los cortafuegos.
+    C. Suele restringirse el acceso al número de conexiones de los usuarios de la granja por conteo de IP's.
+    D. Solo se aplican diversos filtros entre las máquinas de la granja para impedir que los usuarios de la misma accedan a lugares sin tener privilegios.
+Respuesta correcta: A.
+
+¿Cuáles de las siguientes funciones son propias de los cortafuegos?
+    A. Aplicar protocolos de conexión y evitar que entre malware a la granja.
+    B. Comprobar el funcionamiento de las bases de datos de la granja web y conectar a los servidores de la misma.
+    C. Controlar a los usuarios del sistema y dirigir las direcciones Ip de las máquinas del sistema.
+    D. Bloqueo y filtrado de paquetes, controlar protocolos de aplicación y controlar el tráfico de la red a nivel de protocolo de red.
+Respuesta correcta: D.
+
+
+
+
+Usando una buena política de seguridad ¿Podríamos decir que nuestro sistema es totalmente seguro?:
+
+A) Sí, Totalmente seguro.
+
+B) No, Ya que no existen buenas políticas de seguridad.
+
+C) No, Un sistema nunca es totalmente seguro.
+
+D) Sí siempre y cuando se haya auditado su seguridad.
+
+Respuesta correcta: C
+
+Cuales de las siguientes funciones son llevadas a cabo por el cortafuegos:
+
+A) Bloquear y filtrar paquetes y Ocultar la verdadera dirección del servidor
+
+B) Proteger los servidores y aplicaciones de ataques.
+
+C) Controlar protocolos de aplicación y Controlar el tráfico de red a nivel de protocolo de red
+
+D) Todas son las anteriores son correctas.
+
+Respuesta correcta: D
+
+
+
+1- ¿Cuál de estas respuestas es la posibilidades de los procedimientos de autenticación menos efectiva?
+a) Un PIN o una clave.
+b) Una tarjeta física que incluirá la clave
+c) huella dactilar o ADN
+d) Un escáner de retina
+Respuesta correcta: A
+
+2- Para asegurar un servidor a de tomar acciones...
+a) Eliminar los drivers de red que se usen poco.
+b) Usar filtros TCP/IP
+c) Una vez que el servidor ha sido montado y configurado por primera vez, no hacen cambios de configuración.
+d) Mantener un equipo de seguridad anualmente sobre nuevos agujeros de seguridad, parches de seguridad y ataques.
+Respuesta correcta: B 
+
+
