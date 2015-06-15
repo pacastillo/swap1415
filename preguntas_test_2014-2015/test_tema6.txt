@@ -804,3 +804,51 @@ NOTA: Suponer que las órdenes las ponemos en un script o similar, para que no h
 Respuesta correcta: 4
 
 
+
+¿En qué consiste la integridad al hablar de seguridad de un sistema web?
+a) Los mensajes enviados deben ser exactamente los recibidos.
+b) Los mensajes sólo pueden ser leídos por emisor y receptor.
+c) Los mensajes deben llegar al destinatario correcto.
+d) El número de mensajes enviados debe coincidir con el número de mensajes recibidos.
+Respuesta correcta: a)
+
+¿Con qué directiva configuraríamos un cortafuegos para evitar el acceso a Facebook?
+a) iptables -A OUTPUT -p tcp -d facebook.com -j BLOCK
+b) iptables -A OUTPUT -p tcp -d facebook.com -j DROP
+c) netstat -tulpn -b facebook.com
+d) iptables -A INPUT -p udp -d facebook.com -j DROP
+Respuesta correcta: b)
+
+
+
+Cual de las siguientes afirmaciones sobre la defensa en profundidad no es correcta
+a) Está organizada en varias capas
+b) Colocar el servidor dentro de una caja no corresponde a una medida propia de una defensa en profundidad
+c) Un cortafuegos corresponde a una medida propia de una defensa en profundidad
+d) No hay un máximo de niveles de seguridad
+RESPUESTA CORRECTA: b)
+
+Cual de las siguientes afirmaciones sobre los cortafuegos es incorrecta:
+a) Un cortafuegos puede utilizarse para ocultar los servidores finales a otras redes
+b) Por defecto, debemos denegar el tráfico, luego vamos admitiendo las direcciones que necesitemos
+c) Es conveniente registrar su IP en un servicio de DNS, a fin de enmascarar el resto de IPs del sistema
+d) El cortafuegos avisa de posibles ataques justo en el momento en el que se producen
+RESPUESTA CORRECTA: c)
+
+
+
+1. La mejor forma de configurar un cortafuegos es:
+a) Dejarlo como está, ya estará configurado.
+b) Denegar las IPs que sabemos que conllevan ataques.
+c) Por defecto, bloquear todo el tráfico y dejar pasar sólo el tráfico necesario.
+d) Por defecto, permitir todo el tráfico y después cerrar los puertos que no necesitemos.
+Respuesta correcta: C
+
+2. Señalar la respuesta incorrecta. En la seguridad a nivel de administrador...
+a) Las cuentas de administración serán eliminadas si no ponen en riesgo el desarrollo de aplicaciones.
+b) Las claves deben ser seguras y cambiadas frecuentemente.
+c) Las cuentas de administración serán usadas únicamente para tareas en las que sea imprescindible utilizarlas.
+d) Los administradores del sistema tendrán cuentas con todos los permisos posibles.
+Respuesta correcta: A
+
+
