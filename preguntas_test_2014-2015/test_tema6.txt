@@ -350,3 +350,105 @@ Respuesta correcta:A
 
 
 
+1. ¿Cúal no es una tarea del cortafuegos?
+a)Prohibir la ejecución de aplicaciones como administrador
+b)Controlar protocolos de aplicación
+c)Bloquear y filtrar paquetes
+d)Proteger los servidores y aplicaciones de ataques
+Respuesta: A
+
+2.En Iptables ¿Cúal de los siguientes comandos no nos permite transmitir ficheros mediante
+SSH a nuestro servidor (sftp)?
+a)iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+b)iptables -A INPUT -p tcp --dport 3306 -j DROP
+c)iptables -A INPUT -p tcp --dport 22 -j DROP
+d)iptables -A INPUT -p tcp --dport 21 -j DROP
+Respuesta: C
+
+
+
+1. Cuando hablamos de seguridad a nivel físico,¿a qué nos referímos?:
+a) Seguridad de aplicación
+b) Seguridad de acceso
+c) Seguridad del sistema
+d) Seguridad del hardware
+Respuesta correcta es: D.
+
+4. En un servidor web podemos deshabilitar servicios como:
+a) FTP y SMTP
+b) TCP/IP
+c) IP
+d) HTTP
+Respuesta correcta es: A.
+
+
+
+1.- La defensa en profundidad en el caso de una granja web...
+
+a) Debe asegurar la protección a diferentes niveles de seguridad.
+b)No debe asegurar la protección a diferentes niveles de seguridad.
+c) Debe asegurar la protección a mismos niveles de seguridad.
+d) Ninguna de las anteriores es correcta.
+
+Respuesta: A.
+
+2.- La seguridad a nivel físico...
+
+a) Es más importante que la del nivel de red.
+b) Es menos importante que la del nivel de red.
+c) Es tan importante como la del nivel de red a la hora de proteger los recursos de un sistema.
+d) No es importante, ya que la seguridad apenas se tiene en cuenta.
+
+Respuesta: C.
+
+
+
+1) A la hora de defender nuestra granja web de amenazas
+a) No basta con securizar bien, sino que hay que estar atentos de nuevas vulnerabilidades que se puedan publicar
+b) Basta con configurar correctamente el cortafuegos
+c) Se recomienda que el cortafuegos esté instalado en la máquina que actúe de balanceador
+d) A y C son correctas
+Correcta: A
+
+
+
+1. ¿Cuál de estas acciones no es recomendable al configurar un cortafuegos?
+a) Configurar el cortafuegos completamente independiente del resto de recursos
+b) El cortafuegos no debe ejecutar otro software salvo el del cortafuegos
+c) Permitir acceso desde Internet para administrar el cortafuegos
+d) Eliminar cualquier servicio accesorio en el cortafuegos
+RESPUESTA CORRECTA: (c)
+
+2. ¿Qué tipo de ataques no puede ser evitado por un balanceador de carga?
+a) TCP SYN
+b) Ping of Death
+c) IP Spoofing
+d) Man in the Middle
+RESPUESTA CORRECTA: (d)
+
+
+1-Respecto a las políticas de seguridad:
+
+A)Los procedimientos de identificación comprueban si un individuo es reconocido por alguno de los sistemas de seguridad de la granja web excluyendo el firewall.
+
+B)los privilegios de uso definen qué acciones puede llevar a cabo cada tipo de usuario correctamente identificado.
+
+C)En los procesos de autenticación no se solicita el nombre de usuario ni la clave.
+
+D)La seguridad a nivel físico no es importante es mejor centrarse en la seguridad a nivel de red.
+
+Respuesta: B
+
+2-Cuales de las siguientes acciones no se realiza para asegurar un servidor:
+
+A)Renombrar las cuentas de administrador e invitado
+
+B)Eliminar los drivers de red que no sean necesarios.
+
+C)Establecer políticas de seguridad.
+
+D)Definir una lista de control de acceso (usuarios o grupos que pueden acceder a ciertos recursos concretos).
+
+Respuesta: D     
+
+
