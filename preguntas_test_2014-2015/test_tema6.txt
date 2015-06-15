@@ -452,3 +452,102 @@ D)Definir una lista de control de acceso (usuarios o grupos que pueden acceder a
 Respuesta: D     
 
 
+
+1-Los objetivos de seguridad se deben basar en...
+a)Confidenciliadad,estructuracion y disponibilidad.
+b)Confidencialidad, integridad y disponibilidad.
+c)Estructuracion, funcionalidad e integridad.
+d)Estructuracion, funcionalidad y disponibilidad.
+respuesta:b
+
+2-¿Cual de las siguientes afirmaciones sobre los beneficios de los cortafuegos es correcta?
+a)Evita el consumo excesivo de recursos, reduciendo el tráfico global que un servidor recibirá.
+b)Oculta los servidores frente a multiples ataques.
+c)Protege los servidores ocultandolos de otras redes.
+d)Avisa de posibles ataques mucho antes de que se produzcan.
+respuesta:a
+
+
+
+Los objetivos de seguridad se basan en el concepto de:
+a)Confidencialidad.
+b)Disponibilidad.
+c)Integridad.
+d)Todas las respuestas son correctas.
+Respuesta correcta d.
+
+La seguridad a nivel físico:
+a)Es tan importante como la del nivel de red a la hora de proteger los recursos de un sistema.
+b)No es muy importante.
+c)Es tan importante como la del nivel de administrador a la hora de proteger los recursos de un sistema.
+d)Puede ser muy importante, pero solo si los recursos están distribuidos en un minimo de 100 servidores.
+Respuesta correcta a.
+
+Para asegurar un servidor tenemos que dejar solamente:
+a)Aplicaciones necesarias.
+b)Servicios necesarios.
+c)Puertos necesarios.
+d)Todas las respuestas son correctas.
+Respuesta correcta d.
+
+Un cortafuegos:
+a)Evita que se produzcan incendios en la sala de servidores.
+b)Realiza llamada automática a los bomberos en caso de que las temperaturas excedan de cierto límite.
+c)Protege el sistema de accesos indebidos.
+d)Solo es posible configurarlo si el servidor utiliza un sistema operativo basado en Linux.
+Respuesta correcta c.
+
+
+
+
+1) Qué significa asegurar un servidor:
+a) Realizar acciones para intentar proteger de cualquier situación de peligro.
+b) Solo, implementar un cortafuegos.
+c) Asegurarlo ante cualquier siniestro físico.
+d) Implementar medidas para protegerlo de ataques.
+Repuesta correcta: a
+
+2) El objetivo de un cortafuegos es:
+a) Filtrar el tráfico entrante.
+b) Denegar el tráfico entrante.
+c) Filtrar el tráfico, tanto el que entra como el que sale.
+d) Filtrar el tráfico saliente.
+Respuesta correcta: c
+
+
+
+    Los procedimientos de identificación (que comprueban si un individuo es reconocido por los sistemas de seguridad de la granja web son:
+
+a) Cortafuegos.
+b) Router.
+c) Servidor web y servidor de BD.
+d) Todas son correctas.
+
+Respuesta correcta: d)
+
+    ¿Qué procedimientos de autenticación se suelen usar para identificar a los usuarios?
+
+a) Una clave o PIN.
+b) Una tarjeta física que incluirá la clave.
+c) Un escáner de retina, huella dactilar o ADN.
+d) Todas son correctas.
+
+Respuesta correcta: d)
+
+
+
+1. ¿Por que es importante para asegurar un servidor eliminar cuentas y grupos de usuarios no necesarios?
+a. Porque esos usuarios podrán entrar en otro momento cuando no estés en la empresa
+b. Porque ocupan espacio y eso hace mas inseguro nuestro servidor
+c. Porque las cuentas por defecto pueden ser aprovechadas fácilmente por cualquier hacker malicioso
+d. Ninguna es correcta
+Respuesta correcta: c
+
+2. ¿Que prácticas son recomendadas para mantener la seguridad de nuestro servidor?
+a. Tener un sistema de copias de seguridad automatizado
+b. Que el software de copia de seguridad verifique los datos una vez grabados.
+c. Guardar las copias de seguridad en un lugar seguro, como en un local diferente al que alberga los servidores.
+d. Todas las anteriores son correctas.
+Respuesta correcta: d
+
+
