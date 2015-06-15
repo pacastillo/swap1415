@@ -775,3 +775,32 @@ d)Todas las anteriores son correctas.
 Respuesta correcta: a
 
 
+
+
+A la hora de implementar y configurar un cortafuegos :
+a) Necesita la instalación de servidores redundantes.
+b) Es una labor tediosa y complicada y por eso no se suele llevar a cabo.
+c) No oculta información de los servidores a otras redes.
+d) Realiza un consumo excesivo de recursos, reduciendo el tráfico global
+que un servidor recibirá.
+Correcta: a) Necesita la instalación de servidores redundantes.
+
+Una practica de seguridad recomendada es :
+a) Mantener todos los servicios que el servidor no utiliza, por si alguna vez hiciesen
+falta.
+b) No usar ningún tipo de balanceador ya que con ello no evitamos ningún tipò de ataque.
+c) Tener un sistema de copias de seguridad automatizado.
+d) Todas las anteriores son falsas.
+Correcta: c) Tener un sistema de copias de seguridad automatizado. 
+
+
+
+Tenemos una Raspberry Pi con el liviano gestor de descargas PyLoad instalado. Queremos acceder a él desde fuera de casa para poder mandar ficheros a descargar siempre que tengamos la oportunidad, pero después de configurarlo todo, vemos que el cortafuegos bloquea el tráfico... ¿Qué orden de iptables debemos ejecutar para conseguir conectarnos a PyLoad? El puerto de la interfaz remota es el 7227.
+NOTA: Suponer que las órdenes las ponemos en un script o similar, para que no haya problemas de orden de las reglas.
+    iptables -A OUTPUT -p tcp --dport 7227 -j ACCEPT
+    iptables -A INPUT -p tcp --dport 7227 -j DROP
+    iptables -A OUTPUT -p tcp --dport 7227 -j DROP
+    iptables -A INPUT -p tcp --dport 7227 -j ACCEPT
+Respuesta correcta: 4
+
+
