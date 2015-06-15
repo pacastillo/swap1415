@@ -278,3 +278,75 @@ Respuesta: C
 
 
 
+    Sobre políticas de seguridad:
+
+    a) Los servidores deben de estar protegidos mediante contraseñas de BIOS y de consola.
+
+    b) Cualquier gran sistema tendrá al menos una subred.
+
+    c) Se pueden usar cuentas de administración para todo tipo de tareas de las aplicaciones.
+
+    d) Cuando cualquier persona que usaba una cuenta de administración deje el trabajo, debe proporcionar toda la información de la cuenta para que pueda ser reutilizada.
+
+    respuesta correcta: a
+
+    Sobre cortafuegos:
+
+    a) Controlan protocolos de aplicación, como HTTP, FTP, ssh o telnet. Esto se consigue configurando reglas relativas a ciertos puertos.
+
+    b) Permiten la comunicación entre dos servidores, el tráfico (paquetes) siempre fluirá entre ambos.
+
+    c) Nos muestra la verdadera dirección del servidor, actuando como un proxy.
+
+    d) Permite que todos los servidores de la red sean accesibles para cualquier usuario.
+
+    respuesta correcta: a
+
+
+
+
+
+
+Son practicas de seguridad recomendadas:
+
+a) Hacer copias de seguridad en el mismo lugar que alberga los servidores.
+
+b) Tener solo un sistema de seguridad perimetral.
+
+c) Poseer protección del sistema a diferentes niveles.
+
+d) Todas son correctas.
+
+Respuesta: c
+
+A nivel de seguridad de administrador:
+
+a)Se recomienda guardar los credenciales de estas cuentas en un lugar accesible por si esta alguna vez es olvidada.
+
+b)Se recomienda no usar nunca estas cuentas de administración para tareas de las aplicaciones en que no sean imprescindibles..
+
+c)Se recomienda siempre usar siempre estas cuentas pues son de mayor seguridad.
+
+d)Se recomienda no permitir ninguna de estas cuentas en el sistema.
+
+Respuesta: b
+
+
+
+¿En qué conceptos básicos se basa la seguridad web?
+    A)Confidencialidad, Integridad
+    B)Evitar Hackers
+    C)Confidencialidad, Integridad, Disponibilidad
+    D)Integridad, Disponibilidad
+Respuesta correcta:C
+
+¿Qué tipos de ataque entre otros podría evitar un balanceador de carga?
+    A) TCP SYN, DOS, Ping of Dath, Teardrop, IP Spoofing
+    B) El balanceador no protege de nada!
+    C) Solo nos ayuda ante un man in the middle
+    D) TCP SYN, DOS, Ping of Dath
+Respuesta correcta:A
+
+
+
+
