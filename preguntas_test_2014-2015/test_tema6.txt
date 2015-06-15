@@ -880,3 +880,34 @@ Solución: D) No actualizar para evitar la aparición de nuevas vulnerabilidades
 
 
 
+1) ¿Qué propósito tiene la defensa en profundidad?
+A) Establecer distintos niveles para así encapsular código.
+B) Descubrir las verdaderas intenciones que se encuentran detrás del ataque.
+C) Adquirir todo el conocimiento disponible en la red sobre seguridad.
+D) Añadir más niveles para ponérselo más difícil al hacker y así ganar tiempo para evitar el ataque.
+La respuesta correcta es: D
+
+2) El comportamiento que hemos de configurar en el cortafuegos por defecto es...
+A) Permitir pasar todo el tráfico que le llegue.
+B) Enviar un mensaje de aceptación al emisor, para que sepa que su petición ha sido aceptada.
+C) Rechazar todo el tráfico que le llegue.
+D) Rechazar exclusivamente el tráfico UDP.
+La respuesta correcta es: C
+
+
+
+1. ¿Qué tipo de seguridad no se corresponde a nivel físico?
+a) Organizar los administradores por aplicación.
+b) Ubicación de los servidores y elementos críticos de red
+c) Seguridad general de hardware.
+d) Contraseñas de BIOS y de consola
+Respuesta correcta: a
+
+2. ¿Qué tarea no realiza un cortafuegos?
+a) Bloquear y filtrar paquetes.
+b) Control del tráfico de red a nivel de protocolo de red
+c) Ocultar la verdadera dirección del servidor.
+d) Eliminar servicios no necesarios.
+Respuesta correcta: d
+
+
