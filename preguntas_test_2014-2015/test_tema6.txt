@@ -36,4 +36,72 @@
         correcta: b
 
 
+1. Un cortafuegos es...
+a) Un sistema que protege de incendios para que los equipos no se deterioren.
+b) Un sistema que envía una alarma al administrador si se elevan las temperaturas donde se encuentran los equipos.
+c) Un sistema que protege de accesos indebidos.
+d) Ninguna de las anteriores.
+CORRECTA: C
+2. ¿ Qué tarea NO realiza el cortafuegos?
+a) Controla el tráfico de red a nivel de protocolo de red(TCP o UDP).
+b) Controla protocolos de aplicación( como http ó FTP).
+c) Muestra la verdadera dirección del servidor, para que cualquiera pueda acceder.
+d)Protege los servidores y aplicaciones de ataques.
+CORRECTA: C
+3. El balanceador ... :
+a) No puede mantener listas negras. Es muy costoso.
+b) Sólo puede incluir IP individuales a la lista negra.
+c) No puede evitar ataques de sitios concretos.
+d) Puede limitar o denegar el acceso a listas de IP monitorizando el origen,
+destino o puerto del tráfico.
+CORRECTA: D
+
+
+Los objetivos principales de seguridad son:
+a) Confidencialidad e integridad.
+b) Confidencialidad, integridad y disponibilidad.
+c) Confidencialidad, integridad y escalabilidad.
+d) Integridad, escalabilidad y ancho de banda.
+Respuesta correcta: b
+
+
+
+1.- ¿ Cual de las siguientes afirmaciones es incorrecta sobre asegurar el sistema web?
+a) A nivel de red, un dominio compartido se compone de un acceso seguro de la granja web y otro inseguro (Internet).
+b) Cuando se da de baja a un usuario, su cuenta debe ser eliminada completamente aunque perjudique el desarrollo de una aplicación.
+c) Con solo tener los routers y cortafuegos correctamente configurados tendremos el sistema bien asegurado.
+d) Los servidores deben tener sus propias contraseñas de BIOS y consola.
+respuesta correcta: C
+
+2.- ¿Cual es la finalidad principal de la defensa en profundidad?
+a) Identificar a los intrusos para denunciarlos a las autoridades.
+b) Tener varios niveles de seguridad e incrementar el tiempo necesario para superar cada uno de ellos.
+c) Atraer a los atacantes simulando ser sistemas vulnerables y liberar a los sitemas reales. A estos sistemas se les denomina "honeypot".
+d) Estudiar a los atacantes para poder atacarlos a ellos.
+respuesta correcta: B
+
+
+Al asegurar un servidor, ¿qué no debemos hacer?
+a) Eliminar cuentas de usuario no necesarias. Pueden ser aprovechadas por algún hacker malicioso.
+b) Renombrar la cuenta de administrador e invitado.
+c) No actualizar el sistema operativo. Cada vez se hace más pesado y tiende a ir más lento. 
+d) Eliminar servicios de red no necesarios. Pueden representar un agujero de seguridad.
+respuesta correcta: C
+
+
+El éxito de un sitio web depende de...
+a) La seguridad
+b) La seguridad a nivel físico solamente
+c) La seguridad a nivel de red solamente
+d) Ninguna de las anteriores
+Respuesta correcta: A
+
+¿Los servidores donde deben estar ubicados?
+a) En la misma oficina
+b) En un espacio aislado, pero sin ser de acceso controlado (no es necesario)
+c) En un espacio aislado, de acceso controlado y bien diferenciado del resto de la oficina
+d) En un espacio aislado, de acceso controlado pero sin necesidad de estar bien diferenciado del resto de la oficina
+Respuesta correcta: C
+
+
 
