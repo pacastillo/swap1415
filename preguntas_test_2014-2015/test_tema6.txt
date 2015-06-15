@@ -673,3 +673,105 @@ d) Mantener un equipo de seguridad anualmente sobre nuevos agujeros de seguridad
 Respuesta correcta: B 
 
 
+
+
+Según se vió en el tema 6, ¿qué niveles a los que aplicárseles políticas de seguridad se contemplan?
+A) Nivel Físico, Nivel de Red, Nivel de Administrador, Nivel de aplicaciones (cuentas de servicios)
+B) Nivel Físico, nivel lógico, nivel de red, nivel de aplicación
+C) Nivel Físico, Nivel de red, nivel de transporte, nivel de sesión
+D) Nivel Físico, Nivel de aplicación, nivel de presentación, nivel de transporte, nivel de red
+Respuesta Correcta: A
+
+A la hora de configurar un cortafuegos, lo idóneo sería...:
+A) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico permitido y de intentos de acceso para estudiar más tarde posibles ataques
+B) Distinguir grupos de reglas por tipo de tráfico, permitir por defecto el tráfico, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico permitido y de intentos de acceso para estudiar más tarde posibles ataques
+C) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en ambos sentidos, definir reglas por cada ip, mantener logs del tráfico no permitido y de intentos de acceso para estudiar más tarde posibles ataques
+D) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico no permitido y de intentos de acceso para estudiar más tarde posibles ataques
+Respuesta correcta: D
+
+
+
+Un cortafuegos…
+a) Protege el sistema de virus
+b) Protege el sistema de accesos indebidos (Respuesta correcta)
+c) Protege al sistema de altas temperaturas
+d) Todas son falsas
+
+El balanceador de carga puede evitar cierto tipo de ataques…
+a) TCP SYN
+b) Denegación de servicio
+c) Ping of death
+d) Todas son correctas( Respuesta correcta>
+
+
+
+1) ¿Cuales son los niveles que existen en políticas de seguridad?
+a) Seguridad a nivel físico, seguridad a nivel de red y seguridad a nivel de replicación.
+b) Seguridad a nivel físico, de red, administrativo y de aplicaciones.
+c) Seguridad a nivel de red, administrativo y de cuentas de servicios.
+d) Ninguna es cierta.
+respuesta correcta: B
+2) El objetivo de un cortafuegos es...
+a) Facilitar al administrador el permitir o denegar el acceso a los puertos.
+b) Protege al sistema de accesos indebidos.
+c) Administrar los puertos por los que los usuarios se va a conectar.
+d) Proteger al sistema de virus.
+respuesta correcta: B
+
+
+
+Que tarea de las siguientes no la lleva a cabo el cortafuegos:
+
+a) Bloquear y filtrar paquetes de red.
+
+b) Controlar protoclos de aplicación.
+
+c) Dar nombres de dominio.
+
+d) Ocultar la verdadera dirección del servidor.
+
+respuesta correcta: C
+
+¿Dónde no actúan los procesos de identificación en una granja web?:
+
+a) Cortafuegos.
+
+b) Router.
+
+c) Servidor DNS.
+
+d) Servidor web.
+
+respuesta correcta: C
+
+
+
+1) ¿Cuáles son los objetivos de seguridad?
+a) Confidencialidad e integridad
+b)Confidencialidad,integridad,redundancia
+c)Disponibilidad,Integridad,Confidecialidad
+d)Disponibilidad,Confidencialidad
+Respuesta correcta: c
+
+2)¿En qué niveles se aplican diferentes politicas de seguridad?
+a)Nivel físico,a nivel de red, a nivel administrador
+b)Nivel de red,nivel administrador
+c)Cuentas de servicios,nivel administrador
+d)Nivel físico,nivel de red,nivel administrador,cuentas de servicios.
+Respuesta correcta: d
+
+3)¿Cuál o cuales son correctas?
+a)Configurar el cortafuegos completamente independiente del resto de recursos.
+b)La máquina cortafuegos puede ejecutar otro software junto al cortafuegos.
+c)Permitir acceso desde internet para administrar el cortafuegos.
+d)Ninguna de las anteriores es correcta.
+Respuesta correcta: a
+
+4)¿Qué accion o acciones se toman para asegurar un servidor?
+a)Eliminar servicios no necesarios.
+b)Instalar drivers aunque no sean necesarios.
+c)No usar filtros TCP/IP
+d)Todas las anteriores son correctas.
+Respuesta correcta: a
+
+
