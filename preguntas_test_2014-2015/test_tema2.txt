@@ -67,10 +67,10 @@ d) A veces bastaría con una ampliación escalada
 Respuesta correcta: C
 
 ¿Que entendemos por alta disponibilidad?
-    Capacidad del servidor de aceptar visitas las 24h todos los días
-    Capacidad del servidor de aceptar visitas 13h todos los días
-    Capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse a un nivel de carga nuevo
-    Ninguna es correcta
+Capacidad del servidor de aceptar visitas las 24h todos los días
+Capacidad del servidor de aceptar visitas 13h todos los días
+Capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse a un nivel de carga nuevo
+Ninguna es correcta
 Respuesta correcta: 1
 
 ¿Que significa "Tiempo de no-disponibilidad programado"?
@@ -152,11 +152,11 @@ La respuesta correcta es B
         D: Ninguna es correcta
     Respuesta: A
 
-    Pregunta 2 ¿Que es lo que mide la Escala .9?
-        A: Mide el tiempo que esta nuestro servidor operativo en tanto por ciento
-        B: Mide la velocidad de respuesta de un servidor WEB a las peticiones de un cliente
-        C: Mide de manera logarítmica la cantidad de paginas WEB servidas en un año por un servidor WEB
-        D: Ninguna es correcta
+¿Qué que mide la escala .9?
+a) Mide el tiempo que esta nuestro servidor operativo en tanto por ciento
+b) Mide la velocidad de respuesta de un servidor WEB a las peticiones de un cliente
+c) Mide de manera logarítmica la cantidad de paginas WEB servidas en un año por un servidor WEB
+d) Ninguna es correcta
     Respuesta: A
 
     Pregunta 3 ¿Como se suele implementar la escalabilidad?
@@ -194,7 +194,7 @@ Respuesta correcta:A
     D)Con un 98% apenas es perceptible, hablamos de segundos
 Respuesta correcta:C
 
-1. ¿Cuál de estos algoritmos no es un algoritmo de balanceo?
+¿Cuál de estos algoritmos no es un algoritmo de balanceo?
 a) Según el tiempo de respuesta.
 b) Round-Robin.
 c) Minimax.

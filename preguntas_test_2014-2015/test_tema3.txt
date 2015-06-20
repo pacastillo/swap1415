@@ -86,11 +86,11 @@ Respuesta correcta: 2
     Configuración DMZ doble
 Respuesta correcta: 4
 
-¿Qué servicios NO se ofrecen por el front-rail?
-    SMTP
-    HTTP
-    Bases de datos
-    FTP
+¿Qué servicios NO se suelen ofrecen por el front-rail?
+a) SMTP
+b) HTTP
++c) Bases de datos
+d) FTP
 Respuesta correcta: 3
 
 ¿Qué dos tipos de servidores hay?
@@ -100,11 +100,11 @@ Respuesta correcta: 3
     Ninguna es correcta
 Respuesta correcta: 1
 
-¿De que factor o factores depende la conexión a internet para asegurar la calidad de servicio y la seguridad?
-    Filtrado y bloqueo de paquetes
-    Network address translation (NAT)
-    Calidad del servicio y ancho de banda
-    Todas son correctas
+¿De qué factor o factores depende la conexión a Internet para asegurar la calidad de servicio y la seguridad?
+a) Filtrado y bloqueo de paquetes
+b) Network address translation (NAT)
+c) Calidad del servicio y ancho de banda
++d) Todas son correctas
 Respuesta correcta: 4
 
 ¿A quien dan servicio las maquinas conectadas a la subred trasera?

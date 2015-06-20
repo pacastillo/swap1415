@@ -26,7 +26,7 @@
 
         correcta: d
 
-4.¿Que aspectos garantizan que nuestrosistema sea seguro?
+4.¿Que aspectos garantizan que nuestro sistema sea seguro?
 
      a) No repudio e integridad.
      b) Confidencialidad,Disponibilidad y integridad.
@@ -43,17 +43,17 @@ c) Un sistema que protege de accesos indebidos.
 d) Ninguna de las anteriores.
 CORRECTA: C
 2. ¿ Qué tarea NO realiza el cortafuegos?
-a) Controla el tráfico de red a nivel de protocolo de red(TCP o UDP).
-b) Controla protocolos de aplicación( como http ó FTP).
+a) Controla el tráfico de red a nivel de protocolo de red (TCP o UDP).
+b) Controla protocolos de aplicación (como HTTP ó FTP).
 c) Muestra la verdadera dirección del servidor, para que cualquiera pueda acceder.
 d)Protege los servidores y aplicaciones de ataques.
 CORRECTA: C
-3. El balanceador ... :
+
+El balanceador ... :
 a) No puede mantener listas negras. Es muy costoso.
 b) Sólo puede incluir IP individuales a la lista negra.
 c) No puede evitar ataques de sitios concretos.
-d) Puede limitar o denegar el acceso a listas de IP monitorizando el origen,
-destino o puerto del tráfico.
+d) Puede limitar o denegar el acceso a listas de IP monitorizando el origen, destino o puerto del tráfico.
 CORRECTA: D
 
 
@@ -66,10 +66,10 @@ Respuesta correcta: b
 
 
 
-1.- ¿ Cual de las siguientes afirmaciones es incorrecta sobre asegurar el sistema web?
+¿Cuál de las siguientes afirmaciones es incorrecta sobre asegurar el sistema web?
 a) A nivel de red, un dominio compartido se compone de un acceso seguro de la granja web y otro inseguro (Internet).
-b) Cuando se da de baja a un usuario, su cuenta debe ser eliminada completamente aunque perjudique el desarrollo de una aplicación.
-c) Con solo tener los routers y cortafuegos correctamente configurados tendremos el sistema bien asegurado.
+b) Cuando se da de baja a un usuario, su cuenta debe ser eliminada completamente aunque afecte al desarrollo de una aplicación.
++c) Con solo tener los routers y cortafuegos correctamente configurados tendremos el sistema bien asegurado.
 d) Los servidores deben tener sus propias contraseñas de BIOS y consola.
 respuesta correcta: C
 
@@ -116,14 +116,11 @@ c) Eliminar cuentas y grupos de usuarios no necesarios, renombrar las cuentas de
 d) Eliminar servicios no necesarios, establecer politicas de seguridad, eliminar los drivers que no sean necesarios.
 
 Respuesta correcta: d)
+
 Un cortafuegos sirve para:
-
 a) Bloquear y filtrar paquetes de red, como antivirus, para ocultar los servidores finales a otras redes.
-
-b) Bloquear y filtrar paquetes de red, controlar protocolos de aplicación, proteger los servidores y aplicaciones de ataques.
-
++b) Bloquear y filtrar paquetes de red, controlar protocolos de aplicación, proteger los servidores y aplicaciones de ataques.
 c) Proteger los servidores y aplicaciones de ataques, bloquear y filtrar paquetes de red y como antivirus.
-
 d) Controlar protocolos de aplicación, ocultar los servidores finales a otras redes, como VPN.
 
 Respuesta correcta: b)
@@ -182,15 +179,12 @@ D) Eliminar los drivers de red que no sean necesarios.
 
 Respuesta correcta: B
 
+
 Hay que configurar el cortafuegos de tal modo que...
-
-A) Acepte conexiones directas a él.
-
-B) Se pueda acceder a él desde internet.
-
-C) No registremos la ip del cortafuegos en ningún servicio DNS
-
-D) Ejecute cualquier software, aunque no esté relacionado con las funciones del cortafuegos.
+a) acepte conexiones directas a él.
+b) se pueda acceder a él desde internet.
++c) no registremos la IP del cortafuegos en ningún servicio DNS
+d) ejecute cualquier software, aunque no esté relacionado con las funciones del cortafuegos
 
 Respuesta correcta: C
 
@@ -357,12 +351,11 @@ c)Bloquear y filtrar paquetes
 d)Proteger los servidores y aplicaciones de ataques
 Respuesta: A
 
-2.En Iptables ¿Cúal de los siguientes comandos no nos permite transmitir ficheros mediante
-SSH a nuestro servidor (sftp)?
-a)iptables -A INPUT -p tcp --dport 21 -j ACCEPT
-b)iptables -A INPUT -p tcp --dport 3306 -j DROP
-c)iptables -A INPUT -p tcp --dport 22 -j DROP
-d)iptables -A INPUT -p tcp --dport 21 -j DROP
+En iptables ¿cúal de los siguientes comandos no nos permite transmitir ficheros mediante SSH a nuestro servidor (sftp)?
+a) iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+b) iptables -A INPUT -p tcp --dport 3306 -j DROP
++c) iptables -A INPUT -p tcp --dport 22 -j DROP
+d) iptables -A INPUT -p tcp --dport 21 -j DROP
 Respuesta: C
 
 

@@ -17,12 +17,11 @@
 
         correcta: c
 
-3.VIP
-
-     a) Direccion privada a la que acceden los usuarios 
-     b) Direccion publica a la que acceden los usuarios
-     c) Persona muy importante
-     d) direccion a la que solo tienen acceso los administradores
+En el ámbito de los servidores web de altas prestaciones, ¿qué significan las siglas VIP?
+a) Dirección privada a la que acceden los usuarios 
++b) Dirección pública a la que acceden los usuarios
+c) Persona muy importante
+d) Dirección a la que sólo tienen acceso los administradores
 
         correcta: b
 
@@ -41,9 +40,9 @@ c) Balanceo basado en tiempo por respuesta.
 d) Todas son correctas.
 CORRECTA: D.
 
-3.En el algoritmo round-robin..:
-a) El servidor se denomina round y el balanceador roubin.
-b) Iguala los potenciales de las máquinas a el menor potencial que ya exista.
+En el algoritmo round-robin...
+a) El servidor se denomina Round y el balanceador Robin.
+b) Iguala los potenciales de las máquinas al menor potencial que ya exista.
 c) Iguala todos los potenciales de las máquinas a el mayor potencial que exista.
 d) Supone todas las máquinas con la misma potencia.
 CORRECTA:D
@@ -63,19 +62,19 @@ c) Mantener el tráfico de un usuario en el servidor que lo atendió primero.
 d) Que las aplicaciones no se actualicen a una nueva versión.
 respuesta correcta: C
 
-2.- ¿Qué intenta conseguir el balanceo de carga global? :
+¿Qué intenta conseguir el balanceo de carga global?
 a) Distribuir carga de trabajo entre centros de datos.
 b) Disminuir tiempos de conexión.
 c) Redundancia.
-d) Todas son correctas.
++d) Todas son correctas.
 respuesta correcta: D
 
 
-Pregunta 1: El balanceo de carga consiste en interceptar el tráfico para redirigirlo a varios servidores. Indica cual de las siguientes es una tecnología similar:
+El balanceo de carga consiste en interceptar el tráfico para redirigirlo a varios servidores. Indica cual de las siguientes es una tecnología similar:
 a) Balanceo de carga en cortafuegos
 b) Balanceo de carga global
 c) Clustering
-d) Todas las anteriores
++d) Todas las anteriores
 Respuesta correcta: d
 
 Pregunta 2: Con respecto al Balanceo de carga global, supone una mejora en:
@@ -108,11 +107,11 @@ c) Un dispositivo hardware y software que distribuye el tráfico entre varios se
 d) Ninguna de las anteriores es correcta.
 La respuesta correcta es la c).
 
-El algoritmo de balanceo de carga round robin...
-a) No es efectivo nunca.
-b) Reparte el trabajo segun la utilización de cada máquina.
-c) Con él, podemos asignar un peso a cada máquina.
-d) Es efectivo cuando todas las maquinas tienen la misma potencia y si vamos a servir servicios sencillos.
+Respecto al algoritmo de balanceo de carga round-robin...
+a) No resulta efectivo nunca, ya que asigna un peso a cada máquina.
+b) El servidor se denomina Round y el balanceador Robin.
+c) Reparte el trabajo según la utilización de cada máquina.
++d) Es efectivo cuando todas las maquinas tienen la misma potencia y si vamos a servir servicios sencillos.
 La respuesta correcta es la d).
 
 

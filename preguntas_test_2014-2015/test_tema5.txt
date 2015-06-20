@@ -8,11 +8,11 @@ d) Inicia la conexión UDP enviando un paquete UDP SYN
 al puerto 8080 del servidor web.
 CORRECTA: C
 
-2.El número de conexiones concurrentes está delimitado por...:
+El número de conexiones concurrentes está limitado por...
 a) Por la memoria del dispositivo.
 b) Por el procesador del dispositivo.
 c) Por los puertos que dispone el dispositivo.
-d) A y B son correctas.
++d) a) y b) son correctas.
 CORRECTA: D.
 
 3.El rendimiento se puede calcular como.. :
@@ -22,10 +22,11 @@ c) rendimiento = (ratio_transm_paquetes) - (payload)!
 d) rendimiento = (ratio_transm_paquetes) + (payload)!
 CORRECTA: A.
 
-¿Qué métricas se utilizan para medir las prestaciones de un sistema web? a) Conexiones por segundo.
+¿Qué métricas se utilizan para medir las prestaciones de un sistema web? 
+a) Conexiones por segundo.
 b) Número total de conexiones concurrentes.
 c) Rendimiento en bits por segundo.
-d) Todas las anteriores son correctas.
++d) Todas las anteriores son correctas.
 Respuesta correcta: d.
 
 1.- ¿ Cual de las siguientes afirmaciones es verdadera respecto al tráfico HTTP ?
@@ -47,17 +48,19 @@ b) Horas de servicio ininterrumpido
 c) número de conexiones concurrentes
 d) rendimiento (en bits por segundo)
 Respuesta correcta: b
-Pregunta 2: Las pruebas preliminares que se realizan sobre el sistema para comprobar que esta listo para ser testeado reciben el nombre de:
+
+Las pruebas preliminares que se realizan sobre el sistema para comprobar que esta listo para ser testeado reciben el nombre de:
 a) Carga o Load
 b) Capacidad o Capacity
-c) Humo o Smoke
++c) Humo o Smoke
 d) Sobrecarga u Overload
 Respuesta correcta: c
-Pregunta 3: Las pruebas pruebas que se realizan para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema reciben el nombre de:
+
+Las pruebas pruebas que se realizan para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema reciben el nombre de:
 a) Estabilidad o Stability
 b) Capacidad o Capacity
 c) Carga o Load
-d) Estrés o Stress
++d) Estrés o Stress
 Respuesta correcta: d
 
 HTTP 1.1:
@@ -277,14 +280,10 @@ D) Todas las anteriores son correctas.
 Respuesta correcta: C
 
 El paquete típico tiene un tamaño máximo de...
-
-A) 2KB
-
-B) 1.5KB
-
-C) 2MB
-
-D) 1.5MB
+a) 2KB
++b) 1.5KB
+c) 2MB
+d) 1.5MB
 
 Respuesta correcta: B
 
