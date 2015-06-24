@@ -1,2 +1,744 @@
 
+1. A la hora de buscar cuellos de botella en memoria..:
+a) Se recomienda no poner caché. Así consumiremos menos recursos. Así , nunca nos faltará memoria RAM:
+b) Se recomienda poner una caché pequeña(sin contenido estático) para que no falte memoria RAM.
+c) Se recomiendoa poner una caché grande (para contenido estático).Si falta memoria, incrementar RAM y optimizar objetos.
+d) Ninguna de las anteriores.
+CORRECTA: C.
+2. A la hora de buscar cuellos de botella en CPU..:
+a) Debemos vigilar la carga y mantenerla sobre el 50%( Nunca cerca del 100%).
+b) Debemos vigilar la carga y mantenerla sobre el 90%( lo más cerca posible del 100%).
+c) Debemos vigilar la carga y mantenerla por debajo del 10% (nunca superior al 10%).
+d) Ninguna de las anteriores.
+CORRECTA: A
+
+¿Cuál de estas afirmaciones se corresponde con la regla 80-20?
+
+    El 80% de la carga la gestiona el 20% del hardware disponible.
+    El 80% del tráfico web corresponde al 20% de las páginas almacenadas.
+    El 80% de las personas que leen esta pregunta no saben qué contestar.
+    El 80% de las webs está alojada en el 20% de la memoria masiva del sistema.
+
+Respuesta correcta: 2
+
+
+1.- En una granja web nos bastará con tener...
+a) Escáneres e impresoras.
+b) Altas cantidades de RAM y una CPU potente.
+c) Una CPU potente (supercomputación) pero no demasiada RAM.
+d) Una CPU no demasiada potente y una gran cantidad de memoria RAM.
+respuesta correcta: D
+2.- Respecto a servir contenido dinámico...
+a) Implica ejecutar código de las páginas servidas.
+b) No se puede almacenar contenido en caché.
+c) Hay más riesgos en cuanto a seguridad.
+d) Todas son correctas.
+respuesta correcta: D
+
+
+
+Pregunta 1: En relacción con los elementos de una granja web, ¿Cual de los siguientes es utilizado para almacenamiento?
+a) Arrays de almacenamiento compartido: SSA
+b) Área de almacenamiento en red: SAN
+c) Almacenamiento conectado a la red: NAS
+d) Todas las anteriores
+Respuesta correcta: d
+Pregunta 2: Para estimar la necesidad de ancho de banda que va a tener nuestro servidor, hay que tener en cuenta:
+a) El número de clientes que se conectará al servidor por segundo
+b) La cantidad de bytes que el cliente envia al servidor y la cantidad que el servidor le envia al cliente(petición-respuesta)
+c) El porcentaje de ancho de banda que se reserva para el servidor
+d) Todos los anteriores
+Respuesta correcta: d
+Pregunta 1: ¿Cual del siguiente sotfware para servidores es utilizado para monitorización?
+a) JMeter
+b) OpenSTA
+c) Apache Benchmark
+d) Todos los anteriores
+Respuesta correcta: d
+
+
+
+Para estimar las necesidades de CPU:
+a) El sistema operativo debe consumir cerca del 2% de la capacidad de procesamiento del sistema.
+b) El sistema operativo debe consumir cerca del 10% de la capacidad de procesamiento del sistema. (correcta)
+c) El sistema operativo debe consumir cerca del 30% de la capacidad de procesamiento del sistema.
+d) El sistema operativo debe consumir cerca del 35% de la capacidad de procesamiento del sistema.
+
+
+
+El servidor web tiene unas necesidades como...
+a) El diseño debe permitir el escalado del sistema
+b) Se debe realizar solamente una vez monitorización
+c) El sistema de base de datos debe residir en la misma máquina
+d) Para planear la capacidad del servidor existe una fórmula
+Respuesta correcta: A
+Una vez que se haya montado el sistema:
+a) No es necesario detectar posibles cuellos de botella
+b) No es necesario realizar tests de carga con benchmarks
+c) Es importante monitorizar cómo está funcionando
+d) No es necesario poner el sistema en producción de forma controlada
+Respuesta correcta: C
+
+
+
+
+
+¿Qué tipo de conexión usarías para obtener un elevado ancho de banda en la comunicación en clusters usando la agragación de canales?
+a) Gigabith Ethernet
+b) SCI
+c) Myrinet
+d) InfiniBand
+Respuesta correcta: d)
+
+¿Cómo podríamos detectar cuellos de botella en nuestro sistema?
+a) Realizando un estudio previo de las capacidades del sistema.
+b) Monitorizando su funcionamiento una vez puesto de cara al público.
+c) Monitorizando, realizando test de carga con benchmarks o poniendo el sistema en producción accesible a betatesters.
+d) No es posible detectarlos antes de que se colapsen.
+Respuesta correcta: c)
+
+
+
+
+En una granja web, para conseguir latencias bajas es recomendable...
+
+A) Usar discos de estado sólido de alta velocidad para hacer caching.
+
+B) Tener cuantos más servidores mejor.
+
+C) Configurar el sistema operativo en modo máxima velocidad.
+
+D) Adquirir CPU y RAM que funcionen al máximo de su capacidad en todo momento.
+
+Respuesta correcta: A
+
+¿Qué es Myrinet?
+
+A) Es la red de baja latencia más utilizada en la actualidad. Llega a tener latencias de 99 a 10 μs.
+
+B) Es una conexión de red con las mismas prestaciones que Ethernet con latencias que van desde los 30 a 100 μs.
+
+C) Es un software de almacenamiento de discos en granjas web.
+
+D) Es una red militar
+
+Respuesta correcta: A
+
+
+
+Pregunta 1 ¿Cuál NO es un software de Firewall?
+
+    A: ZoneAlarm
+    B: Vanish FW
+    C: Uncomplicated Firewall
+    D: IpTables
+
+Respuesta: B
+
+Pregunta 2 ¿Cuál NO se puede usar como balanceador de carga?
+
+    A: Apache
+    B: httpref
+    C: Nginx
+    D: HaProxy
+
+Respuesta: B
+
+Pregunta 3 ¿Según la regla cual es el porcentaje de trafico y a cuanto porcentaje de páginas almacenadas corresponde ?
+
+    A: 50% y 50%
+    B: 80% y 20%
+    C: 70% y 30%
+    D: 40% y 10%
+
+Respuesta: B 
+
+
+
+1º ¿Como podríamos sacar un mejor rendimiento teniendo en cuenta la regla 80-20?:
+
+    a) Cuidando que el rango de latencia de respuesta del servidor esté entre 80 y 20 ms.
+
+    b) Balanceando el contenido estatico a un servidor especifico, siendo el 80% de las peticiones de la web.
+
+    c) Cacheando las páginas y recursos más usasdas en la web, normalmente el 20%.
+
+    d) Cuidando que el rango de latencia de respuesta del servidor esté como máximo entre 80 y 20 ms.
+
+    Respuesta Correcta: c 
+
+
+
+
+
+    Cuál de las siguientes afirmaciones sobre conexiones de red Ethernet es la falsa:
+
+    a) Son las redes más utilizadas en la actualidad, debido a su relativo bajo coste. Su tecnología limita el tamaño de los paquetes.
+
+    b) Realizan excesivas comprobaciones de error y sus protocolos no son eficientes, y sus velocidades de transmisión pueden limitar el rendimiento de los clústeres.
+
+    c) La opción más utilizada en la actualidad es Gigabit Ethernet (1 Gbit/s), siendo emergente la solución 10 Gigabit Ethernet (10 Gbit/s).
+
+    d) Como no es la mejor solución de red para un sistema de altas prestaciones, no se suele utilizar para las tareas administrativas.
+
+    respuesta correcta: d
+
+    Cuál de las siguientes afirmaciones sobre conexiones de red InfiniBand es la falsa:
+
+    a) Es una red surgida de un estándar desarrollado específicamente para realizar la comunicación en clústers.
+
+    b) Una de sus mayores problemas es que mediante la agregación de canales (x1, x4 y x12) permite obtener anchos de banda muy bajos.
+
+    c) La conexión básica es de 2 Gbit/s efectivos y con ‘quad connection’ x12 alcanza los 96 Gbit/s.
+
+    d) Se está usando principalmente para acceder a arrays de discos SAS.
+
+    respuesta correcta: b
+
+
+
+
+
+
+Entre los diferentes elementos de hardware de un servidor web, el mas importante de todos es:
+
+a) La CPU.
+
+b) La tarjeta gráfica.
+
+c) Disponer de un buen sistema RAID.
+
+d) La memoria RAM.
+
+Respuesta: d
+
+Entre las tareas que llevará a cabo el servidor web:
+
+a)Ejecutar un sistema operativo.
+
+b)Ejecutar servicios que no tienen que ver con el servidor web.
+
+c)Ejecutar programas externos necesarios para generar el contenido dinámico.
+
+d)Todas son correctas.
+
+Respuesta: d
+
+
+
+
+1. Para determinar los requisitos del sistema puede ayudar...
+a) Estimar el hardware en función de las necesidades de la empresa.
+b) Monitorizar el sistema durante todo el tiempo que esté en uso.
+c) Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial.
+d) Todas las anteriores son correctas.
+Respuesta correcta: D
+2. ... consume pocos recursos, se puede almacenar en caché y presenta pocos riesgos en cuanto
+a la seguridad y el mantenimiento.
+a) Servir contenido estático.
+b) Servir contenido dinámico.
+c) Ambos.
+d) Ninguno.
+Respuesta correcta: A
+
+
+
+¿Qué afirmación es cierta sobre servidores web?
+
+    A)Cuanta más CPU tengamos mejor, la RAM no es tan importante
+    B)Probablemente necesitemos mas RAM que CPU
+    C)Probablemente necesitemos mas CPU que RAM
+    D)Probablemente necesitemos mas RAM que CPU, es recomendable además cachear imágenes usadas con frecuencia.
+
+Respuesta correcta:D
+¿Cuál es el procedimiento adecuado para estimar el hardware necesario?
+
+    A) Coger de más y luego ir quitándo
+    B) Estimar el hardware en función de las necesidades de la empresa. Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial. Monitorizar el sistema durante todo el tiempo que esté en uso.
+    C) Estimar el hardware en función de las necesidades de la empresa. Monitorizar el sistema durante todo el tiempo que esté en uso.
+    D) Escuchar al vendedor
+
+Respuesta correcta:B
+
+
+¿Qué tipo de hardware es un HP ProLiant DL385 G7 6282SE?
+
+    A)Servidor
+    B)Switch
+    C)Unidad de almacenamiento
+    D)Impresora
+
+Respuesta correcta:A
+¿Quien lanzó el Open Compute Project?
+
+    A) Google
+    B) Facebook
+    C) IBM
+    D) Samsung
+
+Respuesta correcta:B 
+
+
+
+1. ¿Cuál es el máximo de RAM que poseían los servidores de Google en el momento de su creación?
+a)256MB
+b)512MB
+c)128MB
+d)1024MB
+Respuesta: B
+2. ¿Qué es HP Sizer?
+a) Balanceador de carga
+b) Sistema de alimentación ininterrumpida
+c) Herramienta para determinar las necesidades del servidor
+d) Dispositivo de almacenamiento
+Respuesta: C
+
+
+
+1.- En una Granja web, con el almacenamiento...
+
+a) Se puede evitar latencias usando discos de estado sólido de baja velocidad.
+b) No se puede evitar latencias.
+c) Se puede evitar latencias usando discos de estado sólido de alta velocidad.
+d) Ninguna de las anteriores es correcta.
+
+Respuesta: C.
+
+2.- ¿Cuales de los siguiente Sistemas Operativos se usan para montar servidores web de altas prestaciones?
+
+a) GNU/Linux.
+b) FreeBSD.
+c) Mac OS X Server (xgrid).
+d) Todas las respuestas son correctas.
+
+Respuesta: D.
+
+
+
+1) Cual de los siguientes programas no es un servidor:
+a) Node.js
+b) Apache
+c) httperf
+d) thttpd
+Correcta: c
+2) A la hora de estudiar las necesidades de un servidor web:
+a) La red debe ser el elemento en el que más debemos centrarnos, al ser el más importante
+b) Lo crucial es que las operaciones de disco sean rápidas, pues es el cuello de botella de todo sistema.
+c) Se debe estudiar las necesidades concretas del servidor atendiendo al tráfico que va a recibir.
+d) Todos los elementos del sistema deben ser los mejores del mercado, a cualquier precio.
+Correcta: c
+
+
+
+
+1. ¿Cuál de estas tecnologías de conexión de red es más utilizada en clústeres?
+a) Gigabit Ethernet
+b) Myrinet
+c) InfiniBand
+d) SCI
+RESPUESTA CORRECTA: (b)
+2. ¿Cuál de estas compañías lanzó el proyecto Open Compute en 2011?
+a) Google
+b) Microsoft
+c) Facebook
+d) Yahoo!
+RESPUESTA CORRECTA: (c)
+
+
+
+
+1-Con respecto a nuestros servidores de la granja web cual de las siguientes afirmaciones NO es correcta:
+
+A)Conviene cachear las imágenes más comunes , así las páginas que las muestren se servirán más rápido , haciendo que el tiempo medio de servicio sea más rapido.
+
+b)Debemos asegurarnos tener máquinas con gran cantidad de RAM , expandible a un máximo que vendrá dado en función del tamaño estimado de ese conjunto de páginas más populares.
+
+c)Los servidores web necesitan una capacidad de procesamiento especialmente alta , ya que los servicios HTTP consumen demasiada CPU.
+
+d)Todas las anteriores son correctas.
+
+Respuesta correcta : C.
+
+2-Cual de las siguientes afirmaciones NO es correcta respecto a que parámetros hay que determinar para estimar el ancho de banda :
+
+A)El porcentaje del ancho de banda que se reserva para el servidor web
+
+B)El número de bytes que el cliente enviará al servidor en cada petición.
+
+C)El número de bytes que el servidor enviará al cliente en cada petición.
+
+D)Todas las anteriores son correctas.
+
+Respuesta correcta:D. 
+
+
+
+
+1-Los arrays de almacenamiento compartido(SSA)..
+a) son dispositivos específicos que incluyen varios discos en rack
+b) son una red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores
+c) son un dispositivo que actúa como un servidor de ficheros, pero ahorrando los recursos de tener una máquina más
+d) todas son falsas
+respuesta: a
+2-El Switch Mellanox M3601Q InfiniBand...
+a)Reduce o elimina las situaciones de congestión mediante el enrutamiento estático
+b)Admite mecanismos de control de congestión IBTA 1.2.
+c)Garantiza un ancho de banda alto y una latencia baja para el resto de los flujos
+d)Todas son verdaderas
+respuesta: d
+
+
+
+1) ¿Qué protocolo es el más utilizado comúnmente para evitar latencias en la granja web?
+
+A) SSA
+
+B) NFS
+
+C) SAN
+
+D) NAS
+
+Respuesta correcta: B
+
+2) ¿Qué nos permite el análisis de los logs del servidor?
+
+A) Descubrir posibles ataques.
+
+B) Determinar qué contenido es el más demandado.
+
+C) Hacer análisis del tipo de usuario y de los patrones de navegación.
+
+D) Todas son correctas
+
+Respuesta correcta: D
+
+
+
+¿Cuál es la característica más importante en servidores?
+a)Potencia de CPU.
+b)Cantidad de memoria RAM.
+c)Cantidad de memoria secundaria.
+d)Calidad de la tarjeta gráfica.
+Respuesta correcta b.
+-----------------------------------------------------------------------------------------------------------------------------------
+Los sitios web siguen la regla:
+a)el 80% del tráfico corresponde al 20% de las páginas almacenadas.
+b)el 40% del tráfico corresponde al 60% de las páginas almacenadas.
+c)el 70% del tráfico corresponde al 30% de las páginas almacenadas.
+d)el 75% del tráfico corresponde al 25% de las páginas almacenadas.
+Respuesta correcta a.
+-----------------------------------------------------------------------------------------------------------------------------------
+Tareas que pueden ayudar a determinar los requisitos de hardware del sistema:
+a)Estimar el hardware en función de las necesidades de la empresa.
+b)Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial.
+c)Monitorizar el sistema durante todo el tiempo que esté en uso.
+d)Todas son correctas.
+Respuesta correcta d.
+-----------------------------------------------------------------------------------------------------------------------------------
+Usar clústers web:
+a)Decrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar.
+b)Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar.
+c)Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software basadas solo en Linux.
+d)Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software basadas solo en Windows.
+Respuesta correcta b.
+
+
+
+1) Lo más importante de un servidor web es:
+a) Capacidad Procesamiento y la memoria RAM.
+b) Almacenamiento y la memoria RAM.
+c) Memoria RAM.
+d) Capacidad Procesamiento.
+Repuesta correcta: c
+2) Para determinar las necesidades de un servidor debemos tener en cuenta:
+a) El presupuesto del que disponemos.
+b) El diseño debe permitir el escalado del sistema.
+c) La seguridad.
+d) El presupuesto y la seguridad.
+Respuesta correcta: b 
+
+
+
+1. ¿Cual es la red de baja latencia mas utilizada hoy en día?
+a. Ethrnet
+b. Myrinet
+c. InfiniBand
+d. Ninguna es correcta
+Respuesta correcta: b
+2. ¿Cual es la red de mas bajo coste?
+a. Ethernet
+b. Myrinet
+c. InfiniBand
+d. Ninguna es correcta
+Respuesta correcta: a
+
+
+
+Los servidores Web… A) no necesitan demasiada capacidad de procesamiento B) la parte de procesamiento es más importante que la cantidad de memoria RAM C) la parte de almacenamiento es la más importante D) ninguna es correcta. Respuesta correcta: A Servir contenido estático A) es más costoso que servir contenido dinámico B) es menos costoso que servir contenido dinámico C) es igual de costoso que servir contenido dinámico D) es menos costoso que servir contenido dinámico pero presenta muchos riesgos en cuanto a seguridad. Respuesta correcta: B
+
+
+
+¿Cuál de los siguientes no es un tipo de clúster?
+
+    A) High Reliability Computing Clusters (HRCC).
+    B) High Performance Computing Clusters (HPCC).
+    C) High Availability Computing Clusters (HACC).
+    D) High Throughput Computing Clusters (HTCC).
+
+Solución: A) High Reliability Computing Clusters (HRCC).
+
+
+
+
+1. ¿Qué elemento incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar?.
+a)No se necesita nada.
+b)Un servidor de alta prestacion.
+c)Clouster web.
+d)Router cisco.
+Respuesta correcta: c)
+2. Para estimar el ancho de banda primero hay que determinar:
+a)El número de clientes que se conectarán al servidor por segundo.
+b)El número de bytes que el cliente enviará al servidor en cada petición.
+c)El número de bytes que el servidor enviará al cliente en cada petición.
+d)Todas son correctas.
+Respuesta correcta: d)
+
+3. ¿Cúal es la intencion de Hardware para servidores: Open Compute?
+a)Es ahorrar en cualquier aspecto posible: se han eliminado logotipos de plástico, tornillos y cualquier trozo de metal del chasis que no sea imprescindible.
+b)No tiene ninguna intencion.
+c)Tiene el fin de rellenar el presupuesto.
+d)Ninguna es correcta.
+Respuesta correcta: a)
+4. ¿Qué se cuida en los centros para servidores de google?
+a)Se cuidan que el nivel de usuarios no baje en los motores de busqueda.
+b)Se cuidan especialmente los sistemas antiincendios, de alimentación y de refrigeración, y se siguen unas normas de seguridad extremas.
+c)Se cuida principalmente la higiene de la sala.
+d)Todas son correctas.
+Respuesta correcta: b)
+
+
+
+
+
+
+1) Dentro de hardware de un servidor web lo más importante es...
+
+A) La potencia de GPU.
+B) El número de puertos USB.
+C) La potencia de CPU.
+D) La memoria RAM.
+
+La respuesta correcta es: D
+
+2) ¿Cuál de las siguientes herramientas software no es para monitorización?
+
+A) JMeter.
+B) Siege.
+C) NginX.
+D) Apache Benchmark.
+
+La respuesta correcta es: C
+
+
+
+
+Primera Pregunta.
+
+¿Cuál de los siguientes elementos es muy importante y vital para los servidores de una granaj web?
+
+    A. La CPU porque tienen que ser capaces de ejecutar tareas costosas en los servicios HTTP.
+    B. La memoria RAM para servir las páginas de la aplicación de una forma rápida que de buena imagen al usuario.
+    C. EL almacenamiento ya que ahí se guardan todos los ficheros de la aplicación.
+    D. La tarjeta de red ya que tiene que haber una buena conexión con Internet.
+
+Respuesta correcta: B.
+Segunda Pregunta.
+
+¿Cuál el el protocolo de almacenamiento más utilizado en la actualidad en las granjas web?
+
+    A. NTFS.
+    B. SSA.
+    C. NAS.
+    D. SAN.
+
+Respuesta correcta: A.
+Tercera Pregunta.
+
+¿Qué tres requisitos pueden ayudar a determinar las necesidades hardware del sistema?
+
+    A. Implantar un hardware genérico (que funcione correctamente) en cualquier empresa y monitorizarlo durante su funcionamiento.
+    B. Adaptarse a las necesidades de la empresa y monitorizar la configuración una vez que esté en funcionamiento.
+    C. Estimar el hardware a partir de las necesidades de la empresa monitorizándolo en busca de posibles cuellos de botella durante la configuración inicial así como durante su funcionamiento.
+    D. Hacerlo con el hardware más potente del mercado, ajustándose al presupuesto de la empresa y monitorizando el sistema una vez que está en funcionamiento.
+
+Respuesta correcta: C.
+Cuarta Pregunta.
+
+En cuanto al software de los servidores que forman la granja web...
+
+    A. No es tan crucial como la configuración hardware así que puede instalarse por defecto.
+    B. Hay que buscar siempre el más potente aunque sea caro.
+    C. Es importante buscar una buena configuración de SO, balanceadores, cortafuegos, etc que optimice el rendimiento de la granja web.
+    D. No afecta al rendimiento de la misma.
+
+Respuesta correcta: C.
+
+
+
+
+¿De que hablamos si nos referimos al termino Myrinet?:
+
+A) De una interfaz de red con latencia de 99 a 10 µs, y un ancho de banda es de 2 a 10 Gbit/s. .
+
+B) De una red científica de altas prestaciones.
+
+C) De un protocolo de transferencia de datos.
+
+D) De un sistema de backup de alta capacidad.
+
+Respuesta correcta: D
+
+¿Cual de los siguientes objetivos no es uno de los principales objetivos del proyecto Open Compute?:
+
+A) Obtener una mayor independencia de los fabricantes.
+
+B) Adquirir equipos a un menor coste eliminando todo aquello que sea innecesario.
+
+C) Adquirir equipos con un diseño mas eficiente y un menor consumo.
+
+D) Lanzarse al mercado como una nueva marca de servidores.
+
+Respuesta correcta: D
+
+
+
+
+¿Qué componente hardware de un servidor dentro de una granja web es de los más importantes?
+A) Disco Duro
+B) CPU
+C) Tarjeta de Red
+D) Memoria Ram
+Respuesta Correcta: D
+Ante un sitio web que albergue más contenido estático que dinámico, lo idóneo sería...
+A) Configurar a un servidor que se encargue únicamente de servir dicho contenido estático, y otro del dinámico
+B) Realizar un estudio detallado de qué contenidos albergará el sitio Web para adquirir Un servidor más potente en consecuencia
+C) Contratar un ancho de banda el doble del necesario para que el contenido estático se transfiriera antes que el contenido dinámico
+D) Ninguna de las anteriores es cierta
+Respuesta Correcta: A
+
+
+
+1) ¿Qué nos ayudará a buscar cuellos de botella?
+a) Realizar benchmarks y comprobar los resultados.
+b) Analizar los logs del servidor.
+c) A y B son ciertas.
+d) Ninguna es correcta.
+respuesta correcta: C
+2) Elementos hardware principales de una granja web.
+a) Servidores, Routers y Balanceadores.
+b) Almacenamiento, Balanceadores y Routers.
+c) Conexiones de red, Routers y Servidores.
+d) Servidores, Almacenamiento y Conexiones de red.
+respuesta correcta: D
+
+
+
+¿Cuál de estos no entra en la clasificación de cluster?
+
+a) Clúster de alto rendimiento.
+
+b) Clúster de alta eficiencia.
+
+c) Clúster de alta disponibilidad.
+
+d) Clúster de alta magnitud.
+
+respuesta correcta: D
+
+¿Qué tarea no ayuda a determinar los requisitos hardware del sistema?
+
+a) Estimar el hardware en función de las necesidades de la empresa.
+
+b) Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial.
+
+c) Estimar el software en función de las necesidades del usuario.
+
+d) Monitorizar el sistema durante todo el tiempo que esté en uso.
+
+respuesta correcta: C
+
+
+
+
+1. Los sitios web siguen la regla
+a) 90-10, el 90% del trafico corresponde al 10% de las páginas almacenadas.
+b) 90-20, el 90% del trafico corresponde al 20% de las páginas almacenadas.
+c) 80-20, el 80% del trafico corresponde al 20% de las páginas almacenadas.
+d) Ninguna de las anteriores es correcta
+Respuesta correcta: c
+
+
+
+
+1) ¿Como podemos evitar latencia?
+a) Usando mayor ram.
+b) Usando una buena CPU.
+c) Reemplazando el servidor.
+d) Usando discos solidos.
+Respuesta correcta:d.
+2) ¿Cual es la velocidad de los discos SATA?
+a) 33,66,100,133 y 166 MB/s
+b)160,320,640 MB/s
+c)150,300,600 MB/s
+d)300,500,700,1000 MB/s
+Respuesta correcta: c.
+3) ¿Cuál de los siguiente es un hardware de Dell?
+a) Mellanox M3601Q InfiniBand
+b) ProLiant DL385 G7 6282SE
+c)X5520 G2 - NAS server - 32 TB
+d) BladeCenter HS22 Xeon 6C X5650 SAS
+Respuesta correcta: a.
+4) ¿Que es FreeBSD?
+a) Un cortafuegos para servidores.
+b) El nombre de un componente hardware de Dell.
+c) Un SO para servidores.
+d) Un balanceador de carga.
+Respuesta correcta: c.
+
+
+
+
+El protocolo más comúnmente utilizado en el almacenamiento de elementos de la granja web es:
+a) NFS
+b) NAS
+c) SAN
+d) SSA
+Correcta: a) NFS
+
+En cuanto al análisis de los logs :
+a) Nos permitirá determinar qué contenido es el más demandado
+b) A partir de los logs podremos descubrir posibles ataques.
+c) Podremos identificar fallos (errores tipo 404 ó 500).
+d) Todos los anteriores son ciertos.
+Correcta: d) Todos los anteriores son ciertos. 
+
+
+
+1. ¿En que consiste el elemento de un granja, NAS?
+a) Es una red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores.
+b) Es un dispositivo específico que incluye varios discos en rack .
+c) Es un dispositivo que actúa como un servidor de ficheros, pero ahorrando los recursos de tener una máquina más.
+d) Es una red de almacenamiento especializada que conecta dispositivos de entrada a los servidores.
+RESPUESTA CORRECTA: c
+2. ¿Qué caracteriza una conexion de red Myrinet?
+a) Tiene una latencia teórica es de 1,43 µs y ancho de banda de 5333 Mbit/s bidireccional.
+b) La conexión básica es de 2 Gbit/s efectivos
+c) Su ancho de banda es de 2 a 10 Gbit/s.
+d) La conexión va desde un Host Channel Adapter (HCA) hasta un Target Channel Adapter (TCA).
+RESPUESTA CORRECTA: c
+
+
+
+
 
