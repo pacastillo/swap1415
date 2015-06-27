@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 6: Asegurar el Sistema Web" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>¿En que nivel debemos aplicar las politicas de seguridad?</enunciado>
+        <opcionA>Nivel de administrado</opcionA>
+        <opcionB>Todas las respuestas son correctas.</opcionB>
+        <opcionC>Nivel de red</opcionC>
+        <opcionD>Nivel fisico</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que accion realiza un cortafuegos en nuestra granja web?</enunciado>
+        <opcionA>Proteger la granja de accesos indebidos.</opcionA>
+        <opcionB>Ocultar la direccion de nuestro sistema actuando como proxy.</opcionB>
+        <opcionC>Evitar daños fisicos en nuetra granja.</opcionC>
+        <opcionD>a y b son correctas</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuantos niveles de policas de seguridad hay?</enunciado>
+        <opcionA>1(nivel fisico )</opcionA>
+        <opcionB>2(nivel de red y nivel fisico).</opcionB>
+        <opcionC>3(nivel de red,nivel de administrador y nivel fisico).</opcionC>
+        <opcionD>4(nivel de red,nivel de administrador, cuentas de servicios y nivel fisico).</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que aspectos garantizan que nuestro sistema sea seguro?</enunciado>
+        <opcionA>No repudio e integridad.</opcionA>
+        <opcionB>Confidencialidad,Disponibilidad y integridad.</opcionB>
+        <opcionC>Disponibilidad,autenticacion y verificacion.</opcionC>
+        <opcionD>Todas son incorrectas.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Un cortafuegos es...</enunciado>
+        <opcionA>Un sistema que protege de incendios para que los equipos no se deterioren.</opcionA>
+        <opcionB>Un sistema que envía una alarma al administrador si se elevan las temperaturas donde se encuentran los equipos.</opcionB>
+        <opcionC>Un sistema que protege de accesos indebidos.</opcionC>
+        <opcionD>Ninguna de las anteriores.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿ Qué tarea NO realiza el cortafuegos?</enunciado>
+        <opcionA>Controla el tráfico de red a nivel de protocolo de red (TCP o UDP).</opcionA>
+        <opcionB>Controla protocolos de aplicación (como HTTP ó FTP).</opcionB>
+        <opcionC>Muestra la verdadera dirección del servidor, para que cualquiera pueda acceder.</opcionC>
+        <opcionD>Protege los servidores y aplicaciones de ataques.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El balanceador ... :</enunciado>
+        <opcionA>No puede mantener listas negras. Es muy costoso.</opcionA>
+        <opcionB>Sólo puede incluir IP individuales a la lista negra.</opcionB>
+        <opcionC>No puede evitar ataques de sitios concretos.</opcionC>
+        <opcionD>Puede limitar o denegar el acceso a listas de IP monitorizando el origen, destino o puerto del tráfico.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Los objetivos principales de seguridad son:</enunciado>
+        <opcionA>Confidencialidad e integridad.</opcionA>
+        <opcionB>Confidencialidad, integridad y disponibilidad.</opcionB>
+        <opcionC>Confidencialidad, integridad y escalabilidad.</opcionC>
+        <opcionD>Integridad, escalabilidad y ancho de banda.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de las siguientes afirmaciones es incorrecta sobre asegurar el sistema web?</enunciado>
+        <opcionA>A nivel de red, un dominio compartido se compone de un acceso seguro de la granja web y otro inseguro (Internet).</opcionA>
+        <opcionB>Cuando se da de baja a un usuario, su cuenta debe ser eliminada completamente aunque afecte al desarrollo de una aplicación.</opcionB>
+        <opcionC>Con solo tener los routers y cortafuegos correctamente configurados tendremos el sistema bien asegurado.</opcionC>
+        <opcionD>Los servidores deben tener sus propias contraseñas de BIOS y consola.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual es la finalidad principal de la defensa en profundidad?</enunciado>
+        <opcionA>Identificar a los intrusos para denunciarlos a las autoridades.</opcionA>
+        <opcionB>Tener varios niveles de seguridad e incrementar el tiempo necesario para superar cada uno de ellos.</opcionB>
+        <opcionC>Atraer a los atacantes simulando ser sistemas vulnerables y liberar a los sitemas reales. A estos sistemas se les denomina "honeypot".</opcionC>
+        <opcionD>Estudiar a los atacantes para poder atacarlos a ellos.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+</tema>

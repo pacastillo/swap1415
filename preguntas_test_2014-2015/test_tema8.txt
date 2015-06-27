@@ -1,87 +1,9 @@
-
-1. A la hora de buscar cuellos de botella en memoria..:
-a) Se recomienda no poner caché. Así consumiremos menos recursos. Así , nunca nos faltará memoria RAM:
-b) Se recomienda poner una caché pequeña(sin contenido estático) para que no falte memoria RAM.
-c) Se recomiendoa poner una caché grande (para contenido estático).Si falta memoria, incrementar RAM y optimizar objetos.
-d) Ninguna de las anteriores.
-CORRECTA: C.
-2. A la hora de buscar cuellos de botella en CPU..:
-a) Debemos vigilar la carga y mantenerla sobre el 50%( Nunca cerca del 100%).
-b) Debemos vigilar la carga y mantenerla sobre el 90%( lo más cerca posible del 100%).
-c) Debemos vigilar la carga y mantenerla por debajo del 10% (nunca superior al 10%).
-d) Ninguna de las anteriores.
-CORRECTA: A
-
-¿Cuál de estas afirmaciones se corresponde con la regla 80-20?
-
-    El 80% de la carga la gestiona el 20% del hardware disponible.
-    El 80% del tráfico web corresponde al 20% de las páginas almacenadas.
-    El 80% de las personas que leen esta pregunta no saben qué contestar.
-    El 80% de las webs está alojada en el 20% de la memoria masiva del sistema.
-
-Respuesta correcta: 2
-
-
-1.- En una granja web nos bastará con tener...
-a) Escáneres e impresoras.
-b) Altas cantidades de RAM y una CPU potente.
-c) Una CPU potente (supercomputación) pero no demasiada RAM.
-d) Una CPU no demasiada potente y una gran cantidad de memoria RAM.
-respuesta correcta: D
-2.- Respecto a servir contenido dinámico...
-a) Implica ejecutar código de las páginas servidas.
-b) No se puede almacenar contenido en caché.
-c) Hay más riesgos en cuanto a seguridad.
-d) Todas son correctas.
-respuesta correcta: D
-
-
-
-Pregunta 1: En relacción con los elementos de una granja web, ¿Cual de los siguientes es utilizado para almacenamiento?
-a) Arrays de almacenamiento compartido: SSA
-b) Área de almacenamiento en red: SAN
-c) Almacenamiento conectado a la red: NAS
-d) Todas las anteriores
-Respuesta correcta: d
-Pregunta 2: Para estimar la necesidad de ancho de banda que va a tener nuestro servidor, hay que tener en cuenta:
-a) El número de clientes que se conectará al servidor por segundo
-b) La cantidad de bytes que el cliente envia al servidor y la cantidad que el servidor le envia al cliente(petición-respuesta)
-c) El porcentaje de ancho de banda que se reserva para el servidor
-d) Todos los anteriores
-Respuesta correcta: d
-Pregunta 1: ¿Cual del siguiente sotfware para servidores es utilizado para monitorización?
-a) JMeter
-b) OpenSTA
-c) Apache Benchmark
-d) Todos los anteriores
-Respuesta correcta: d
-
-
-
-Para estimar las necesidades de CPU:
-a) El sistema operativo debe consumir cerca del 2% de la capacidad de procesamiento del sistema.
-b) El sistema operativo debe consumir cerca del 10% de la capacidad de procesamiento del sistema. (correcta)
-c) El sistema operativo debe consumir cerca del 30% de la capacidad de procesamiento del sistema.
-d) El sistema operativo debe consumir cerca del 35% de la capacidad de procesamiento del sistema.
-
-
-
-El servidor web tiene unas necesidades como...
-a) El diseño debe permitir el escalado del sistema
-b) Se debe realizar solamente una vez monitorización
-c) El sistema de base de datos debe residir en la misma máquina
-d) Para planear la capacidad del servidor existe una fórmula
-Respuesta correcta: A
 Una vez que se haya montado el sistema:
 a) No es necesario detectar posibles cuellos de botella
 b) No es necesario realizar tests de carga con benchmarks
 c) Es importante monitorizar cómo está funcionando
 d) No es necesario poner el sistema en producción de forma controlada
 Respuesta correcta: C
-
-
-
-
 
 ¿Qué tipo de conexión usarías para obtener un elevado ancho de banda en la comunicación en clusters usando la agragación de canales?
 a) Gigabith Ethernet

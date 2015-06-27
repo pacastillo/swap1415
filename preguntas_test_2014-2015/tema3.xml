@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 3: La red de una Granja Web" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>A la hora de configurar la red del sistema web.. ¿qué es backbone?</enunciado>
+        <opcionA>Es una medida que indica la eficiencia del sistema web.</opcionA>
+        <opcionB>Es el eje principal de enlace entre máquinas.</opcionB>
+        <opcionC>Es el que recupera el servicio si el sistema web falla.</opcionC>
+        <opcionD>Todas las anteriores son correctas.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué alternativas tenemos para conectar la granja web a otras redes?</enunciado>
+        <opcionA>Configuración sin DMZ( zona desmilitarizada)</opcionA>
+        <opcionB>Configuración de DMZ simple.</opcionB>
+        <opcionC>Configuración de DMZ tradicional.</opcionC>
+        <opcionD>Todas las anteriores son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En una granja web, los posibles peligros llegan:</enunciado>
+        <opcionA>Desde Internet</opcionA>
+        <opcionB>Por la red WiFi.</opcionB>
+        <opcionC>Por los pen de los administradores</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En una configuración de DMZ tradicional, el principal problema es... :</enunciado>
+        <opcionA>El elevado ancho de banda que se necesita.</opcionA>
+        <opcionB>La configuración de los servidores web.</opcionB>
+        <opcionC>La configuración y capacidad de trabajo del cortafuegos.</opcionC>
+        <opcionD>El software del cortafuegos.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El Backbone o eje principal de enlace entre máquina para la red del sistema, se puede formar con:</enunciado>
+        <opcionA>Un Switch</opcionA>
+        <opcionB>Un router</opcionB>
+        <opcionC>Un hub</opcionC>
+        <opcionD>Cualquiera de las anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de los siguientes servicios no se ofrece por el front-rail?</enunciado>
+        <opcionA>HTTP</opcionA>
+        <opcionB>Bases de datos</opcionB>
+        <opcionC>SMTP</opcionC>
+        <opcionD>FTP</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El Backbone es:</enunciado>
+        <opcionA>Eje secundario de enlace entre máquinas</opcionA>
+        <opcionB>Eje de enlace entre servidores</opcionB>
+        <opcionC>Eje principal de enlace entre servidores</opcionC>
+        <opcionD>Eje principal de enlace entre máquinas</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Cuando se conecta una granja web a Internet..</enunciado>
+        <opcionA>Conviene establecer filtros para que llegue a la máquina el tráfico que le deba llegar</opcionA>
+        <opcionB>Otros tipos de tráfico no hacen falta bloquearse</opcionB>
+        <opcionC>La información IP origen, IP destino no se usan para el filtrado</opcionC>
+        <opcionD>Solo se expresa en Kbps</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que es el DMZ?</enunciado>
+        <opcionA>Un firewall que controla el acceso a la red interna de la empresa.</opcionA>
+        <opcionB>Una paradigma de red que consiste en replicar routers y switches para garantizar la seguridad.</opcionB>
+        <opcionC>Área restringida o aislada, y totalmente controlada, conocida también como zona desmilitarizada.</opcionC>
+        <opcionD>Un metodo de control de acceso para que no haya colisiones en la red.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que tipos de DMZ hay?</enunciado>
+        <opcionA>DMZ simple, DMZ tradicional y DMZ doble.</opcionA>
+        <opcionB>DMZ simple, DMZ doble y DMZ triple.</opcionB>
+        <opcionC>Cisco DMZ, Linksys DMZ y Norton DMZ</opcionC>
+        <opcionD>DMZ backbone, DMZ tradicional y DMZ doble.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+</tema>

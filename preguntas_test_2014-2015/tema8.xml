@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 8: Requisitos hardware y software en servidores web" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>A la hora de buscar cuellos de botella en memoria..:</enunciado>
+        <opcionA>Se recomienda no poner caché. Así consumiremos menos recursos. Así , nunca nos faltará memoria RAM:</opcionA>
+        <opcionB>Se recomienda poner una caché pequeña(sin contenido estático) para que no falte memoria RAM.</opcionB>
+        <opcionC>Se recomiendoa poner una caché grande (para contenido estático).Si falta memoria, incrementar RAM y optimizar objetos.</opcionC>
+        <opcionD>Ninguna de las anteriores.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A la hora de buscar cuellos de botella en CPU..:</enunciado>
+        <opcionA>Debemos vigilar la carga y mantenerla sobre el 50%( Nunca cerca del 100%).</opcionA>
+        <opcionB>Debemos vigilar la carga y mantenerla sobre el 90%( lo más cerca posible del 100%).</opcionB>
+        <opcionC>Debemos vigilar la carga y mantenerla por debajo del 10% (nunca superior al 10%).</opcionC>
+        <opcionD>Ninguna de las anteriores.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de estas afirmaciones se corresponde con la regla 80-20?</enunciado>
+        <opcionA>El 80% de la carga la gestiona el 20% del hardware disponible.</opcionA>
+        <opcionB>El 80% del tráfico web corresponde al 20% de las páginas almacenadas.</opcionB>
+        <opcionC>El 80% de las personas que leen esta pregunta no saben qué contestar.</opcionC>
+        <opcionD>El 80% de las webs está alojada en el 20% de la memoria masiva del sistema.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En una granja web nos bastará con tener...</enunciado>
+        <opcionA>Escáneres e impresoras.</opcionA>
+        <opcionB>Altas cantidades de RAM y una CPU potente.</opcionB>
+        <opcionC>Una CPU potente (supercomputación) pero no demasiada RAM.</opcionC>
+        <opcionD>Una CPU no demasiada potente y una gran cantidad de memoria RAM.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Respecto a servir contenido dinámico...</enunciado>
+        <opcionA>Implica ejecutar código de las páginas servidas.</opcionA>
+        <opcionB>No se puede almacenar contenido en caché.</opcionB>
+        <opcionC>Hay más riesgos en cuanto a seguridad.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En relacción con los elementos de una granja web, ¿Cual de los siguientes es utilizado para almacenamiento?</enunciado>
+        <opcionA>Arrays de almacenamiento compartido: SSA</opcionA>
+        <opcionB>Área de almacenamiento en red: SAN</opcionB>
+        <opcionC>Almacenamiento conectado a la red: NAS</opcionC>
+        <opcionD>Todas las anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Para estimar la necesidad de ancho de banda que va a tener nuestro servidor, hay que tener en cuenta:</enunciado>
+        <opcionA>El número de clientes que se conectará al servidor por segundo</opcionA>
+        <opcionB>La cantidad de bytes que el cliente envia al servidor y la cantidad que el servidor le envia al cliente(petición-respuesta)</opcionB>
+        <opcionC>El porcentaje de ancho de banda que se reserva para el servidor</opcionC>
+        <opcionD>Todos los anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual del siguiente sotfware para servidores es utilizado para monitorización?</enunciado>
+        <opcionA>JMeter</opcionA>
+        <opcionB>OpenSTA</opcionB>
+        <opcionC>Apache Benchmark</opcionC>
+        <opcionD>Todos los anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Para estimar las necesidades de CPU:</enunciado>
+        <opcionA>El sistema operativo debe consumir cerca del 2% de la capacidad de procesamiento del sistema.</opcionA>
+        <opcionB>El sistema operativo debe consumir cerca del 10% de la capacidad de procesamiento del sistema.</opcionB>
+        <opcionC>El sistema operativo debe consumir cerca del 30% de la capacidad de procesamiento del sistema.</opcionC>
+        <opcionD>El sistema operativo debe consumir cerca del 35% de la capacidad de procesamiento del sistema.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El servidor web tiene unas necesidades como...</enunciado>
+        <opcionA>El diseño debe permitir el escalado del sistema</opcionA>
+        <opcionB>Se debe realizar solamente una vez monitorización</opcionB>
+        <opcionC>El sistema de base de datos debe residir en la misma máquina</opcionC>
+        <opcionD>Para planear la capacidad del servidor existe una fórmula</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+</tema>

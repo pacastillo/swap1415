@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 5: Medir Prestaciones" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>Para establecer una conexión HTTP, el cliente..</enunciado>
+        <opcionA>Inicia la conexión HTTP enviando un paquete TCP SYN al puerto 8080 del servidor web.</opcionA>
+        <opcionB>Inicia la conexión UDP enviando un paquete UDP SYN al puerto 80 del servidor web.</opcionB>
+        <opcionC>Inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.</opcionC>
+        <opcionD>Inicia la conexión UDP enviando un paquete UDP SYN al puerto 8080 del servidor web.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El número de conexiones concurrentes está limitado por...</enunciado>
+        <opcionA>Por la memoria del dispositivo.</opcionA>
+        <opcionB>Por el procesador del dispositivo.</opcionB>
+        <opcionC>Por los puertos que dispone el dispositivo.</opcionC>
+        <opcionD>a) y b) son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El rendimiento se puede calcular como.. :</enunciado>
+        <opcionA>rendimiento = (ratio_transm_paquetes) * (payload)!</opcionA>
+        <opcionB>rendimiento = (ratio_transm_paquetes) % (payload)!</opcionB>
+        <opcionC>rendimiento = (ratio_transm_paquetes) - (payload)!</opcionC>
+        <opcionD>rendimiento = (ratio_transm_paquetes) + (payload)!</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué métricas se utilizan para medir las prestaciones de un sistema web?</enunciado>
+        <opcionA>Conexiones por segundo.</opcionA>
+        <opcionB>Número total de conexiones concurrentes.</opcionB>
+        <opcionC>Rendimiento en bits por segundo.</opcionC>
+        <opcionD>Todas las anteriores son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿ Cual de las siguientes afirmaciones es verdadera respecto al tráfico HTTP ?</enunciado>
+        <opcionA>HTTP 1.0 se emplea cuando se trata de servidores Linux y HTTP 1.1 cuando son servidores Windows.</opcionA>
+        <opcionB>HTTP 1.0 se emplea cuando se trata de servidores Windows y HTTP 1.1 cuando son servidores Linux.</opcionB>
+        <opcionC>HTTP 1.0 envía con una sola conexión varios objetos y HTTP 1.1 necesita una conexión para cada objeto enviado.</opcionC>
+        <opcionD>HTTP 1.0 necesita una conexión para cada objeto enviado y HTTP 1.1 envía con una sola conexión varios objetos.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Por qué Apache Benchmark no simula totalmente el comportamiento de los usuarios reales?</enunciado>
+        <opcionA>Porque es más rápido que un usuario real.</opcionA>
+        <opcionB>Porque pide en la evaluación la misma página repetidamente.</opcionB>
+        <opcionC>Porque guarda las solicitudes en una cache propia y por tanto no se solicitan al servidor.</opcionC>
+        <opcionD>Porque sólo simula peticiones como si fueran enviadas desde un navegador Mozilla Firefox.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de las siguientes opciones no es una métrica para la medida de prestaciones de un servidor?</enunciado>
+        <opcionA>Transacciones por segundo</opcionA>
+        <opcionB>Horas de servicio ininterrumpido</opcionB>
+        <opcionC>número de conexiones concurrentes</opcionC>
+        <opcionD>rendimiento (en bits por segundo)</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las pruebas preliminares que se realizan sobre el sistema para comprobar que esta listo para ser testeado reciben el nombre de:</enunciado>
+        <opcionA>Carga o Load</opcionA>
+        <opcionB>Capacidad o Capacity</opcionB>
+        <opcionC>Humo o Smoke</opcionC>
+        <opcionD>Sobrecarga u Overload</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las pruebas pruebas que se realizan para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema reciben el nombre de:</enunciado>
+        <opcionA>Estabilidad o Stability</opcionA>
+        <opcionB>Capacidad o Capacity</opcionB>
+        <opcionC>Carga o Load</opcionC>
+        <opcionD>Estrés o Stress</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>HTTP 1.1:</enunciado>
+        <opcionA>Crea una conexión para cada objeto que envía.</opcionA>
+        <opcionB>Crea varias conexiones para cada objeto que envía.</opcionB>
+        <opcionC>Crea una conexión para varios objetos que envía.</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+</tema>
