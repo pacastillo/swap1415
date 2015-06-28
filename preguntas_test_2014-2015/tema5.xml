@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir Prestaciones" cantidad_preguntas="10">
+<tema titulo="Tema 5: Medir Prestaciones" cantidad_preguntas="93">
     <pregunta>
         <enunciado>Para establecer una conexión HTTP, el cliente..</enunciado>
         <opcionA>Inicia la conexión HTTP enviando un paquete TCP SYN al puerto 8080 del servidor web.</opcionA>

@@ -166,7 +166,7 @@
         <opcionB>La dirección privada a la que acceden los usuarios cuando hacen una petición de servicio a nuestro servidor web.</opcionB>
         <opcionC>Normalmente es la IP del balanceador.</opcionC>
         <opcionD>La A y C son correctas.</opcionD>
-        <solucion>D</solucion>
+        <solucion>C</solucion>
     </pregunta>
     <pregunta>
         <enunciado>Un balanceador de carga:</enunciado>
