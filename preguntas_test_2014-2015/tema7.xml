@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 7: Almacenamiento de Datos" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>Se dispone de 8 discos de 500 GB en una configuración de RAID 0. ¿Cuántos discos se necesitarían para mantener en el sistema la misma información en cada una de estas configuraciones RAID: RAID 1 y RAID 4? Indicar la cantidad de información redundante (en GBytes) que se precisa en cada caso.</enunciado>
+        <opcionA>RAID 0:8 Discos 0 GB DE Redundancia.RAID 4: 9 Discos 500 GB de redundancia</opcionA>
+        <opcionB>RAID 0:8 Discos 0 GB DE Redundancia.RAID 4: 11 Discos 1500 GB de redundancia</opcionB>
+        <opcionC>RAID 0:9 Discos 500 GB DE Redundancia.RAID 4: 4 Discos 0 GB de redundancia</opcionC>
+        <opcionD>RAID 0:10 Discos 1000 GB DE Redundancia.RAID 4: 8 Discos 0 GB de redundancia</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de los siguientes no es un nivel RAID?</enunciado>
+        <opcionA>RAID 0.</opcionA>
+        <opcionB>RAID 1.</opcionB>
+        <opcionC>RAID -1.</opcionC>
+        <opcionD>RAID 5.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual no es una caracteristica de un SAN?</enunciado>
+        <opcionA>redde baja velocidad en una sola maquina.</opcionA>
+        <opcionB>Red de alta velocidad.</opcionB>
+        <opcionC>Se puede usar para almaacenar archivos y compartir datos entre varios equipos.</opcionC>
+        <opcionD>Puede operar con SSA y NAS.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que es un NAS?</enunciado>
+        <opcionA>Dispositivo conectado que actua como un servidor de ficheros.</opcionA>
+        <opcionB>Dispositivo que solo puede almacenar bases de datos</opcionB>
+        <opcionC>Dispositivo conectado a la red que actua como servidor web.</opcionC>
+        <opcionD>Dispositivo sin conexion que solo sirve para almacenar fichero actuando como una libreria personal.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué significa RAID?</enunciado>
+        <opcionA>Rapid administration of Independent Disk</opcionA>
+        <opcionB>Reduntant Array of Independent Disks</opcionB>
+        <opcionC>Rapid Array for Internal Disk</opcionC>
+        <opcionD>Ninguna de las anteriores es correcta.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué tipo de array es de tipo "espejo" ?</enunciado>
+        <opcionA>RAID 0</opcionA>
+        <opcionB>RAID 5</opcionB>
+        <opcionC>RAID 1</opcionC>
+        <opcionD>RAID 3/4</opcionD>
+        <solucion> C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de estas características no es de RAID 0?</enunciado>
+        <opcionA>Al repartir los datos entre varios discos, aumenta la vel. de lectura y escritura.</opcionA>
+        <opcionB>No se puede acceder a varios bloques consecutivos al mismo tiempo.</opcionB>
+        <opcionC>No ofrece protección contra fallos en los discos, ya que no se escribe información duplicada.</opcionC>
+        <opcionD>Ninguna de las anteriores.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de estos niveles RAID NO tiene bloques de paridad?</enunciado>
+        <opcionA>RAID 5</opcionA>
+        <opcionB>RAID 1</opcionB>
+        <opcionC>RAID 50</opcionC>
+        <opcionD>RAID 6</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de los siguientes niveles RAID no ofrece protección contra fallos?</enunciado>
+        <opcionA>RAID 0.</opcionA>
+        <opcionB>RAID 1.</opcionB>
+        <opcionC>RAID 5.</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Que problema nos encontramos si realizamos una distribución funcional en una base de datos?</enunciado>
+        <opcionA>Escalabilidad de la base de datos.</opcionA>
+        <opcionB>Protección ante fallos.</opcionB>
+        <opcionC>Integridad de los datos.</opcionC>
+        <opcionD>La base de datos tendrá que ser relacional.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+</tema>

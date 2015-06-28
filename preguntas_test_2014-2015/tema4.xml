@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 4: Balanceo de Carga" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>¿Cual no es un algoritmo de balanceo de carga?</enunciado>
+        <opcionA>Round-Robin</opcionA>
+        <opcionB>Basado en el menor numero de conexiones</opcionB>
+        <opcionC>Basado en ponderacion</opcionC>
+        <opcionD>Basado en el usuario</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Ventajas del balanceo de carga global?</enunciado>
+        <opcionA>Facilidad de implementar</opcionA>
+        <opcionB>Facilidad de comprender</opcionB>
+        <opcionC>Alta disponibilida y permite montar varios sitios web en distintas localizaciones</opcionC>
+        <opcionD>El trafico del usuario se lleva al centro mas lejano.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En el ámbito de los servidores web de altas prestaciones, ¿qué significan las siglas VIP?</enunciado>
+        <opcionA>Dirección privada a la que acceden los usuarios </opcionA>
+        <opcionB>Dirección pública a la que acceden los usuarios</opcionB>
+        <opcionC>Persona muy importante</opcionC>
+        <opcionD>Dirección a la que sólo tienen acceso los administradores</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En el proceso al teclear una URL en el navegador...:</enunciado>
+        <opcionA>Lo primero que ocurre es que el servidor devuelve la página HTML completa.</opcionA>
+        <opcionB>Lo primero que ocurre es que el navegador hace la petición HTTP.</opcionB>
+        <opcionC>Lo primero que ocurre es que el navegador resuelve el nombre del sitio web (DNS).</opcionC>
+        <opcionD>Lo primero que ocurre es que el navegador contacta por telnet con el servidor.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Algunos de los algoritmos más comunes de balanceo de carga son... :</enunciado>
+        <opcionA>Basado en turnos (round-roubin) y balanceo por menor número de conexiones.</opcionA>
+        <opcionB>Basado en ponderación y por prioridad.</opcionB>
+        <opcionC>Balanceo basado en tiempo por respuesta.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D.</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En el algoritmo round-robin...</enunciado>
+        <opcionA>El servidor se denomina Round y el balanceador Robin.</opcionA>
+        <opcionB>Iguala los potenciales de las máquinas al menor potencial que ya exista.</opcionB>
+        <opcionC>Iguala todos los potenciales de las máquinas a el mayor potencial que exista.</opcionC>
+        <opcionD>Supone todas las máquinas con la misma potencia.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En el algoritmo de balanceo basado en el menor número de conexiones...:</enunciado>
+        <opcionA>Iguala todos los servidores con los mismos números de conexiones(el menor).</opcionA>
+        <opcionB>Envía la primera petición al servidor con menor prestaciones.</opcionB>
+        <opcionC>Las peticiones irán al servidor que esté sirviendo menos conexiones.</opcionC>
+        <opcionD>Las peticiones se irán siempre al mismo servidor( al más potente) porque tendrá menos conexiones.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La persistencia consiste en:</enunciado>
+        <opcionA>Evitar que los equipos se infecten por virus.</opcionA>
+        <opcionB>Tener varios equipos configurados por si alguno falla.</opcionB>
+        <opcionC>Mantener el tráfico de un usuario en el servidor que lo atendió primero.</opcionC>
+        <opcionD>Que las aplicaciones no se actualicen a una nueva versión.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué intenta conseguir el balanceo de carga global?</enunciado>
+        <opcionA>Distribuir carga de trabajo entre centros de datos.</opcionA>
+        <opcionB>Disminuir tiempos de conexión.</opcionB>
+        <opcionC>Redundancia.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El balanceo de carga consiste en interceptar el tráfico para redirigirlo a varios servidores. Indica cual de las siguientes es una tecnología similar:</enunciado>
+        <opcionA>Balanceo de carga en cortafuegos</opcionA>
+        <opcionB>Balanceo de carga global</opcionB>
+        <opcionC>Clustering</opcionC>
+        <opcionD>Todas las anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+</tema>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="10">
+    <pregunta>
+        <enunciado>Escalabildad. Si la CPU está cerca del 100% too el rato y el resto de subsistemas no está sobrecargado...</enunciado>
+        <opcionA>Apagar todo y dejar que se enfríe.</opcionA>
+        <opcionB>Comprar ventiladores y métodos de refrigeración para que rinda mejor.</opcionB>
+        <opcionC>Sustituir la CPU por una CPU más potente.</opcionC>
+        <opcionD>Todas las anteriores son correctas.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Escalabilidad. Si el uso de RAM es muy alto, veremos un uso alto de disco (por swapping).Si..</enunciado>
+        <opcionA>Incrementamos la RAM mejoraremos el rendimiento.</opcionA>
+        <opcionB>Incrementamos la RAM, el rendimiento seguirá igual, porque no depende de ésta.</opcionB>
+        <opcionC>Incrementamos la RAM, empeorará el rendimiento.</opcionC>
+        <opcionD>Todas las anteriores son falsas.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El balanceador de carga..</enunciado>
+        <opcionA>Hace que todas las peticiones pasen por todos los servidores.(de ahí el termino balanceador)</opcionA>
+        <opcionB>Pasa peticiones a los servidores según el tráfico de la red.</opcionB>
+        <opcionC>Selecciona el servidor más ocupado y lo reinicia.</opcionC>
+        <opcionD>Siempre selecciona según el mismo algoritmo: Por prioridad.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿En qué consiste la ampliación horizontal?:</enunciado>
+        <opcionA>Es un tipo de escalado en el cual mejoramos una máquina concreta.</opcionA>
+        <opcionB>Es un tipo de escalado en el cual añadimos máquinas a algún subsistema.</opcionB>
+        <opcionC>Se llama así al incremento del nivel de estrés debido al incremento de máquinas.</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En cuanto a alta disponibilidad de un servidor... :</enunciado>
+        <opcionA>Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más cortos posibles.</opcionA>
+        <opcionB>Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más largos posibles.</opcionB>
+        <opcionC>Lo ideal sería tener sólo tiempos de no-disponibilidad no programados lo más cortos posibles.</opcionC>
+        <opcionD>Lo ideal sería tener sólo tiempos de no-disponibilidad no programados lo más largos posibles.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de los siguientes algoritmos no se usa en el balanceo de carga?</enunciado>
+        <opcionA>Round-Robin</opcionA>
+        <opcionB>Ponderación</opcionB>
+        <opcionC>Euclides</opcionC>
+        <opcionD>Tiempo de Respuesta</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Con el objetivo de conseguir una alta disponibilidad de la red, ¿A que nivel debe tener redundancia la red?</enunciado>
+        <opcionA>Solo en la conexión a Internet</opcionA>
+        <opcionB>Solo en Routers/cortafuegos/balanceadores</opcionB>
+        <opcionC>Solo en Servidores</opcionC>
+        <opcionD>Todas las anteriores</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué tipo de escalado o ampliación consiste en incrementar la RAM, la CPU y el disco de un servidor?</enunciado>
+        <opcionA>Ampliación frontal</opcionA>
+        <opcionB>Ampliación horizontal</opcionB>
+        <opcionC>Ampliación abdominal</opcionC>
+        <opcionD>Ampliación vertical</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Si configuramos los servidores con redundancia mediante el software :</enunciado>
+        <opcionA>Mejora la escalabilidad</opcionA>
+        <opcionB>Empeora la escalabilidad</opcionB>
+        <opcionC>Depende de los servidores que configuremos</opcionC>
+        <opcionD>Ninguna de las anteriores es correcta</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuantos tipos de escalado existen?</enunciado>
+        <opcionA>Solamente 1 -> Ampliación horizontal</opcionA>
+        <opcionB>Solamente 2 -> Ampliación horizontal y ampliación escalada</opcionB>
+        <opcionC>La a y b son falsas</opcionC>
+        <opcionD>A veces bastaría con una ampliación escalada</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+</tema>
