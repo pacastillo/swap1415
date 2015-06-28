@@ -1,83 +1,747 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 7: Almacenamiento de Datos" cantidad_preguntas="10">
-    <pregunta>
-        <enunciado>Se dispone de 8 discos de 500 GB en una configuración de RAID 0. ¿Cuántos discos se necesitarían para mantener en el sistema la misma información en cada una de estas configuraciones RAID: RAID 1 y RAID 4? Indicar la cantidad de información redundante (en GBytes) que se precisa en cada caso.</enunciado>
-        <opcionA>RAID 0:8 Discos 0 GB DE Redundancia.RAID 4: 9 Discos 500 GB de redundancia</opcionA>
-        <opcionB>RAID 0:8 Discos 0 GB DE Redundancia.RAID 4: 11 Discos 1500 GB de redundancia</opcionB>
-        <opcionC>RAID 0:9 Discos 500 GB DE Redundancia.RAID 4: 4 Discos 0 GB de redundancia</opcionC>
-        <opcionD>RAID 0:10 Discos 1000 GB DE Redundancia.RAID 4: 8 Discos 0 GB de redundancia</opcionD>
-        <solucion>A</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cual de los siguientes no es un nivel RAID?</enunciado>
-        <opcionA>RAID 0.</opcionA>
-        <opcionB>RAID 1.</opcionB>
-        <opcionC>RAID -1.</opcionC>
-        <opcionD>RAID 5.</opcionD>
-        <solucion>C</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cual no es una caracteristica de un SAN?</enunciado>
-        <opcionA>redde baja velocidad en una sola maquina.</opcionA>
-        <opcionB>Red de alta velocidad.</opcionB>
-        <opcionC>Se puede usar para almaacenar archivos y compartir datos entre varios equipos.</opcionC>
-        <opcionD>Puede operar con SSA y NAS.</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Que es un NAS?</enunciado>
-        <opcionA>Dispositivo conectado que actua como un servidor de ficheros.</opcionA>
-        <opcionB>Dispositivo que solo puede almacenar bases de datos</opcionB>
-        <opcionC>Dispositivo conectado a la red que actua como servidor web.</opcionC>
-        <opcionD>Dispositivo sin conexion que solo sirve para almacenar fichero actuando como una libreria personal.</opcionD>
-        <solucion>A</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Qué significa RAID?</enunciado>
-        <opcionA>Rapid administration of Independent Disk</opcionA>
-        <opcionB>Reduntant Array of Independent Disks</opcionB>
-        <opcionC>Rapid Array for Internal Disk</opcionC>
-        <opcionD>Ninguna de las anteriores es correcta.</opcionD>
-        <solucion>B</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Qué tipo de array es de tipo "espejo" ?</enunciado>
-        <opcionA>RAID 0</opcionA>
-        <opcionB>RAID 5</opcionB>
-        <opcionC>RAID 1</opcionC>
-        <opcionD>RAID 3/4</opcionD>
-        <solucion> C</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cuál de estas características no es de RAID 0?</enunciado>
-        <opcionA>Al repartir los datos entre varios discos, aumenta la vel. de lectura y escritura.</opcionA>
-        <opcionB>No se puede acceder a varios bloques consecutivos al mismo tiempo.</opcionB>
-        <opcionC>No ofrece protección contra fallos en los discos, ya que no se escribe información duplicada.</opcionC>
-        <opcionD>Ninguna de las anteriores.</opcionD>
-        <solucion>B</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cuál de estos niveles RAID NO tiene bloques de paridad?</enunciado>
-        <opcionA>RAID 5</opcionA>
-        <opcionB>RAID 1</opcionB>
-        <opcionC>RAID 50</opcionC>
-        <opcionD>RAID 6</opcionD>
-        <solucion>B</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cual de los siguientes niveles RAID no ofrece protección contra fallos?</enunciado>
-        <opcionA>RAID 0.</opcionA>
-        <opcionB>RAID 1.</opcionB>
-        <opcionC>RAID 5.</opcionC>
-        <opcionD>Ninguna es correcta.</opcionD>
-        <solucion>A</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Que problema nos encontramos si realizamos una distribución funcional en una base de datos?</enunciado>
-        <opcionA>Escalabilidad de la base de datos.</opcionA>
-        <opcionB>Protección ante fallos.</opcionB>
-        <opcionC>Integridad de los datos.</opcionC>
-        <opcionD>La base de datos tendrá que ser relacional.</opcionD>
-        <solucion>C</solucion>
-    </pregunta>
+<tema titulo="Tema 7: Almacenamiento de Datos" cantidad_preguntas="92">
+	<pregunta>
+		<enunciado>¿Qué método de almacenamiento o nivel de RAID presenta un conjunto de discos en espejo?</enunciado>
+		<opcionA>RAID 0</opcionA>
+		<opcionB>RAID 1</opcionB>
+		<opcionC>RAID 2</opcionC>
+		<opcionD>RAID 5</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué método de almacenamiento o nivel de RAID permite corrección de errores (código hamming)?</enunciado>
+		<opcionA>RAID 0</opcionA>
+		<opcionB>RAID 1</opcionB>
+		<opcionC>RAID 2</opcionC>
+		<opcionD>RAID 5</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué método de almacenamiento o nivel de RAID divide los datos a nivel de bloques y ademas necesita de 3 discos como mínimo para ser implementado?</enunciado>
+		<opcionA>RAID 0</opcionA>
+		<opcionB>RAID 1</opcionB>
+		<opcionC>RAID 2</opcionC>
+		<opcionD>RAID 5</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué método de almacenamiento o nivel de RAID suele utilizarse en bases de datos de altas prestaciones?</enunciado>
+		<opcionA>RAID 0</opcionA>
+		<opcionB>RAID 1</opcionB>
+		<opcionC>RAID 5</opcionC>
+		<opcionD>RAID 10</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es el componente hardware que más probablemente falla en un servidor?</enunciado>
+		<opcionA>La memoria RAM</opcionA>
+		<opcionB>La fuente de alimentación</opcionB>
+		<opcionC>El disco duro</opcionC>
+		<opcionD>La tarjeta de red</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En un almacenamiento basado en RAID...</enunciado>
+		<opcionA>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se replican los datos</opcionA>
+		<opcionB>Ofrece menor integridad</opcionB>
+		<opcionC>Ofrece menor capacidad y menor rendimiento</opcionC>
+		<opcionD>Un RAID por hardware es mas lento que uno configurado por software</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El RAID 4...</enunciado>
+		<opcionA>Necesita un minimo de 2 discos físicos</opcionA>
+		<opcionB>En lectura es muy ineficiente</opcionB>
+		<opcionC>Es poco común, pues se abandonó por el RAID 5 y 6</opcionC>
+		<opcionD>No puede servir varias peticiones de lectura simultáneamente</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué significa RAID y para qué sirve?</enunciado>
+		<opcionA>Really Awsome Insect Destructor. No hay que aclarar más</opcionA>
+		<opcionB>Redundant Array of Independent Disks. Usan múltiples discos para distribuir o replicar los datos</opcionB>
+		<opcionC>Replicated Array of Intelligent Databases. Bases de datos inteligentes y distribuidas para aumentar la velocidad y disponibilidad</opcionC>
+		<opcionD>Replicated Array of Independent Disks. Usan múltiples discos para replicar los datos</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Definición de la tecnología de almacenamiento SAN</enunciado>
+		<opcionA>Consiste en una red de alta velocidad conectando dispositivos de almacenamiento a los servidores</opcionA>
+		<opcionB>Es un dispositivo que actúa como servidor que suele guardar copias de seguridad</opcionB>
+		<opcionC>Es un array de almacenamiento compartido e incluye discos en rack</opcionC>
+		<opcionD>Es un conjunto de discos que incluyen copias de seguridad conectado a los servidores</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El RAID 1</enunciado>
+		<opcionA>Crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos</opcionA>
+		<opcionB>Usa división a nivel de bits</opcionB>
+		<opcionC>Usa división a nivel de bloques con un disco de paridad dedicado</opcionC>
+		<opcionD>Ninguna de las anteriores</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuáles de las siguientes afirmaciones son ciertas con respecto al RAID 10?</enunciado>
+		<opcionA>Si un disco falla por completo, la duplicación conserva la información</opcionA>
+		<opcionB>El reparto de los datos divide los datos en fragmentos y los graba en conjuntos distintos de forma sucesiva</opcionB>
+		<opcionC>Mejora el rendimiento porque el equipo puede obtener datos de más de un conjunto a la vez</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tipo de RAID utiliza división a nivel de bloques con un disco de paridad dedicado y necesita un mínimo de 3 discos físicos más un disco para la paridad?</enunciado>
+		<opcionA>RAID 2</opcionA>
+		<opcionB>RAID 0</opcionB>
+		<opcionC>RAID 4</opcionC>
+		<opcionD>RAID 10</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Dispotitivo que actúa como un servidor de ficheros y aparece en la red como un servidor más</enunciado>
+		<opcionA>SSA</opcionA>
+		<opcionB>NAS</opcionB>
+		<opcionC>SAN</opcionC>
+		<opcionD>Ninguno de los anteriores</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que tipo de RAID es el que brinda mas redundancia y seguridad?</enunciado>
+		<opcionA>RAID 0</opcionA>
+		<opcionB>RAID 1</opcionB>
+		<opcionC>RAID 5</opcionC>
+		<opcionD>RAID 10</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Si hablamos de almacenamiento que significan las siglas SAN?</enunciado>
+		<opcionA>Storage Array Nas</opcionA>
+		<opcionB>Structured Array Network</opcionB>
+		<opcionC>Shared Area Netlan</opcionC>
+		<opcionD>Storage Area Network</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Si hablamos de almacenamiento que significan las siglas NAS?</enunciado>
+		<opcionA>Netlan Attached Shared</opcionA>
+		<opcionB>Netlan Area Storage</opcionB>
+		<opcionC>Network Area Shared</opcionC>
+		<opcionD>Network Attached Storage</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿En qué consiste una BD segmentada?</enunciado>
+		<opcionA>Conjunto de BD redundates compuesta por un conjunto de segmentos identicos sincronizados entre ellos</opcionA>
+		<opcionB>Hacer una división lógica de la BD donde cada segmento queda almacenado en un servidor de BD</opcionB>
+		<opcionC>Tipo de BD propietaria donde existe un balanceo de las peticiones entre dos o más servidores con BD identicas</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es una configuración RAID 0?</enunciado>
+		<opcionA>Configuración RAID (conjunto redundante de discos independientes) en la que se reparten los datos entre varios discos incrementando la velocidad de lectura y escritura</opcionA>
+		<opcionB>Configuración RAID (conjunto redundante de discos independientes) en la que se crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos. Ofrece gran fiabilidad</opcionB>
+		<opcionC>Configuración RAID (conjunto redundante de discos independientes) en la que se divide los datos a nivel de bloques, distribuyendo la información de paridad entre los discos del conjunto. Necesita un mínimo de 3 discos para ser implementado</opcionC>
+		<opcionD>Configuración RAID (conjunto redundante de discos independientes) usando una división a nivel de bits permitiendo corrección de errores (código hamming)</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Es posible combinar varios configuraciones de RAID?</enunciado>
+		<opcionA>No, debemos elegir la configuración que más se adapte a nuestras necesidades de almacenamiento</opcionA>
+		<opcionB>Solo es posible con una configuración por software, permitiendo una configuración más flexible</opcionB>
+		<opcionC>Sí, buscando las ventajas de varias configuraciones RAID</opcionC>
+		<opcionD>Solo es posible con una configuración por hardware</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es un NAS?</enunciado>
+		<opcionA>Todas son correctas</opcionA>
+		<opcionB>Posee una interfaz para conectar los discos a las controladoras (normalmente SCSI) normalmente desarrollados por una empresa con unas especificaciones y herramientas propietarias</opcionB>
+		<opcionC>Red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores</opcionC>
+		<opcionD>Conjunto de discos organizados en un dispositivo de red con IP y que puede conectarse a una red Ethernet. Usa protocolos como NFS y permite configuraciones RAID</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál de las siguientes afirmaciones sobre RAID es la correcta</enunciado>
+		<opcionA>Un RAID ofrece mayor integridad, mayor tolerancia a fallos, mayor rendimiento y mayor capacidad</opcionA>
+		<opcionB>La tecnología RAID soporta el uso de dos discos de máximo de reserva (hot spare), para usarse inmediatamente y de forma automática tras el fallo de uno de los discos</opcionB>
+		<opcionC>No podemos anidar niveles RAID</opcionC>
+		<opcionD>Un RAID por software es mucho más rápido que uno configurado por hardware</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál de las siguientes afirmaciones es la falsa</enunciado>
+		<opcionA>Las SSA tienen un número ilimitado de puertos para hacer la conexión entre servidores y almacenamiento</opcionA>
+		<opcionB>Las SAN pueden operar con SSA y NAS</opcionB>
+		<opcionC>Una SAN ofrece una capa de abstracción entre los dispositivos de almacenamiento y los servidores, y permite que el espacio físico de almacenamiento crezca</opcionC>
+		<opcionD>La posibilidad de manejo y la flexibilidad de un SSA es limitada. Aceptan cambios en caliente de discos y varias configuraciones RAID</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Entre los posibles problemas para realizar la replicación y repartir la carga puede encontrarse</enunciado>
+		<opcionA>El coste de los nuevos servidores y almacenamiento</opcionA>
+		<opcionB>La configuración de los servicios para la replicación y sincronización</opcionB>
+		<opcionC>La necesidad de un balanceador para los servidores de Base de Datos</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>De los siguiente sistemas RAID, no son tan eficientes en operaciones de escritura</enunciado>
+		<opcionA>RAID0, RAID1, RAID2 y RAID5 entre otros</opcionA>
+		<opcionB>RAID1,RAID4,RAID5 y RAID10</opcionB>
+		<opcionC>RAID4, RAID5, RAID6</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El almacenamiento basado en RAID 5</enunciado>
+		<opcionA>Crea una copia exacta de un conjunto de datos en otros discos</opcionA>
+		<opcionB>Usa división de bloques con un disco de paridad</opcionB>
+		<opcionC>Usa divisón a nivel de bits</opcionC>
+		<opcionD>Usa división de bloques, distribuyendo la paridad entre los discos</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Realizar distribución funcional y segmentar la BD es, respectivamente</enunciado>
+		<opcionA>Dividir la BD global en varias secciones en base a aplicaciones y hacer una división lógica de la BD</opcionA>
+		<opcionB>Hacer una división lógica de la BD y divirla en varias secciones en base a aplicaciones</opcionB>
+		<opcionC>Ninguna de las dos respuestas anteriores son correctas</opcionC>
+		<opcionD>Ambas respuestas son correctas</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de las siguientes afirmaciones es cierta sobre RAID 1?</enunciado>
+		<opcionA>Usa división a nivel de bits</opcionA>
+		<opcionB>Usa división a nivel de bloques con un disco de paridad dedicado</opcionB>
+		<opcionC>Necesita un mínimo de 3 discos físicos</opcionC>
+		<opcionD>Se puede poner un disco inactivo para hacer backup de los datos, mientras que el otro sigue dando servicio</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de las siguientes cosas puede hacer RAID?</enunciado>
+		<opcionA>Proteger los datos ante virus</opcionA>
+		<opcionB>Permite acceder a los datos aunque falle un disco</opcionB>
+		<opcionC>Simplifica la recuperación de un desastre</opcionC>
+		<opcionD>Facilita el traslado del almacenamiento a un sistema nuevo</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué RAID se suele usar para bases de datos de altas prestaciones?</enunciado>
+		<opcionA>RAID 5</opcionA>
+		<opcionB>RAID 6</opcionB>
+		<opcionC>RAID 4</opcionC>
+		<opcionD>RAID 10</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cúal no es una característica de los discos RAID?</enunciado>
+		<opcionA>No facilita el traslado del almacenamiento a un sistema nuevo</opcionA>
+		<opcionB>No simplifica la recuperación de un desastre</opcionB>
+		<opcionC>Protege los datos</opcionC>
+		<opcionD>Permite acceder a los datos aunque falle un disco</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>RAID (redundant array of independent disks)</enunciado>
+		<opcionA>Ofrece mayor integridad, mayor tolerancia a fallos, mayor capacidad, pero ofrece menor rendimiento</opcionA>
+		<opcionB>Ofrece mayor integridad, mayor capacidad, mayor rendimiento, pero es menos tolerante a fallos</opcionB>
+		<opcionC>Ofrece mayor integridad, mayor tolerancia a fallos, mayor rendimiento y mayor capacidad</opcionC>
+		<opcionD>Ofrece solo mayor integridad</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Un RAID (redundant array of independent disks) por hardware es mucho más rápido que uno configurado por software</enunciado>
+		<opcionA>Depende de la configuración</opcionA>
+		<opcionB>Si</opcionB>
+		<opcionC>No</opcionC>
+		<opcionD>b y c son ciertas</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué puede hacer RAID?</enunciado>
+		<opcionA>Puede mejorar el rendimiento de ciertas aplicaciones</opcionA>
+		<opcionB>Protege los datos</opcionB>
+		<opcionC>Permite acceder a los datos aunque falle un disco</opcionC>
+		<opcionD>a y c son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Para estimar las necesidades de CPU</enunciado>
+		<opcionA>El sistema operativo debe consumir cerca del 2% de la capacidad de procesamiento del sistema</opcionA>
+		<opcionB>El sistema operativo debe consumir cerca del 10% de la capacidad de procesamiento del sistema</opcionB>
+		<opcionC>El sistema operativo debe consumir cerca del 30% de la capacidad de procesamiento del sistema</opcionC>
+		<opcionD>El sistema operativo debe consumir cerca del 35% de la capacidad de procesamiento del sistema</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es un RAID?</enunciado>
+		<opcionA>Es un sistema de almacenamiento que usa un único disco duro</opcionA>
+		<opcionB>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionB>
+		<opcionC>Es un sistema de almacenamiento que usa múltiples discos duros entre los que no se replican los datos</opcionC>
+		<opcionD>Es un conjunto redundante de discos dependientes</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>SAN es...</enunciado>
+		<opcionA>Una red de almacenamiento no especializada que conecta dispositivos de almacenamiento a los servidores</opcionA>
+		<opcionB>Una red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores</opcionB>
+		<opcionC>Una red de almacenamiento no especializada que conecta dispositivos de almacenamiento a los clientes</opcionC>
+		<opcionD>Ninguna de las anteriores es correcta</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El sistema de almacenamiento se compone de...</enunciado>
+		<opcionA>Base de datos</opcionA>
+		<opcionB>Sistema de archivos</opcionB>
+		<opcionC>Ambos</opcionC>
+		<opcionD>Ninguno</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Un sistema RAID0...</enunciado>
+		<opcionA>Replica los datos de un disco en otro</opcionA>
+		<opcionB>Permite usar dos discos como si fuesen uno solo</opcionB>
+		<opcionC>Permite acceder a los datos aunque falle uno de los discos</opcionC>
+		<opcionD>A y B son correctas</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de estas mejoras se puede conseguir con una configuración RAID?</enunciado>
+		<opcionA>Simplificar la recuperación de un desastre</opcionA>
+		<opcionB>Mejorar el rendimiento para todas las aplicaciones</opcionB>
+		<opcionC>Facilitar el traslado del almacenamiento</opcionC>
+		<opcionD>Acceder a los datos aunque falle un disco</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En una Base de datos (cual es falsa)</enunciado>
+		<opcionA>El número de sesiones concurrentes en la BD no afecta al rendimiento de la granja web completa ya que disponemos de máquinas muy potentes</opcionA>
+		<opcionB>Las búsquedas que devuelvan resultados muy grandes afectarán al rendimiento de CPU , almacenamiento y red</opcionB>
+		<opcionC>Conviene utilizar hardware redundante para los servidores</opcionC>
+		<opcionD>La arquitectura de la BD debe estar basada en un cluster</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Tipos de raid , marcar la opción correcta</enunciado>
+		<opcionA>RAID 0 , ofrece una gran fiabilidad ya que lo que hace este tipo de RAID es crear una copia exacta (espejo) de un conjunto de datos en dos o más discos</opcionA>
+		<opcionB>RAID 1 , incrementa la velocidad de escritura y lectura gracias al reparto de los datos entre varios discos</opcionB>
+		<opcionC>RAID 2 , permite la corrección de errores usando una división a nivel de bits</opcionC>
+		<opcionD>Ninguna de las anteriores es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Podemos mejorar las prestaciones de los sistemas de almacenamiento...</enunciado>
+		<opcionA>Con la ampliación vertical (adquirir un mejor hardware más rápido y actualizado)</opcionA>
+		<opcionB>Con la ampliación horizontal (replicar el almacenamiento entre varios servidores)</opcionB>
+		<opcionC>a y b son correctas</opcionC>
+		<opcionD>a y b son falsas</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El almacenamiento basado en RAID...</enunciado>
+		<opcionA>es un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionA>
+		<opcionB>ofrecen mayor integridad, mayor tolerancia a fallos, mayor rendimiento y mayor capacidad</opcionB>
+		<opcionC>al combinar varios dispositivos en un conjunto que ofrece mayor capacidad, fiabilidad y velocidad que un solo dispositivo de última generación más caro</opcionC>
+		<opcionD>Todas son verdaderas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de los siguientes niveles RAID crea una copia exacta de un conjunto de datos en dos o más discos?</enunciado>
+		<opcionA>RAID 1</opcionA>
+		<opcionB>RAID 5</opcionB>
+		<opcionC>RAID 0</opcionC>
+		<opcionD>RAID 4</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué permite hacer RAID?</enunciado>
+		<opcionA>Proteger los datos</opcionA>
+		<opcionB>Mejora el rendimiento para todas las aplicaciones</opcionB>
+		<opcionC>Permite acceder a los datos aunque falle un disco</opcionC>
+		<opcionD>Facilita el traslado del almacenamiento a un sistema nuevo</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué significado tiene "segmentar una base de datos"?</enunciado>
+		<opcionA>Replicar una base de datos en varios servidores</opcionA>
+		<opcionB>Hacer una división lógica de la base de datos</opcionB>
+		<opcionC>Crear varias bases de datos no relacionales en un servidor</opcionC>
+		<opcionD>Ninguna respuesta es correcta</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué significan las siglas RAID?</enunciado>
+		<opcionA>Real Array of Independent Dates</opcionA>
+		<opcionB>Real Array of Independent Disks</opcionB>
+		<opcionC>Redundant Array of Independent Disks</opcionC>
+		<opcionD>Redundant Array of Independent Dates</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es un RAID?</enunciado>
+		<opcionA>Un sistema de almacenamiento que usa múltiples discos duros pero solo utiliza uno de ellos</opcionA>
+		<opcionB>Un sistema de almacenamiento que usa un solo disco duro para distribuir datos</opcionB>
+		<opcionC>Un sistema de almacenamiento que usa un solo disco duro para replicar datos</opcionC>
+		<opcionD>Un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Sistemas RAID software vs hardware</enunciado>
+		<opcionA>Una configuración software RAID es más rápida que una implementación hardware</opcionA>
+		<opcionB>Una configuración hardware RAID es más rápida que una implementación software</opcionB>
+		<opcionC>No tiene sentido comparar estos dos términos</opcionC>
+		<opcionD>Son iguales de rápidos</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Un RAID es</enunciado>
+		<opcionA>Conjunto de información para copias de seguridad</opcionA>
+		<opcionB>Sistema de emergencia ante fallos de un servidor</opcionB>
+		<opcionC>Sistema de almacenamiento que usa múltiples discos</opcionC>
+		<opcionD>Conjunto de discos conectados, para ofrecer tolerancia a fallos</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Una de las características que tiene el almacenamiento NAS es</enunciado>
+		<opcionA>Que es utilizado para copias de seguridad</opcionA>
+		<opcionB>Que es un dispositivo que actúa como servidor de ficheros</opcionB>
+		<opcionC>Tiene una gran capacidad de almacenamiento</opcionC>
+		<opcionD>a y b son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que tipo de raid utilizarías en caso de que necesitases enorme espacio de almacenamiento y necesitases que fuese rápido?</enunciado>
+		<opcionA>RAID0</opcionA>
+		<opcionB>RAID1</opcionB>
+		<opcionC>RAID5</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que tipo de raid utilizarías para montar un NFS?</enunciado>
+		<opcionA>RAID0</opcionA>
+		<opcionB>RAID1</opcionB>
+		<opcionC>RAID5</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Podemos mejorar las prestaciones de los sistemas de almacenamiento con...</enunciado>
+		<opcionA>ampliación vertical</opcionA>
+		<opcionB>ampliación horizontal</opcionB>
+		<opcionC>ampliación diagonal</opcionC>
+		<opcionD>A) y B) son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El componente hardware que más suele fallar en un servidor es</enunciado>
+		<opcionA>las fuentes de alimentación</opcionA>
+		<opcionB>los discos duros</opcionB>
+		<opcionC>la memoria RAM</opcionC>
+		<opcionD>las unidades de cómputo</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es la principal ventaja de las RAID hardware frente a los RAID software?</enunciado>
+		<opcionA>Poder agrupar en un mismo RAID, discos conectados en varias controladoras</opcionA>
+		<opcionB>El precio</opcionB>
+		<opcionC>El rendimiento</opcionC>
+		<opcionD>Poder construir RAID de particiones en lugar de discos completos</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué elementos influyen en el rendimiento de una base de datos?</enunciado>
+		<opcionA>Sistema de entrada/salida de disco,latencia de la red,potencia de la CPU y cantidad de memoria RAM</opcionA>
+		<opcionB>Sistemas de salidas</opcionB>
+		<opcionC>Son siempre de alto rendimiento</opcionC>
+		<opcionD>La latencia de la red y la potencia de la CPU</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es un RAID?</enunciado>
+		<opcionA>Ninguna es correcta</opcionA>
+		<opcionB>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se administran las consultas a la memoria ram</opcionB>
+		<opcionC>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se eliminan los datos</opcionC>
+		<opcionD>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que tipo de RAID es mas rapido?</enunciado>
+		<opcionA>Hardware</opcionA>
+		<opcionB>Software</opcionB>
+		<opcionC>Ninguno de los dos</opcionC>
+		<opcionD>Ambos son igual de rapidos</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuales son los tipos de RAID de diferente nivel</enunciado>
+		<opcionA>Raid 0</opcionA>
+		<opcionB>Raid 1</opcionB>
+		<opcionC>Raid 5</opcionC>
+		<opcionD>Todas las anteriores</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es la configuración RAID10?</enunciado>
+		<opcionA>La mejor diseñada hasta la fecha</opcionA>
+		<opcionB>Dividir los datos en distintos discos</opcionB>
+		<opcionC>Replicar los datos en distintos discos</opcionC>
+		<opcionD>Una combinación de las dos técnicas comentadas en las otras opciones</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué permite el almacenamiento basado en RAID?</enunciado>
+		<opcionA>Proteger los datos de virus</opcionA>
+		<opcionB>Mejorar el rendimiento de todas las aplicaciones</opcionB>
+		<opcionC>Acceder a los datos aunque falle un disco</opcionC>
+		<opcionD>Facilitar el traslado del almacenamiento a un sistema nuevo</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué grado de importancia tienen el almacenamiento dentro de una granaj web?</enunciado>
+		<opcionA>Es importante aunque no crucial ya que es más barato que otros componentes de los servidores como la memoria ram</opcionA>
+		<opcionB>Es crucial para la granja web porque contiene todos los datos de la aplicación y de los usuarios de la misma. A partir de estos datos se puede extraer información muy valiosa y mantener las aplicaciones en funcionamiento</opcionB>
+		<opcionC>No es importante porque no son el motor de la granja web</opcionC>
+		<opcionD>No son importantes porque es barato y puede replicarse sin problema</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es uno de los requisitos que se pide al almacenamiento de la granja web?</enunciado>
+		<opcionA>Que sea muy alto para almacenar una gran cantidad de datos</opcionA>
+		<opcionB>Que sea resistente a fallos para que no se pueda corromper fácilmente</opcionB>
+		<opcionC>Que sea rápido para que no represente un cuello de botella para la granja web</opcionC>
+		<opcionD>Que garantice múltiples accesos concurrentes, que se efectúen de forma rápida y eficiente y que sea escalable cuando se necesite</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Si queremos tener replicación de almacenamiento hardware en nuestra granja web, ¿qué requisito es imprescindible?</enunciado>
+		<opcionA>Que la replicación sea segura</opcionA>
+		<opcionB>Que la replicación sea rápida</opcionB>
+		<opcionC>Que el hardware que realiza la replicación sea redundante</opcionC>
+		<opcionD>Que el hardware sea potente</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es la principal diferencia entre la replicación de datos por hardware y la replicación de datos por software como RAID?</enunciado>
+		<opcionA>La replicación por hardware es rápida y la replicación por software es flexible</opcionA>
+		<opcionB>La replicación por hardware es escalable y la replicación por software no lo es</opcionB>
+		<opcionC>La replicación por hardware es compleja y la replicación por software no lo es</opcionC>
+		<opcionD>La replicación por hardware es la más utilizada en grandes empresas y la replicación por software es la más utilizada en pequeñas empresas TIC</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Usando almacenamiento RAID ¿que nivel de RAID deberíamos implementar si deseamos obtener tanto velocidad como seguridad?</enunciado>
+		<opcionA>Raid 0</opcionA>
+		<opcionB>Raid 1</opcionB>
+		<opcionC>Raid 5</opcionC>
+		<opcionD>Raid 10</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cual de los siguientes componentes hardware tiene un mayor índice de fallo y es necesaria su instalación de forma redundante?</enunciado>
+		<opcionA>Las fuentes de alimentación y los discos</opcionA>
+		<opcionB>Las tarjetas de red y las fuentes de alimentación</opcionB>
+		<opcionC>Los discos y las tarjetas de red</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Suponiendo que tenemos un sistema de base de datos de altas prestaciones, del cual queremos asegurarnos que ante una catástrofe, los datos no sufran daño alguno ¿qué RAID usaría?</enunciado>
+		<opcionA>1</opcionA>
+		<opcionB>0+1 ó 1+0+6</opcionB>
+		<opcionC>1+0</opcionC>
+		<opcionD>0+1+5</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Si queremos hacer uso de una configuración altamente tolerante a fallos, ¿qué RAID usaría?</enunciado>
+		<opcionA>1+0</opcionA>
+		<opcionB>0+1+6</opcionB>
+		<opcionC>0+1</opcionC>
+		<opcionD>0+1+5</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>RAID puede...</enunciado>
+		<opcionA>Protege los datos</opcionA>
+		<opcionB>Mejora el rendimiento de todas las aplicaciones.</opcionB>
+		<opcionC>Permite acceder a los datos aunque falle un dico</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tipo de RAID crea una copia exacta de un conjunto de datos en dos o más discos?</enunciado>
+		<opcionA>RAID 1</opcionA>
+		<opcionB>RAID 4</opcionB>
+		<opcionC>RAID 0</opcionC>
+		<opcionD>RAID 5</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Para mejorar las prestaciones de los sistemas de almacenamiento, la ampliación horizontal ...</enunciado>
+		<opcionA>Puede resultar más efectiva en cuanto a la complejidad</opcionA>
+		<opcionB>Puede resultar más efectiva en cuanto a la escalabilidad</opcionB>
+		<opcionC>No puede resultar más efectiva en cuanto a la escalabilidad</opcionC>
+		<opcionD>Se trata de adquirir un mejor hardware más rápido y actualizado</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué puede hacer un RAID?</enunciado>
+		<opcionA>Proteger los datos</opcionA>
+		<opcionB>Facilitar el traslado del almacenamiento a un sistema nuevo</opcionB>
+		<opcionC>Mejorar el rendimiento de ciertas aplicaciones</opcionC>
+		<opcionD>Mejorar el rendimiento de todas las aplicaciones</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es el RAID?</enunciado>
+		<opcionA>Sitema de almacenamineto que usa múltiples discos duros entre los que sólo se distribuyen los datos</opcionA>
+		<opcionB>Sistema de arranque</opcionB>
+		<opcionC>Sitema de almacenamineto que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionC>
+		<opcionD>Sistema que sólo almacena un sistema operativo</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué significa SAN?</enunciado>
+		<opcionA>Red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores</opcionA>
+		<opcionB>Forma simple de almacenamiento externo</opcionB>
+		<opcionC>Dispositivo que actúa como un servidor de ficheros,pero ahorrando los recursos de tener una máquina más</opcionC>
+		<opcionD>Eliminar servicios no necesarios</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál o cuáles son un posible problema de realizar la replicación y repartir la carga</enunciado>
+		<opcionA>coste de espacio</opcionA>
+		<opcionB>rutinas de adaptación</opcionB>
+		<opcionC>coste de nuevos servidores y almacenamiento</opcionC>
+		<opcionD>ninguna es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que es segmentar una BD?</enunciado>
+		<opcionA>dividir la BD global en varias secciones relativas</opcionA>
+		<opcionB>hacer división lógica de la BD</opcionB>
+		<opcionC>mantener integridad entre datos</opcionC>
+		<opcionD>todas son correctas</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es el segundo elemento que más comunmente falla en hardware?</enunciado>
+		<opcionA>Fuentes de alimentación</opcionA>
+		<opcionB>Conexiones inalambricas</opcionB>
+		<opcionC>Los discos</opcionC>
+		<opcionD>Todos</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Una gran cantidad de accesos a la BD por cada petición HTTp puede sobrcargar la conexión de la red entre los</enunciado>
+		<opcionA>Servidores de aplicacion y BD</opcionA>
+		<opcionB>Servidores de BD y video</opcionB>
+		<opcionC>Servidores web y BD</opcionC>
+		<opcionD>Servidores de aplicacion y web</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de estos RAID existe?</enunciado>
+		<opcionA>RAID 1+2</opcionA>
+		<opcionB>RAID 1+0</opcionB>
+		<opcionC>RAID 3+4</opcionC>
+		<opcionD>RAID 6+7</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál de las siguientes abreviaturas pertenece a "Área de almacenamiento en red"</enunciado>
+		<opcionA>SSA</opcionA>
+		<opcionB>DAS</opcionB>
+		<opcionC>NAS</opcionC>
+		<opcionD>SAN</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Hardware ampliable</enunciado>
+		<opcionA>Un hardware ampliable debe tener capacidad de disco, cpu, red y memoria que excedan los requisitos para poder soportar las aplicaciones futuras</opcionA>
+		<opcionB>El hardware no es importante en un servidor</opcionB>
+		<opcionC>Simplemente con un ordenador que tenga un hardware aguantando las aplicaciones actuales no se necesita mas potencia</opcionC>
+		<opcionD>El software puede solucionar los problemas de hardware</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Hardware tolerante a fallos</enunciado>
+		<opcionA>Con una maquina buena se tiene una disponibilidad del server del 99%, no se necesita mas</opcionA>
+		<opcionB>Es necesaria una inversion inicial en la adquisicion de fuentes de alimentacion discos duros etc para evitar caidas prolongadas del servicio</opcionB>
+		<opcionC>Hacer un sobrecosto inicial no implica mejoras en el servicio</opcionC>
+		<opcionD>El softwre puede solucionar los problemas de hardware</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Area de almacenamiento en red</enunciado>
+		<opcionA>Se conectan impresoras y faxes en red</opcionA>
+		<opcionB>El softwre puede solucionar los problemas de hardware</opcionB>
+		<opcionC>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionC>
+		<opcionD>Es una red de almacenamiento muy especializada que conecta dispositivos de almacenamiento a los servidores</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué nivel de RAID tolera un fallo simultáneo en dos de cualquiera de sus discos?</enunciado>
+		<opcionA>RAID 4</opcionA>
+		<opcionB>RAID 0+1</opcionB>
+		<opcionC>RAID 5</opcionC>
+		<opcionD>RAID 6</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué elementos puede contener un área de almacenamiento de red (SAN)?</enunciado>
+		<opcionA>Robots de cinta y medios ópticos</opcionA>
+		<opcionB>Arrays de almacenamiento compartido (SSA)</opcionB>
+		<opcionC>Almacenamiento conectado a la red (NAS)</opcionC>
+		<opcionD>Cualquiera de las anteriores</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Uno de los factores a tener en cuenta al diseñar la arquitectura de la BD</enunciado>
+		<opcionA>No usar una arquitectura basada en cluster</opcionA>
+		<opcionB>Las búsquedas que devuelvan resultados muy grandes afectarán al rendimiento de CPU, almacenamiento y red</opcionB>
+		<opcionC>El tipo de accesos a la BD no influye</opcionC>
+		<opcionD>Una BD no se podrá escalar en el futuro aunque desde el principio se instaló hardware con capacidad de ampliación</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En cuanto a los RAID 1...</enunciado>
+		<opcionA>Ofrece gran fiabilidad, ya que para que el conjunto falle es necesario que lo hagan todos sus discos</opcionA>
+		<opcionB>Necesita un mínimo de 3 discos físicos</opcionB>
+		<opcionC>Es poco común. Se abandonó por el RAID 5 y 6</opcionC>
+		<opcionD>no ofrece protección contra fallos en los discos, ya que no se escribe información duplicada o información de paridad</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es el RAID?</enunciado>
+		<opcionA>Es un sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos</opcionA>
+		<opcionB>Es un sistema de almacenamiento que usa un único disco duro donde se almacenan los datos</opcionB>
+		<opcionC>Es un sistema de almacenamiento que usa múltiples discos duros entre los que únicamente se distribuyen los datos</opcionC>
+		<opcionD>Es un sistema de almacenamiento que usa múltiples discos duros entre los que únicamente se replican los datos</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿En qué consiste el RAID 5?</enunciado>
+		<opcionA>En un conjunto dividido</opcionA>
+		<opcionB>En un conjunto dividido con paridad distribuida</opcionB>
+		<opcionC>En un conjunto en espejo</opcionC>
+		<opcionD>Las respuestas b y c son correctas</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+        <pregunta>
+		<enunciado>Tras el fallo de un disco, tenemos las siguientes paridades en un RAID 5:
+                    Disco 1: 00101010 (Datos)
+                    Disco 2: 10001110 (Datos)
+                    Disco 3: MUERTO (Datos)
+                    Disco 4: 10110101 (Datos)
+                    Disco 5: ¿¿¿??? (Repuesto)
+                    Disco 6: 11100110 (Paridad)
+
+                    Qué información de paridad se habrá generado en el disco de repuesto?</enunciado>
+		<opcionA>11110111</opcionA>
+		<opcionB>10010010</opcionB>
+		<opcionC>00101001</opcionC>
+		<opcionD>11010110</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
 </tema>

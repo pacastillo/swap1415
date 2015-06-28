@@ -1,83 +1,571 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 8: Requisitos hardware y software en servidores web" cantidad_preguntas="10">
-    <pregunta>
-        <enunciado>A la hora de buscar cuellos de botella en memoria..:</enunciado>
-        <opcionA>Se recomienda no poner caché. Así consumiremos menos recursos. Así , nunca nos faltará memoria RAM:</opcionA>
-        <opcionB>Se recomienda poner una caché pequeña(sin contenido estático) para que no falte memoria RAM.</opcionB>
-        <opcionC>Se recomiendoa poner una caché grande (para contenido estático).Si falta memoria, incrementar RAM y optimizar objetos.</opcionC>
-        <opcionD>Ninguna de las anteriores.</opcionD>
-        <solucion>C</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>A la hora de buscar cuellos de botella en CPU..:</enunciado>
-        <opcionA>Debemos vigilar la carga y mantenerla sobre el 50%( Nunca cerca del 100%).</opcionA>
-        <opcionB>Debemos vigilar la carga y mantenerla sobre el 90%( lo más cerca posible del 100%).</opcionB>
-        <opcionC>Debemos vigilar la carga y mantenerla por debajo del 10% (nunca superior al 10%).</opcionC>
-        <opcionD>Ninguna de las anteriores.</opcionD>
-        <solucion>A</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cuál de estas afirmaciones se corresponde con la regla 80-20?</enunciado>
-        <opcionA>El 80% de la carga la gestiona el 20% del hardware disponible.</opcionA>
-        <opcionB>El 80% del tráfico web corresponde al 20% de las páginas almacenadas.</opcionB>
-        <opcionC>El 80% de las personas que leen esta pregunta no saben qué contestar.</opcionC>
-        <opcionD>El 80% de las webs está alojada en el 20% de la memoria masiva del sistema.</opcionD>
-        <solucion>B</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>En una granja web nos bastará con tener...</enunciado>
-        <opcionA>Escáneres e impresoras.</opcionA>
-        <opcionB>Altas cantidades de RAM y una CPU potente.</opcionB>
-        <opcionC>Una CPU potente (supercomputación) pero no demasiada RAM.</opcionC>
-        <opcionD>Una CPU no demasiada potente y una gran cantidad de memoria RAM.</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>Respecto a servir contenido dinámico...</enunciado>
-        <opcionA>Implica ejecutar código de las páginas servidas.</opcionA>
-        <opcionB>No se puede almacenar contenido en caché.</opcionB>
-        <opcionC>Hay más riesgos en cuanto a seguridad.</opcionC>
-        <opcionD>Todas son correctas.</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>En relacción con los elementos de una granja web, ¿Cual de los siguientes es utilizado para almacenamiento?</enunciado>
-        <opcionA>Arrays de almacenamiento compartido: SSA</opcionA>
-        <opcionB>Área de almacenamiento en red: SAN</opcionB>
-        <opcionC>Almacenamiento conectado a la red: NAS</opcionC>
-        <opcionD>Todas las anteriores</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>Para estimar la necesidad de ancho de banda que va a tener nuestro servidor, hay que tener en cuenta:</enunciado>
-        <opcionA>El número de clientes que se conectará al servidor por segundo</opcionA>
-        <opcionB>La cantidad de bytes que el cliente envia al servidor y la cantidad que el servidor le envia al cliente(petición-respuesta)</opcionB>
-        <opcionC>El porcentaje de ancho de banda que se reserva para el servidor</opcionC>
-        <opcionD>Todos los anteriores</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>¿Cual del siguiente sotfware para servidores es utilizado para monitorización?</enunciado>
-        <opcionA>JMeter</opcionA>
-        <opcionB>OpenSTA</opcionB>
-        <opcionC>Apache Benchmark</opcionC>
-        <opcionD>Todos los anteriores</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>Para estimar las necesidades de CPU:</enunciado>
-        <opcionA>El sistema operativo debe consumir cerca del 2% de la capacidad de procesamiento del sistema.</opcionA>
-        <opcionB>El sistema operativo debe consumir cerca del 10% de la capacidad de procesamiento del sistema.</opcionB>
-        <opcionC>El sistema operativo debe consumir cerca del 30% de la capacidad de procesamiento del sistema.</opcionC>
-        <opcionD>El sistema operativo debe consumir cerca del 35% de la capacidad de procesamiento del sistema.</opcionD>
-        <solucion>B</solucion>
-    </pregunta>
-    <pregunta>
-        <enunciado>El servidor web tiene unas necesidades como...</enunciado>
-        <opcionA>El diseño debe permitir el escalado del sistema</opcionA>
-        <opcionB>Se debe realizar solamente una vez monitorización</opcionB>
-        <opcionC>El sistema de base de datos debe residir en la misma máquina</opcionC>
-        <opcionD>Para planear la capacidad del servidor existe una fórmula</opcionD>
-        <solucion>A</solucion>
-    </pregunta>
+<tema titulo="Tema 8: Requisitos hardware y software en servidores web" cantidad_preguntas="71">
+	<pregunta>
+		<enunciado>Una vez que se haya montado el sistema</enunciado>
+		<opcionA>No es necesario detectar posibles cuellos de botella</opcionA>
+		<opcionB>No es necesario realizar tests de carga con benchmarks</opcionB>
+		<opcionC>Es importante monitorizar cómo está funcionando</opcionC>
+		<opcionD>No es necesario poner el sistema en producción de forma controlada</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tipo de conexión usarías para obtener un elevado ancho de banda en la comunicación en clusters usando la agragación de canales?</enunciado>
+		<opcionA>Gigabith Ethernet</opcionA>
+		<opcionB>SCI</opcionB>
+		<opcionC>Myrinet</opcionC>
+		<opcionD>InfiniBand</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cómo podríamos detectar cuellos de botella en nuestro sistema?</enunciado>
+		<opcionA>Realizando un estudio previo de las capacidades del sistema</opcionA>
+		<opcionB>Monitorizando su funcionamiento una vez puesto de cara al público</opcionB>
+		<opcionC>Monitorizando, realizando test de carga con benchmarks o poniendo el sistema en producción accesible a betatesters</opcionC>
+		<opcionD>No es posible detectarlos antes de que se colapsen</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En una granja web, para conseguir latencias bajas es recomendable..</enunciado>
+		<opcionA>Usar discos de estado sólido de alta velocidad para hacer caching</opcionA>
+		<opcionB>Tener cuantos más servidores mejor</opcionB>
+		<opcionC>Configurar el sistema operativo en modo máxima velocidad</opcionC>
+		<opcionD>Adquirir CPU y RAM que funcionen al máximo de su capacidad en todo momento</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es Myrinet?</enunciado>
+		<opcionA>Es la red de baja latencia más utilizada en la actualidad. Llega a tener latencias de 99 a 10 μs</opcionA>
+		<opcionB>Es una conexión de red con las mismas prestaciones que Ethernet con latencias que van desde los 30 a 100 μs</opcionB>
+		<opcionC>Es un software de almacenamiento de discos en granjas web</opcionC>
+		<opcionD>Es una red militar</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál NO es un software de Firewall?</enunciado>
+		<opcionA>ZoneAlarm</opcionA>
+		<opcionB>Vanish FW</opcionB>
+		<opcionC>Uncomplicated Firewall</opcionC>
+		<opcionD>IpTables</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál NO se puede usar como balanceador de carga?</enunciado>
+		<opcionA>Apache</opcionA>
+		<opcionB>httpref</opcionB>
+		<opcionC>Nginx</opcionC>
+		<opcionD>HaProxy</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Según la regla cual es el porcentaje de trafico y a cuanto porcentaje de páginas almacenadas corresponde ?</enunciado>
+		<opcionA>50% y 50%</opcionA>
+		<opcionB>80% y 20%</opcionB>
+		<opcionC>70% y 30%</opcionC>
+		<opcionD>40% y 10%</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Como podríamos sacar un mejor rendimiento teniendo en cuenta la regla 80-20?</enunciado>
+		<opcionA>Cuidando que el rango de latencia de respuesta del servidor esté entre 80 y 20 ms</opcionA>
+		<opcionB>Balanceando el contenido estatico a un servidor especifico, siendo el 80% de las peticiones de la web</opcionB>
+		<opcionC>Cacheando las páginas y recursos más usasdas en la web, normalmente el 20%</opcionC>
+		<opcionD>Cuidando que el rango de latencia de respuesta del servidor esté como máximo entre 80 y 20 ms</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál de las siguientes afirmaciones sobre conexiones de red Ethernet es la falsa</enunciado>
+		<opcionA>Son las redes más utilizadas en la actualidad, debido a su relativo bajo coste. Su tecnología limita el tamaño de los paquetes</opcionA>
+		<opcionB>Realizan excesivas comprobaciones de error y sus protocolos no son eficientes, y sus velocidades de transmisión pueden limitar el rendimiento de los clústeres</opcionB>
+		<opcionC>La opción más utilizada en la actualidad es Gigabit Ethernet (1 Gbit/s), siendo emergente la solución 10 Gigabit Ethernet (10 Gbit/s)</opcionC>
+		<opcionD>Como no es la mejor solución de red para un sistema de altas prestaciones, no se suele utilizar para las tareas administrativas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cuál de las siguientes afirmaciones sobre conexiones de red InfiniBand es la falsa</enunciado>
+		<opcionA>Es una red surgida de un estándar desarrollado específicamente para realizar la comunicación en clústers</opcionA>
+		<opcionB>Una de sus mayores problemas es que mediante la agregación de canales (x1, x4 y x12) permite obtener anchos de banda muy bajos</opcionB>
+		<opcionC>La conexión básica es de 2 Gbit/s efectivos y con ‘quad connection’ x12 alcanza los 96 Gbit/s</opcionC>
+		<opcionD>Se está usando principalmente para acceder a arrays de discos SAS</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Entre los diferentes elementos de hardware de un servidor web, el mas importante de todos es</enunciado>
+		<opcionA>La CPU</opcionA>
+		<opcionB>La tarjeta gráfica</opcionB>
+		<opcionC>Disponer de un buen sistema RAID</opcionC>
+		<opcionD>La memoria RAM</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Entre las tareas que llevará a cabo el servidor web</enunciado>
+		<opcionA>Ejecutar un sistema operativo</opcionA>
+		<opcionB>Ejecutar servicios que no tienen que ver con el servidor web</opcionB>
+		<opcionC>Ejecutar programas externos necesarios para generar el contenido dinámico</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Para determinar los requisitos del sistema puede ayudar..</enunciado>
+		<opcionA>Estimar el hardware en función de las necesidades de la empresa</opcionA>
+		<opcionB>Monitorizar el sistema durante todo el tiempo que esté en uso</opcionB>
+		<opcionC>Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial</opcionC>
+		<opcionD>Todas las anteriores son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>... consume pocos recursos, se puede almacenar en caché y presenta pocos riesgos en cuanto a la seguridad y el mantenimiento</enunciado>
+		<opcionA>Servir contenido estático</opcionA>
+		<opcionB>Servir contenido dinámico</opcionB>
+		<opcionC>Ambos</opcionC>
+		<opcionD>Ninguno</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué afirmación es cierta sobre servidores web?</enunciado>
+		<opcionA>Cuanta más CPU tengamos mejor, la RAM no es tan importante</opcionA>
+		<opcionB>Probablemente necesitemos mas RAM que CPU</opcionB>
+		<opcionC>Probablemente necesitemos mas CPU que RAM</opcionC>
+		<opcionD>Probablemente necesitemos mas RAM que CPU, es recomendable además cachear imágenes usadas con frecuencia</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es el procedimiento adecuado para estimar el hardware necesario?</enunciado>
+		<opcionA>Coger de más y luego ir quitándo</opcionA>
+		<opcionB>Estimar el hardware en función de las necesidades de la empresa. Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial. Monitorizar el sistema durante todo el tiempo que esté en uso</opcionB>
+		<opcionC>Estimar el hardware en función de las necesidades de la empresa. Monitorizar el sistema durante todo el tiempo que esté en uso</opcionC>
+		<opcionD>Escuchar al vendedor</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tipo de hardware es un HP ProLiant DL385 G7 6282SE?</enunciado>
+		<opcionA>Servidor</opcionA>
+		<opcionB>Switch</opcionB>
+		<opcionC>Unidad de almacenamiento</opcionC>
+		<opcionD>Impresora</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Quien lanzó el Open Compute Project?</enunciado>
+		<opcionA>Google</opcionA>
+		<opcionB>Facebook</opcionB>
+		<opcionC>IBM</opcionC>
+		<opcionD>Samsung</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es el máximo de RAM que poseían los servidores de Google en el momento de su creación?</enunciado>
+		<opcionA>256MB</opcionA>
+		<opcionB>512MB</opcionB>
+		<opcionC>128MB</opcionC>
+		<opcionD>1024MB</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué es HP Sizer?</enunciado>
+		<opcionA>Balanceador de carga</opcionA>
+		<opcionB>Sistema de alimentación ininterrumpida</opcionB>
+		<opcionC>Herramienta para determinar las necesidades del servidor</opcionC>
+		<opcionD>Dispositivo de almacenamiento</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En una Granja web, con el almacenamiento..</enunciado>
+		<opcionA>Se puede evitar latencias usando discos de estado sólido de baja velocidad</opcionA>
+		<opcionB>No se puede evitar latencias</opcionB>
+		<opcionC>Se puede evitar latencias usando discos de estado sólido de alta velocidad</opcionC>
+		<opcionD>Ninguna de las anteriores es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuales de los siguiente Sistemas Operativos se usan para montar servidores web de altas prestaciones?</enunciado>
+		<opcionA>GNU/Linux</opcionA>
+		<opcionB>FreeBSD</opcionB>
+		<opcionC>Mac OS X Server (xgrid)</opcionC>
+		<opcionD>Todas las respuestas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cual de los siguientes programas no es un servidor</enunciado>
+		<opcionA>Node.js</opcionA>
+		<opcionB>Apache</opcionB>
+		<opcionC>httperf</opcionC>
+		<opcionD>thttpd</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>A la hora de estudiar las necesidades de un servidor web</enunciado>
+		<opcionA>La red debe ser el elemento en el que más debemos centrarnos, al ser el más importante</opcionA>
+		<opcionB>Lo crucial es que las operaciones de disco sean rápidas, pues es el cuello de botella de todo sistema</opcionB>
+		<opcionC>Se debe estudiar las necesidades concretas del servidor atendiendo al tráfico que va a recibir</opcionC>
+		<opcionD>Todos los elementos del sistema deben ser los mejores del mercado, a cualquier precio</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de estas tecnologías de conexión de red es más utilizada en clústeres?</enunciado>
+		<opcionA>Gigabit Ethernet</opcionA>
+		<opcionB>Myrinet</opcionB>
+		<opcionC>InfiniBand</opcionC>
+		<opcionD>SCI</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de estas compañías lanzó el proyecto Open Compute en 2011?</enunciado>
+		<opcionA>Google</opcionA>
+		<opcionB>Microsoft</opcionB>
+		<opcionC>Facebook</opcionC>
+		<opcionD>Yahoo!</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Con respecto a nuestros servidores de la granja web cual de las siguientes afirmaciones NO es correcta</enunciado>
+		<opcionA>Conviene cachear las imágenes más comunes , así las páginas que las muestren se servirán más rápido , haciendo que el tiempo medio de servicio sea más rapido</opcionA>
+		<opcionB>Debemos asegurarnos tener máquinas con gran cantidad de RAM , expandible a un máximo que vendrá dado en función del tamaño estimado de ese conjunto de páginas más populares</opcionB>
+		<opcionC>Los servidores web necesitan una capacidad de procesamiento especialmente alta , ya que los servicios HTTP consumen demasiada CPU</opcionC>
+		<opcionD>Todas las anteriores son correctas</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Cual de las siguientes afirmaciones NO es correcta respecto a que parámetros hay que determinar para estimar el ancho de banda</enunciado>
+		<opcionA>El porcentaje del ancho de banda que se reserva para el servidor web</opcionA>
+		<opcionB>El número de bytes que el cliente enviará al servidor en cada petición</opcionB>
+		<opcionC>El número de bytes que el servidor enviará al cliente en cada petición</opcionC>
+		<opcionD>Todas las anteriores son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Los arrays de almacenamiento compartido(SSA).</enunciado>
+		<opcionA>son dispositivos específicos que incluyen varios discos en rack</opcionA>
+		<opcionB>son una red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores</opcionB>
+		<opcionC>son un dispositivo que actúa como un servidor de ficheros, pero ahorrando los recursos de tener una máquina más</opcionC>
+		<opcionD>todas son falsas</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El Switch Mellanox M3601Q InfiniBand..</enunciado>
+		<opcionA>Reduce o elimina las situaciones de congestión mediante el enrutamiento estático</opcionA>
+		<opcionB>Admite mecanismos de control de congestión IBTA 1.2</opcionB>
+		<opcionC>Garantiza un ancho de banda alto y una latencia baja para el resto de los flujos</opcionC>
+		<opcionD>Todas son verdaderas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué protocolo es el más utilizado comúnmente para evitar latencias en la granja web?</enunciado>
+		<opcionA>SSA</opcionA>
+		<opcionB>NFS</opcionB>
+		<opcionC>SAN</opcionC>
+		<opcionD>NAS</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué nos permite el análisis de los logs del servidor?</enunciado>
+		<opcionA>Descubrir posibles ataques</opcionA>
+		<opcionB>Determinar qué contenido es el más demandado</opcionB>
+		<opcionC>Hacer análisis del tipo de usuario y de los patrones de navegación</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál es la característica más importante en servidores?</enunciado>
+		<opcionA>Potencia de CPU</opcionA>
+		<opcionB>Cantidad de memoria RAM</opcionB>
+		<opcionC>Cantidad de memoria secundaria</opcionC>
+		<opcionD>Calidad de la tarjeta gráfica</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Los sitios web siguen la regla</enunciado>
+		<opcionA>el 80% del tráfico corresponde al 20% de las páginas almacenadas</opcionA>
+		<opcionB>el 40% del tráfico corresponde al 60% de las páginas almacenadas</opcionB>
+		<opcionC>el 70% del tráfico corresponde al 30% de las páginas almacenadas</opcionC>
+		<opcionD>el 75% del tráfico corresponde al 25% de las páginas almacenadas</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Tareas que pueden ayudar a determinar los requisitos de hardware del sistema</enunciado>
+		<opcionA>Estimar el hardware en función de las necesidades de la empresa</opcionA>
+		<opcionB>Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial</opcionB>
+		<opcionC>Monitorizar el sistema durante todo el tiempo que esté en uso</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Usar clústers web</enunciado>
+		<opcionA>Decrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar</opcionA>
+		<opcionB>Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar</opcionB>
+		<opcionC>Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software basadas solo en Linux</opcionC>
+		<opcionD>Incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software basadas solo en Windows</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Lo más importante de un servidor web es</enunciado>
+		<opcionA>Capacidad Procesamiento y la memoria RAM</opcionA>
+		<opcionB>Almacenamiento y la memoria RAM</opcionB>
+		<opcionC>Memoria RAM</opcionC>
+		<opcionD>Capacidad Procesamiento</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Para determinar las necesidades de un servidor debemos tener en cuenta</enunciado>
+		<opcionA>El presupuesto del que disponemos</opcionA>
+		<opcionB>El diseño debe permitir el escalado del sistema</opcionB>
+		<opcionC>La seguridad</opcionC>
+		<opcionD>El presupuesto y la seguridad</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cual es la red de baja latencia mas utilizada hoy en día?</enunciado>
+		<opcionA>Ethrnet</opcionA>
+		<opcionB>Myrinet</opcionB>
+		<opcionC>InfiniBand</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cual es la red de mas bajo coste?</enunciado>
+		<opcionA>Ethernet</opcionA>
+		<opcionB>Myrinet</opcionB>
+		<opcionC>InfiniBand</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Los servidores Web…</enunciado>
+		<opcionA>no necesitan demasiada capacidad de procesamiento</opcionA>
+		<opcionB>la parte de procesamiento es más importante que la cantidad de memoria RAM</opcionB>
+		<opcionC>la parte de almacenamiento es la más importante</opcionC>
+		<opcionD>ninguna es correcta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Servir contenido estático</enunciado>
+		<opcionA>es más costoso que servir contenido dinámico</opcionA>
+		<opcionB>es menos costoso que servir contenido dinámico</opcionB>
+		<opcionC>es igual de costoso que servir contenido dinámico</opcionC>
+		<opcionD>es menos costoso que servir contenido dinámico pero presenta muchos riesgos en cuanto a seguridad</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de los siguientes no es un tipo de clúster?</enunciado>
+		<opcionA>High Reliability Computing Clusters (HRCC)</opcionA>
+		<opcionB>High Performance Computing Clusters (HPCC)</opcionB>
+		<opcionC>High Availability Computing Clusters (HACC)</opcionC>
+		<opcionD>High Throughput Computing Clusters (HTCC)</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué elemento incrementa la capacidad de ofrecer servicios usando tecnologías hardware y software estándar?</enunciado>
+		<opcionA>No se necesita nada</opcionA>
+		<opcionB>Un servidor de alta prestacion</opcionB>
+		<opcionC>Clouster web</opcionC>
+		<opcionD>Router cisco</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Para estimar el ancho de banda primero hay que determinar</enunciado>
+		<opcionA>El número de clientes que se conectarán al servidor por segundo</opcionA>
+		<opcionB>El número de bytes que el cliente enviará al servidor en cada petición</opcionB>
+		<opcionC>El número de bytes que el servidor enviará al cliente en cada petición</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cúal es la intencion de Hardware para servidores: Open Compute?</enunciado>
+		<opcionA>Es ahorrar en cualquier aspecto posible: se han eliminado logotipos de plástico, tornillos y cualquier trozo de metal del chasis que no sea imprescindible</opcionA>
+		<opcionB>No tiene ninguna intencion</opcionB>
+		<opcionC>Tiene el fin de rellenar el presupuesto</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué se cuida en los centros para servidores de google?</enunciado>
+		<opcionA>Se cuidan que el nivel de usuarios no baje en los motores de busqueda</opcionA>
+		<opcionB>Se cuidan especialmente los sistemas antiincendios, de alimentación y de refrigeración, y se siguen unas normas de seguridad extremas</opcionB>
+		<opcionC>Se cuida principalmente la higiene de la sala</opcionC>
+		<opcionD>Todas son correctas</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Dentro de hardware de un servidor web lo más importante es..</enunciado>
+		<opcionA>La potencia de GPU</opcionA>
+		<opcionB>El número de puertos USB</opcionB>
+		<opcionC>La potencia de CPU</opcionC>
+		<opcionD>La memoria RAM</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de las siguientes herramientas software no es para monitorización?</enunciado>
+		<opcionA>JMeter</opcionA>
+		<opcionB>Siege</opcionB>
+		<opcionC>NginX</opcionC>
+		<opcionD>Apache Benchmark</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de los siguientes elementos es muy importante y vital para los servidores de una granaj web?</enunciado>
+		<opcionA>La CPU porque tienen que ser capaces de ejecutar tareas costosas en los servicios HTTP</opcionA>
+		<opcionB>La memoria RAM para servir las páginas de la aplicación de una forma rápida que de buena imagen al usuario</opcionB>
+		<opcionC>EL almacenamiento ya que ahí se guardan todos los ficheros de la aplicación</opcionC>
+		<opcionD>La tarjeta de red ya que tiene que haber una buena conexión con Internet</opcionD>
+		<solucion>B</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál el el protocolo de almacenamiento más utilizado en la actualidad en las granjas web?</enunciado>
+		<opcionA>NTFS</opcionA>
+		<opcionB>SSA</opcionB>
+		<opcionC>NAS</opcionC>
+		<opcionD>SAN</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tres requisitos pueden ayudar a determinar las necesidades hardware del sistema?</enunciado>
+		<opcionA>Implantar un hardware genérico (que funcione correctamente) en cualquier empresa y monitorizarlo durante su funcionamiento</opcionA>
+		<opcionB>Adaptarse a las necesidades de la empresa y monitorizar la configuración una vez que esté en funcionamiento</opcionB>
+		<opcionC>Estimar el hardware a partir de las necesidades de la empresa monitorizándolo en busca de posibles cuellos de botella durante la configuración inicial así como durante su funcionamiento</opcionC>
+		<opcionD>Hacerlo con el hardware más potente del mercado, ajustándose al presupuesto de la empresa y monitorizando el sistema una vez que está en funcionamiento</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En cuanto al software de los servidores que forman la granja web..</enunciado>
+		<opcionA>No es tan crucial como la configuración hardware así que puede instalarse por defecto</opcionA>
+		<opcionB>Hay que buscar siempre el más potente aunque sea caro</opcionB>
+		<opcionC>Es importante buscar una buena configuración de SO, balanceadores, cortafuegos, etc que optimice el rendimiento de la granja web</opcionC>
+		<opcionD>No afecta al rendimiento de la misma</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿De que hablamos si nos referimos al termino Myrinet?</enunciado>
+		<opcionA>De una interfaz de red con latencia de 99 a 10 µs, y un ancho de banda es de 2 a 10 Gbit/s. </opcionA>
+		<opcionB>De una red científica de altas prestaciones</opcionB>
+		<opcionC>De un protocolo de transferencia de datos</opcionC>
+		<opcionD>De un sistema de backup de alta capacidad</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cual de los siguientes objetivos no es uno de los principales objetivos del proyecto Open Compute?</enunciado>
+		<opcionA>Obtener una mayor independencia de los fabricantes</opcionA>
+		<opcionB>Adquirir equipos a un menor coste eliminando todo aquello que sea innecesario</opcionB>
+		<opcionC>Adquirir equipos con un diseño mas eficiente y un menor consumo</opcionC>
+		<opcionD>Lanzarse al mercado como una nueva marca de servidores</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué componente hardware de un servidor dentro de una granja web es de los más importantes?</enunciado>
+		<opcionA>Disco Duro</opcionA>
+		<opcionB>CPU</opcionB>
+		<opcionC>Tarjeta de Red</opcionC>
+		<opcionD>Memoria Ram</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Ante un sitio web que albergue más contenido estático que dinámico, lo idóneo sería..</enunciado>
+		<opcionA>Configurar a un servidor que se encargue únicamente de servir dicho contenido estático, y otro del dinámico</opcionA>
+		<opcionB>Realizar un estudio detallado de qué contenidos albergará el sitio Web para adquirir Un servidor más potente en consecuencia</opcionB>
+		<opcionC>Contratar un ancho de banda el doble del necesario para que el contenido estático se transfiriera antes que el contenido dinámico</opcionC>
+		<opcionD>Ninguna de las anteriores es cierta</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué nos ayudará a buscar cuellos de botella?</enunciado>
+		<opcionA>Realizar benchmarks y comprobar los resultados</opcionA>
+		<opcionB>Analizar los logs del servidor</opcionB>
+		<opcionC>A y B son ciertas</opcionC>
+		<opcionD>Ninguna es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Elementos hardware principales de una granja web</enunciado>
+		<opcionA>Servidores, Routers y Balanceadores</opcionA>
+		<opcionB>Almacenamiento, Balanceadores y Routers</opcionB>
+		<opcionC>Conexiones de red, Routers y Servidores</opcionC>
+		<opcionD>Servidores, Almacenamiento y Conexiones de red</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de estos no entra en la clasificación de cluster?</enunciado>
+		<opcionA>Clúster de alto rendimiento</opcionA>
+		<opcionB>Clúster de alta eficiencia</opcionB>
+		<opcionC>Clúster de alta disponibilidad</opcionC>
+		<opcionD>Clúster de alta magnitud</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué tarea no ayuda a determinar los requisitos hardware del sistema?</enunciado>
+		<opcionA>Estimar el hardware en función de las necesidades de la empresa</opcionA>
+		<opcionB>Utilizar un software de monitorización para buscar cuellos de botella en la configuración inicial</opcionB>
+		<opcionC>Estimar el software en función de las necesidades del usuario</opcionC>
+		<opcionD>Monitorizar el sistema durante todo el tiempo que esté en uso</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Los sitios web siguen la regla</enunciado>
+		<opcionA>90-10, el 90% del trafico corresponde al 10% de las páginas almacenadas</opcionA>
+		<opcionB>90-20, el 90% del trafico corresponde al 20% de las páginas almacenadas</opcionB>
+		<opcionC>80-20, el 80% del trafico corresponde al 20% de las páginas almacenadas</opcionC>
+		<opcionD>Ninguna de las anteriores es correcta</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Como podemos evitar latencia?</enunciado>
+		<opcionA>Usando mayor ram</opcionA>
+		<opcionB>Usando una buena CPU</opcionB>
+		<opcionC>Reemplazando el servidor</opcionC>
+		<opcionD>Usando discos solidos</opcionD>
+		<solucion>D</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cual es la velocidad de los discos SATA?</enunciado>
+		<opcionA>33,66,100,133 y 166 MB/s</opcionA>
+		<opcionB>160,320,640 MB/s</opcionB>
+		<opcionC>150,300,600 MB/s</opcionC>
+		<opcionD>300,500,700,1000 MB/s</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Cuál de los siguiente es un hardware de Dell?</enunciado>
+		<opcionA>Mellanox M3601Q InfiniBand</opcionA>
+		<opcionB>ProLiant DL385 G7 6282SE</opcionB>
+		<opcionC>X5520 G2 - NAS server - 32 TB</opcionC>
+		<opcionD>BladeCenter HS22 Xeon 6C X5650 SAS</opcionD>
+		<solucion>A</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Que es FreeBSD?</enunciado>
+		<opcionA>Un cortafuegos para servidores</opcionA>
+		<opcionB>El nombre de un componente hardware de Dell</opcionB>
+		<opcionC>Un SO para servidores</opcionC>
+		<opcionD>Un balanceador de carga</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>El protocolo más comúnmente utilizado en el almacenamiento de elementos de la granja web es</enunciado>
+		<opcionA>NFS</opcionA>
+		<opcionB>NAS</opcionB>
+		<opcionC>SAN</opcionC>
+		<opcionD>SSA</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>En cuanto al análisis de los logs</enunciado>
+		<opcionA>Nos permitirá determinar qué contenido es el más demandado</opcionA>
+		<opcionB>A partir de los logs podremos descubrir posibles ataques</opcionB>
+		<opcionC>Podremos identificar fallos (errores tipo 404 ó 500)</opcionC>
+		<opcionD>Todos los anteriores son ciertos</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿En que consiste el elemento de un granja, NAS?</enunciado>
+		<opcionA>Es una red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores</opcionA>
+		<opcionB>Es un dispositivo específico que incluye varios discos en rack </opcionB>
+		<opcionC>Es un dispositivo que actúa como un servidor de ficheros, pero ahorrando los recursos de tener una máquina más</opcionC>
+		<opcionD>Es una red de almacenamiento especializada que conecta dispositivos de entrada a los servidores</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
+	<pregunta>
+		<enunciado>¿Qué caracteriza una conexion de red Myrinet?</enunciado>
+		<opcionA>Tiene una latencia teórica es de 1,43 µs y ancho de banda de 5333 Mbit/s bidireccional</opcionA>
+		<opcionB>La conexión básica es de 2 Gbit/s efectivos</opcionB>
+		<opcionC>Su ancho de banda es de 2 a 10 Gbit/s</opcionC>
+		<opcionD>La conexión va desde un Host Channel Adapter (HCA) hasta un Target Channel Adapter (TCA)</opcionD>
+		<solucion>C</solucion>
+	</pregunta>
 </tema>
