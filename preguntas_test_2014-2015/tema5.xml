@@ -80,4 +80,676 @@
         <opcionD>Ninguna es correcta.</opcionD>
         <solucion>C</solucion>
     </pregunta>
+    <pregunta>
+        <enunciado>Apache Benchmark:</enunciado>
+        <opcionA>Simula con total fidelidad el uso del sitio web que pueden hacer los usuarios</opcionA>
+        <opcionB>Permite comprobar el rendimiento de cualquier servidor</opcionB>
+        <opcionC>Siempre que ejecutemos el test se obtiene el mismo resultado</opcionC>
+        <opcionD>Lo ideal es no hacer mas de 15 ejecuciones para sacar los resultados y representarlo gráficamente</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A las conexiones por segundo también se les llama:</enunciado>
+        <opcionA>Conexiones de entrada</opcionA>
+        <opcionB>Conexiones concurrentes por segundo</opcionB>
+        <opcionC>Transacciones por segundo</opcionC>
+        <opcionD>Ninguna de las anteriores</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La velocidad en bits por segundo viene determinada por:</enunciado>
+        <opcionA>Transacciones por segundo y el numero de paquetes por segundo.</opcionA>
+        <opcionB>Las conexiones concurrentes por segundo y el MTU.</opcionB>
+        <opcionC>Numero de paquetes por segundo y el MTU</opcionC>
+        <opcionD>Numero de paquetes por segundo y el tamaño del paquete</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué diferentes métricas se usan para medir las prestaciones?</enunciado>
+        <opcionA>Conexiones por segundo</opcionA>
+        <opcionB>Número total de conexiones por año</opcionB>
+        <opcionC>Tipo de software del servidor</opcionC>
+        <opcionD>Ninguna es correcta</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual seria la métrica que deberíamos usar si nuestro servidor web tiene un tráfico HTTP muy alto?</enunciado>
+        <opcionA>Rendimiento (bits por segundo)</opcionA>
+        <opcionB>Conexiones por segundo</opcionB>
+        <opcionC>Número de FLOPS del servidores</opcionC>
+        <opcionD>Número de conexiones concurrentes</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Por que está limitado el numero de conexiones concurrentes?</enunciado>
+        <opcionA>Disco duro</opcionA>
+        <opcionB>Cache del procesador</opcionB>
+        <opcionC>Velocidad del procesador</opcionC>
+        <opcionD>Memoria del procesador</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Rendimiento (b/s) es una combinación de las variables...</enunciado>
+        <opcionA>Tamaño del paquete y ancho de banda.</opcionA>
+        <opcionB>Ancho de banda y estructura del paquete</opcionB>
+        <opcionC>Tamaño del paquete y paquetes por segundo</opcionC>
+        <opcionD>Las respuestas 1 y 2 son parcialmente correctas</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué significa payload?</enunciado>
+        <opcionA>Información útil</opcionA>
+        <opcionB>Información sobre el tipo de protocolo del paquete</opcionB>
+        <opcionC>Información sobre el origen del paquete</opcionC>
+        <opcionD>Ninguna es correcta</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A más cantidad de información útil por paquete, mayor...</enunciado>
+        <opcionA>Sobrecarga de la red</opcionA>
+        <opcionB>Eficiencia en los usos de los recursos</opcionB>
+        <opcionC>Mayor MTU</opcionC>
+        <opcionD>Ninguna es correcta</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Patrones de trafico comunes</enunciado>
+        <opcionA>HTTP</opcionA>
+        <opcionB>STP</opcionB>
+        <opcionC>VLSM</opcionC>
+        <opcionD>VLAN</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Simular un número pequeño de clientes....</enunciado>
+        <opcionA>Es una opción a tener en cuenta</opcionA>
+        <opcionB>No tiene utilidad</opcionB>
+        <opcionC>No es realista</opcionC>
+        <opcionD>Es necesario</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué consideraciones debemos tener en cuenta a la hora de evaluar el rendimiento de un sitio web?</enunciado>
+        <opcionA>Fijar un número alto de usuarios</opcionA>
+        <opcionB>Evaluar el comportamiento del servidor con el doble de usuarios</opcionB>
+        <opcionC>Realizar únicamente una prueba</opcionC>
+        <opcionD>Las respuestas 1 y 2 son correctas</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las herramientas para comprobar el rendimiento de los servidores mediante linea de comandos...</enunciado>
+        <opcionA>Son mas intuitivas que las que poseen interfaz gráfica</opcionA>
+        <opcionB>Sobrecargan menos la máquina</opcionB>
+        <opcionC>Realizan mejor su trabajo</opcionC>
+        <opcionD>Ninguna es correcta</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuantas ejecuciones han de hacerse con apache benchmark?</enunciado>
+        <opcionA>Al menos 30</opcionA>
+        <opcionB>Con una es suficiente</opcionB>
+        <opcionC>El número de ejecuciones no afecta a los resultados obtenidos</opcionC>
+        <opcionD>Depende del tipo del servidor</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál es la métrica más importante para el tráfico FTP / streaming?</enunciado>
+        <opcionA>Conexiones por segundo.</opcionA>
+        <opcionB>Rendimiento.</opcionB>
+        <opcionC>Total de conexiones concurrentes.</opcionC>
+        <opcionD>Ninguna de las anteriores.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué es el rendimiento en bits por segundo?</enunciado>
+        <opcionA>Velocidad a la que el balanceador maneja y pasa el tráfico.</opcionA>
+        <opcionB>Número de conexiones de entrada que cierto dispositivo puede manejar por segundo.</opcionB>
+        <opcionC>Determina cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo.</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>s uso de hacer test es para…:</enunciado>
+        <opcionA>problemas de rendimiento y degradación de recursos.</opcionA>
+        <opcionB>detectar las caídas o errores de programación.</opcionB>
+        <opcionC>detectar posibles cuellos de botella e ineficiencias.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuándo hay degradación en los tiempos de respuesta?:</enunciado>
+        <opcionA>Cuando hay un pico en el tráfico de red.</opcionA>
+        <opcionB>Cuando no hay tráfico de red.</opcionB>
+        <opcionC>Cuando existe un límite de tráfico de red suficientemente alto.</opcionC>
+        <opcionD>A y B son corectas.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué es el número de sesiones concurrentes?</enunciado>
+        <opcionA>Es la métrica para determinar cuántas sesiones cookies hay almacenadas en el servidor.</opcionA>
+        <opcionB>Es la métrica para determinar cuántas conexiones de entrada puede manejar el balanceador por segundo.</opcionB>
+        <opcionC>Es la métrica para determinar cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo.</opcionC>
+        <opcionD>Todas las anteriores son correctas.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El paquete típico tiene un tamaño máximo de...</enunciado>
+        <opcionA>2KB</opcionA>
+        <opcionB>1.5KB</opcionB>
+        <opcionC>2MB</opcionC>
+        <opcionD>1.5MB</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Pregunta 1 ¿Cual es una de las metricas mas importantes en el rendimiento de servidores?</enunciado>
+        <opcionA>Cantidad de usuarios</opcionA>
+        <opcionB>Conexiones por segundo</opcionB>
+        <opcionC>MBytes libres</opcionC>
+        <opcionD>Mbps a la hora</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Por que hardware estan limitadas las conexiones concurrentes?</enunciado>
+        <opcionA>La memoria</opcionA>
+        <opcionB>Por la memoria y el procesador</opcionB>
+        <opcionC>El procesador</opcionC>
+        <opcionD>Ninguna</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuales son software para el bechmarking?</enunciado>
+        <opcionA>httpref</opcionA>
+        <opcionB>Siege</opcionB>
+        <opcionC>Apache Bechmark</opcionC>
+        <opcionD>Todos</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Sobre las conexiones por segundo:</enunciado>
+        <opcionA>No termina siendo un factor determinante, ya que abrir y cerrar conexiones HTTP resulta poco costoso.</opcionA>
+        <opcionB>La velocidad a la que se gestionan las aperturas y cierres de conexiones no es fundamental.</opcionB>
+        <opcionC>Si cierto servidor web tiene un tráfico HTTP alto, conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionC>
+        <opcionD>Las aperturas y cierres de conexiones consumen pocos recursos.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Sobre el tráfico HTTP:</enunciado>
+        <opcionA>Consume poco ancho de banda y genera muchas conexiones por segundo.</opcionA>
+        <opcionB>Necesidad de hacer las páginas web ligeras, de forma que los usuarios puedan cargarlas rápidamente.</opcionB>
+        <opcionC>HTTP 1.0, se necesita una conexión para varios objetos.</opcionC>
+        <opcionD>HTTP 1.1 envía con una sola conexión para cada objeto.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Si cierto servidor web tiene un tráfico HTTP alto:</enunciado>
+        <opcionA>Rendimiento, en bits por segundos será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionA>
+        <opcionB>Número de conexiones concurrentes será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionB>
+        <opcionC>Conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga..</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las pruebas de Estres ( Stress ) consisten en :</enunciado>
+        <opcionA>Aplicar fuertes picos de carga durante cortos periodos.</opcionA>
+        <opcionB>Aplicar cargas lo más similares posibles a la real durante 1 día o 1 semana.</opcionB>
+        <opcionC>Aplicar de forma continuada una carga por encima de la capacidad del sistema.</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuántos paquetes como mínimo requiere un acceso por HTTP mediante un GET a un recurso de 32KB?</enunciado>
+        <opcionA>Dos paquetes, uno de 1B para la petición y otro de 32KB para el recurso</opcionA>
+        <opcionB>12 paquetes de 3KB de información útil</opcionB>
+        <opcionC>21 paquetes de 1.5KB de información útil</opcionC>
+        <opcionD>Un solo paquete de 32KB</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuáles son las métricas más importantes (de izquierda a derechpara una tienda web?</enunciado>
+        <opcionA>Conexiones por segundo, Rendimiento, Total de conexiones concurrentes</opcionA>
+        <opcionB>Total de conexiones concurrentes, Rendimiento, Conexiones por segundo</opcionB>
+        <opcionC>Conexiones por segundo, Total de conexiones concurrentes, Rendimiento</opcionC>
+        <opcionD>Total de conexiones concurrentes, Conexiones por segundo, Rendimiento</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En HTTPerf ¿Qué significa --rate?</enunciado>
+        <opcionA>Peticiones por conexión</opcionA>
+        <opcionB>Conexiones por segundo</opcionB>
+        <opcionC>Número de peticiones</opcionC>
+        <opcionD>IP</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué no es importante en un tráfico tipo "tienda web?</enunciado>
+        <opcionA>Alto ancho de banda</opcionA>
+        <opcionB>Velocidad</opcionB>
+        <opcionC>Experiencia de usuario</opcionC>
+        <opcionD>Ninguna de las anteriores</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A la hora de medir prestaciones:</enunciado>
+        <opcionA>El número de conexiones que es capaz de abrir un servidor es muy importante.</opcionA>
+        <opcionB>El número de conexiones no es importante.</opcionB>
+        <opcionC>Abrir y cerrar conexiones HTTP no es costoso.</opcionC>
+        <opcionD>La red no se tiene en cuenta.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El número de conexiones concurrentes:</enunciado>
+        <opcionA>Determina cuántas sesiones de usuario TCP puede manejar el balanceador al mismo tiempo y esta limitado por la memoria o el procesador del dispositivo.</opcionA>
+        <opcionB>No esta limitado.</opcionB>
+        <opcionC>Para el tráfico UDP no afecta ya que se trata de un protocolo sin conexión.</opcionC>
+        <opcionD>Las respuestas 1 y 3 son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las conexiones por segundo...</enunciado>
+        <opcionA>Es una de las métricas más importantes cuando hablamos del rendimiento de servidores web.</opcionA>
+        <opcionB>Hace referencia al número de conexiones de salida que cierto dispositivo puede manejar por segundo.</opcionB>
+        <opcionC>Es una de las métricas menos importantes cuando hablamos del rendimiento de servidores web.</opcionC>
+        <opcionD>Ninguna de las anteriores es correcta.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El límite de las prestaciones quiere decir que...</enunciado>
+        <opcionA>Existe un límite de tráfico de red suficientemente alto que produce una degradación leve en las prestaciones.</opcionA>
+        <opcionB>Existe un límite de tráfico de red suficientemente bajo que produce una degradación leve en las prestaciones.</opcionB>
+        <opcionC>Existe un límite de tráfico de red suficientemente bajo que produce una degradación grave en las prestaciones.</opcionC>
+        <opcionD>Existe un límite de tráfico de red suficientemente alto que produce una degradación grave en las prestaciones.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La herramienta más apropiada a la hora de comprobar el rendimiento de un servidor o una granja web es:</enunciado>
+        <opcionA>Apache Benchmark</opcionA>
+        <opcionB>httperf</opcionB>
+        <opcionC>JMeter</opcionC>
+        <opcionD>Depende del contexto, no hay ninguna que sea siempre mejor.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A la hora de realizar un benchmark...</enunciado>
+        <opcionA>Este se debe ejecutar en la misma máquina que la que hace de servidor web</opcionA>
+        <opcionB>Los resultados de cada herramienta siempre serán iguales</opcionB>
+        <opcionC>Los resultados de todas las herramientas serán iguales</opcionC>
+        <opcionD>Ninguna es correcta</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de estas métricas es más importante en una tienda web?</enunciado>
+        <opcionA>Tamaño máximo del paquete</opcionA>
+        <opcionB>Total de conexiones concurrentes</opcionB>
+        <opcionC>Conexiones por segundo</opcionC>
+        <opcionD>Rendimiento</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de éstas herramientas sirve para comprobar el rendimiento de servidores web?</enunciado>
+        <opcionA>CloudFlare</opcionA>
+        <opcionB>BIG-IP</opcionB>
+        <opcionC>OpenSTA</opcionC>
+        <opcionD>OpenStack</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Una de las métricas más importantes cuando hablamos del rendimiento de servidores web es:</enunciado>
+        <opcionA>Rendimiento , en bits por segundo.</opcionA>
+        <opcionB>Conexiones por segundo.</opcionB>
+        <opcionC>Número de conexiones concurrentes.</opcionC>
+        <opcionD>Ninguna de las opciones anteriores es correcta.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Con respecto a Apache Benchmark:</enunciado>
+        <opcionA>Cada vez que ejecutemos el test obtendremos los mismos resultados por lo que tan solo necesitaremos realizar 1 ejecución.</opcionA>
+        <opcionB>Pide siempre diferentes páginas tal y como harían los usuarios reales.</opcionB>
+        <opcionC>No simula con total fidelidad el uso del sitio web que pueden hacer los usuarios habitualmente</opcionC>
+        <opcionD>Las medidas muestran exactamente el rendimiento real del sitio.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Cuales de las siguientes afirmaciones para estabecer una conexion http son ciertas?</enunciado>
+        <opcionA>el cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web</opcionA>
+        <opcionB>el servidor web envía un paquete ACK al administrador seguido de otro SYN</opcionB>
+        <opcionC>el cliente envía un paquete ACK como pregunta</opcionC>
+        <opcionD>Todas son ciertas</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>En el trafico FTP/streaming...</enunciado>
+        <opcionA>Tras una conexión inicial (ya que usa UDP como protocolo), se envía una gran cantidad de información.</opcionA>
+        <opcionB>El número de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada</opcionB>
+        <opcionC>Consumen el ancho de banda máximo rápidamente.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La métrica conexiones por segundo, hace referencia a:</enunciado>
+        <opcionA>La cantidad de información que se transfiere en la petición.</opcionA>
+        <opcionB>El abrir y cerrar conexiones HTTP.</opcionB>
+        <opcionC>El número de conexiones concurrentes.</opcionC>
+        <opcionD>Al tiempo de repuesta del servidor.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El tipo de tráfico HTTP:</enunciado>
+        <opcionA>Su métrica más importante es el rendimiento.</opcionA>
+        <opcionB>Su métrica menos importante es conexiones por segundo.</opcionB>
+        <opcionC>Su métrica más importante es el total de conexiones concurrentes.</opcionC>
+        <opcionD>Su métrica menos importante es el total de conexiones concurrentes.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Los tipos de pruebas a los que podemos (y debemos) someter nuestro servidor web son:</enunciado>
+        <opcionA>Humo(Smoke).</opcionA>
+        <opcionB>Carga (Loa.</opcionB>
+        <opcionC>Capacidad (Capacity).</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿En qué consiste el tipo de prueba "Carga (Loa"?</enunciado>
+        <opcionA>Pruebas preliminares para comprobar que el sistema está listo para los siguientes tests.</opcionA>
+        <opcionB>Cargas lo más parecidas a la real. Se ejecutan en periodos cortos (1h), para determinar los tiempos de respuesta que tendrán los usuarios.</opcionB>
+        <opcionC>Actividad creciente hasta detectar el punto de saturación.</opcionC>
+        <opcionD>Analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El tráfico HTTP es aquel que...</enunciado>
+        <opcionA>Consume ancho de banda intensivamente y genera muchas conexiones por segundo.</opcionA>
+        <opcionB>Tras una conexión inicial (ya que usa UDP como protocolo), se envía una gran cantidad de información.</opcionB>
+        <opcionC>La velocidad es el factor más importante</opcionC>
+        <opcionD>Se forma cuando coges la A-44 a las 8:30 de la mañana</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A la hora de ejecutar Apache Benchmark...</enunciado>
+        <opcionA>Es interesante realizarlo un número reducido de veces, ya que si lo ejecutamos demasiados, saturaremos el servidor y los resultados no serán fiables</opcionA>
+        <opcionB>Es interesante realizarlo un gran número de veces para que los resultados sean lo mas realistas posibles.</opcionB>
+        <opcionC>Los resultados no son fiables ya que Apache Benchmark manipula los resultados según su antojo.</opcionC>
+        <opcionD>Todas las anteriores son falsas.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado> Los resultados de ab y httperf...</enunciado>
+        <opcionA> los resultados son equiparables</opcionA>
+        <opcionB> los resultados no son equiparables</opcionB>
+        <opcionC> los resultados son equiparables si se utilizan páginas estáticas solamente</opcionC>
+        <opcionD> los resultados son equiparables si se utilizan páginas dinámicas solamente</opcionD>
+        <solucion> B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado> El tráfico http...</enunciado>
+        <opcionA> Consume ancho de banda intensivamente y genera muchas conexiones por segundo</opcionA>
+        <opcionB> Consume poco ancho de banda y genera pocas conexiones por segundo</opcionB>
+        <opcionC> Consume poco ancho de banda pero en momentos dados genera muchas peticiones por segundo</opcionC>
+        <opcionD> Ninguna de las anteriores es correcta</opcionD>
+        <solucion> A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cual de las siguientes afirmaciones es uno de los pasos que se realizan para hacer una conexión HTTP?</enunciado>
+        <opcionA>El servidor inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.</opcionA>
+        <opcionB>El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web</opcionB>
+        <opcionC>El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 44 del servidor web.</opcionC>
+        <opcionD>Ninguna de las respuestas son correcta.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El tráfico FTP/streaming:</enunciado>
+        <opcionA>El número de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada</opcionA>
+        <opcionB>El número de conexiones para este tipo de tráfico es muy alto comparado con la cantidad de información enviada.</opcionB>
+        <opcionC>Este protocolo no necesita conexiones para transferir información.</opcionC>
+        <opcionD>Ninguna de las anteriores es correcta.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿A qué hace referencia las conexiones por segundo?</enunciado>
+        <opcionA>Al número de conexiones de entrada que cierto dispositivo puede manejar por segundo.</opcionA>
+        <opcionB>Todas son falsas.</opcionB>
+        <opcionC>Al numero de conexiones de salida que cierto dispositivo puede manejar por segundo.</opcionC>
+        <opcionD>Eso no existe.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cúal de estos pasos se sigue para establecer una conexión HTTP?</enunciado>
+        <opcionA>Todas son correctas.</opcionA>
+        <opcionB>El cliente envía un paquete ACK como respuesta.</opcionB>
+        <opcionC>El cliente inicia la conexión HTTP enviando un paquete TCP SYN al puerto 80 del servidor web.</opcionC>
+        <opcionD>El servidor web envía un paquete ACK al cliente seguido de otro SYN.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cúal es la formula del rendimiento?</enunciado>
+        <opcionA>rendimiento=(ratio_trans_paquetes)*(payloa.</opcionA>
+        <opcionB>rendimiento=(ratio_trans_paquetes)/(payloa.</opcionB>
+        <opcionC>rendimiento=(ratio_trans_paquetes)-(payloa.</opcionC>
+        <opcionD>rendimiento=(ratio_trans_paquetes)+(payloa.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cúal de las siguientes herramientas se utilizan para comprobar el rendimiento de un servidor web?</enunciado>
+        <opcionA>openwebload.</opcionA>
+        <opcionB>opensta.</opcionB>
+        <opcionC>jmeter.</opcionC>
+        <opcionD>todas son correctas.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Cuando realizamos pruebas con software como Apache Benchmark, Httperf, OpenWebload o similares generando tráfico en una granja web buscamos...</enunciado>
+        <opcionA>Medir el rendimiento y calidad de las aplicaciones que se sirven desde la granja web para mejorar la percepcion de los usuarios hacia la misma.</opcionA>
+        <opcionB>Probar y asegurarnos del buen funcionamiento del sistema y de las aplicaciones.</opcionB>
+        <opcionC>Probar y garantizar el buen funcionamiento de los servidores que forman la granja web para garantizar la alta disponibilidad de la misma.</opcionC>
+        <opcionD>Probar el sistema, aunque no suelen ser muy influyentes para los encargados de la granja web.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Son las pruebas de carga las más realistas que se pueden generar sobre un sistema?</enunciado>
+        <opcionA>Si, son las más importantes.</opcionA>
+        <opcionB>No, sólo son pruebas informativas para el equipo que mantiene el sistema en el que se llevan a cabo.</opcionB>
+        <opcionC>Son las más importantes en lo que a información sobre la carga del sistema se refiere pero las pruebas más realistas que se pueden llevar a cabo sobre un sistema es dar acceso a usuarios al sistema para que lo prueben y lo exploren en busca de fallos o posibles mejoras.</opcionC>
+        <opcionD>Si y, además, son las únicas pruebas que hay que realizar para validar un sistema web.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué son las pruebas Beta y los Beta Testers?</enunciado>
+        <opcionA>Son pruebas que se realizan sobre el sistema por medio de software que genera carga de trabajo en las máquinas. Los beta tester son cada uno de los programas que generan carga en los distintos servidores de la granja web.</opcionA>
+        <opcionB>Son pruebas de validación de un sistema en las que se da acceso a diferentes usuarios para que prueben el sistemEstos usuarios son los denominamos Beta Testers porque se dedican a probar la versión "Beta" del sistema.</opcionB>
+        <opcionC>Son pruebas que simulan usuarios reales (siendo estos virtuales) en un sistemCada uno de estos usuarios virtuales representa a un Beta Tester en el sistema.</opcionC>
+        <opcionD>Son pruebas que se realizan sobre la versión final de una aplicación por medio de software.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué tipo de tráfico puede afectar al rendimiento en el manejo de conexiones del servidor?</enunciado>
+        <opcionA>TCP.</opcionA>
+        <opcionB>UDP.</opcionB>
+        <opcionC>IP.</opcionC>
+        <opcionD>FTP.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Por qué razón existen diversos tipos de prueba para monitorizar y probar las granjas web?</enunciado>
+        <opcionA>Es falso que existan diversos tipos de prueba, sólo hay pruebas de carga.</opcionA>
+        <opcionB>Para aplicar la más conveniente dependiendo de la granja web.</opcionB>
+        <opcionC>Porque existen numerosas empresas que se dedican a realizar pruebas y cada una de ellas aporta una o un tipo al conjunto final de pruebas.</opcionC>
+        <opcionD>Para testear cuantas más opiniones posibles y asegurarse de que el servicio ofrecido es el correcto y el que se esperaba en la granja web.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La métrica más importante del patrón de trafico HTTP es:</enunciado>
+        <opcionA>Total de conexiones concurrentes.</opcionA>
+        <opcionB>Conexiones por segundo.</opcionB>
+        <opcionC>El rendimiento.</opcionC>
+        <opcionD>Todas son correctas.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Cuando vamos a evaluar el rendimiento de un sitio web</enunciado>
+        <opcionA>Fijar un número alto de usuarios.</opcionA>
+        <opcionB>Calcular el tiempo medio cuando hay un bajo número de usuarios haciendo peticiones al sitio web.</opcionB>
+        <opcionC>a y d son correctas.</opcionC>
+        <opcionD>Evaluar cómo se comporta el servidor cuanto tiene el doble de usuarios.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El número de conexiones concurrentes es un factor que no afecta a aquellas que usen el protocolo...:</enunciado>
+        <opcionA>TCP</opcionA>
+        <opcionB>UDP</opcionB>
+        <opcionC>Ambos</opcionC>
+        <opcionD>Ninguno</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Si queremos conocer el rendimiento de un balanceador, la fórmula que usamos para calcularlo es...:</enunciado>
+        <opcionA>rendimiento = ( (frecuenciaCPU*0.4)+(memoriaRam*0.5)+(factorDisponibilidad*01) ) /100</opcionA>
+        <opcionB>rendimiento = 1/ratio_transm_paquetes * payload</opcionB>
+        <opcionC>rendimiento = (payload * ratio_transm_paquetes ) * 100</opcionC>
+        <opcionD>rendimiento = ratio_transm_paquetes * payload</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Indica que opción no es un software para medir el rendimiento de servidores web:</enunciado>
+        <opcionA>OpenWebLoad.</opcionA>
+        <opcionB>Apache benchmark.</opcionB>
+        <opcionC>Httperf.</opcionC>
+        <opcionD>Nginx.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Señala que afirmación sobre rendimiento no es correcta:</enunciado>
+        <opcionA>Se mide en bits por segundo.</opcionA>
+        <opcionB>Es combinación de las variables "tamaño del paquete" y "paquetes por segundo".</opcionB>
+        <opcionC>A más cantidad de información útil por paquete, mayor eficiencia en el uso de los recursos a todos los niveles.</opcionC>
+        <opcionD>El paquete típico tiene un tamaño máximo de 1.5GB.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Para el tráfico UDP:</enunciado>
+        <opcionA>el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "de conexión".</opcionA>
+        <opcionB>el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "de respuesta".</opcionB>
+        <opcionC>el número de conexiones concurrentes no es un factor que afecte, ya que se trata de un protocolo "sin conexión".</opcionC>
+        <opcionD>Ninguna es correcta.</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál es el orden de métricas importantes en HTTP?</enunciado>
+        <opcionA>Conexiones por segundo,rendimiento,total de conexiones concurrentes.</opcionA>
+        <opcionB>Rendimiento,conexiones por segundo,total conexiones concurentes,</opcionB>
+        <opcionC>Conexiones por segundo,total conexiones concurrentes,rendimiento.</opcionC>
+        <opcionD>Total de conexiones concurrentes,conexiones por segundo,rendimiento.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Con cual de las siguientes herramientas no podemos comprobar el rendimiento de un servidor web:</enunciado>
+        <opcionA>Siege</opcionA>
+        <opcionB>Apache Benchmark</opcionB>
+        <opcionC>OpenWebLoad</opcionC>
+        <opcionD>TestLoad</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Las principales limitaciones de los test son:</enunciado>
+        <opcionA>Las medidas dan una idea aproximada de cómo se comporta el servidor, pero no reflejan el rendimiento real.</opcionA>
+        <opcionB>No se puede simular el comportamiento de los usuarios.</opcionB>
+        <opcionC>La dificultad a la hora de hacer pruebas en un entorno de producción.</opcionC>
+        <opcionD>Todas las anteriores.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>Los tipos de prueba que aplican una carga lo más parecida a la real pero en periodos cortos o durante un día o una semana son, respectivamente:</enunciado>
+        <opcionA>Carga y Estabilidad.</opcionA>
+        <opcionB>Carga y Capacidad.</opcionB>
+        <opcionC>Capacidad y Estabilidad.</opcionC>
+        <opcionD>Sobrecarga y Estabilidad.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿A qué hace referencia conexiones por segundo?</enunciado>
+        <opcionA>Al número de conexiones de entrada que cierto dispositivo es capaz de manejar por segundo</opcionA>
+        <opcionB>Al número de usuarios que se conectan al servidor por segundo</opcionB>
+        <opcionC>Al número de conexiones de salida que cierto dispositivo es capaz de manejar por segundo</opcionC>
+        <opcionD>Al número de conexiones concurrentes que cierto dispositivo es capaz de manejar por segundo</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿En qué tipo de prueba se aplican fuertes picos de carga durante cortos períodos?</enunciado>
+        <opcionA>Estrés</opcionA>
+        <opcionB>Estabilidad</opcionB>
+        <opcionC>Sobrecarga</opcionC>
+        <opcionD>Carga</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál de las siguientes acciones puede hacer con Wireshark?</enunciado>
+        <opcionA>Realizar un ataque DDoS contra un sistema informático</opcionA>
+        <opcionB>Modificar el tráfico de la red</opcionB>
+        <opcionC>Obtener credenciales que viajen en texto plano por la red</opcionC>
+        <opcionD>Descifrar una contraseña en MD5</opcionD>
+        <solucion>C</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuales son los posibles problemas que se pueden dar en un sitio web mal planteado?</enunciado>
+        <opcionA>Un número pequeño de usuarios.</opcionA>
+        <opcionB>Problemas con la arquitectura del sistema, la disponibilidad y la carga del sistema.</opcionB>
+        <opcionC>La disponibilidad del sistema es el mayor de los problemas que se pueden dar.</opcionC>
+        <opcionD>La carga del sistema es el mayor de los problemas que se pueden dar.</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>La mejor opción para hacer un servidor web que de servicios a millones de usuarios será:</enunciado>
+        <opcionA>Montar una granja Web</opcionA>
+        <opcionB>Montar un servidor en una maquina</opcionB>
+        <opcionC>Adquirir un segundo servidor para desarrollo</opcionC>
+        <opcionD>Da igual como desarrollamos el servidor</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Qué caracteriza al tipo de tráfico HTTP?</enunciado>
+        <opcionA>Consumen ancho de banda intesivamente y generan muchas conexiones por segundo.</opcionA>
+        <opcionB>No es necesario un alto ancha de banda ni existen demasiadas conexiones por segundo.</opcionB>
+        <opcionC>Consumen el ancho de banda máximo rápidamente y el número de conexiones es inferior a la cantidad de información.</opcionC>
+        <opcionD>Consumen mucho ancho de banda pero generan pocas conexiones por segundo.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuándo es bueno usar el software de Apache Benchamark?</enunciado>
+        <opcionA>Nunca, puesto que no simula bien el uso del sitio web que pueden hacer los usuarios habitualmente.</opcionA>
+        <opcionB>Cuando se quiere comprobar cómo se comporta el servicio después de modificar cierta configuración, dando una idea exacta del rendimiento de este.</opcionB>
+        <opcionC>Cuando se quiere simular con total fidelidad el uso del sitio, pues da una idea exacta del rendimiento real.</opcionC>
+        <opcionD>Cuando se quiere comprobar cómo se comporta el servicio después de modificar cierta configuración, aunque no reflejan el rendimiento real del sitio.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Cuál es el orden de métricas importantes en FTP?</enunciado>
+        <opcionA>Conexiones por segundo,rendimiento,total de conexiones concurrentes.</opcionA>
+        <opcionB>Rendimiento,conexiones por segundo,total conexiones concurentes,</opcionB>
+        <opcionC>Conexiones por segundo,total conexiones concurrentes,rendimiento.</opcionC>
+        <opcionD>Rendimiento,total de conexiones concurrentes,conexiones por segundo</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>¿Y para una tienda web?</enunciado>
+        <opcionA>Rendimiento,total de conexiones concurrentes,conexiones por segundo</opcionA>
+        <opcionB>Rendimiento,conexiones por segundo,total conexiones concurentes,</opcionB>
+        <opcionC>Conexiones por segundo,total conexiones concurrentes,rendimiento.</opcionC>
+        <opcionD>Total de conexiones concurrentes,conexiones por segundo,rendimiento.</opcionD>
+        <solucion>D</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>A qué patrón de tráfico le correspondería esta escala de métricas, de más a menos: Conexiones concurrentes, conexiones por segundo, rendimiento?</enunciado>
+        <opcionA>Tienda web</opcionA>
+        <opcionB>HTTP</opcionB>
+        <opcionC>Streaming de contenido HD</opcionC>
+        <opcionD>A los 3 anteriores.</opcionD>
+        <solucion>A</solucion>
+    </pregunta>
+    <pregunta>
+        <enunciado>El rendimiento, en bits por segundo:</enunciado>
+        <opcionA>Es lo mismo que el ancho de banda de la granja web</opcionA>
+        <opcionB>Hace referencia a la velocidad a la que el balanceador maneja y pasa el tráfico</opcionB>
+        <opcionC>Se ve benefiaciado cuanto menor cantidad de información útil haya por paquete</opcionC>
+        <opcionD>Ninguna de las anteriores es correcta</opcionD>
+        <solucion>B</solucion>
+    </pregunta>
 </tema>
