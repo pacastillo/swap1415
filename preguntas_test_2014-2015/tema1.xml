@@ -366,7 +366,7 @@
         <opcionB>Mejora la disponibilidad al funcionar como si fuese un disco espejo replicando lo que contiene nuestro servidor principal</opcionB>
         <opcionC>Las mejoras en software se pueden probar en la máquina de desarrollo antes de pasarlas al servidor de producción</opcionC>
         <opcionD>Todas las anteriores son falsas</opcionD>
-        <solucion>A</solucion>
+        <solucion>C</solucion>
     </pregunta>
     <pregunta>
         <enunciado>Una granja web es:</enunciado>
