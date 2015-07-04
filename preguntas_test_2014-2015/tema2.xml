@@ -97,10 +97,10 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Cuál es la fórmula de la escala "punto de nieve"?</enunciado>
-        <opcionA>100 - (tiempoCaido / Periodo de tiempo) * 100</opcionA>
-        <opcionB>100 - (tiempoActivo / Periodo de tiempo) * 100</opcionB>
-        <opcionC>100 - (tiempoCaido / Periodo de tiempo) * 24</opcionC>
+        <enunciado>¿Cuál es la fórmula de la escala "punto nueve"?</enunciado>
+        <opcionA>100 - (tiempoCaido / periodoTiempo) * 100</opcionA>
+        <opcionB>100 - (tiempoActivo / periodoTiempo) * 100</opcionB>
+        <opcionC>100 - (tiempoCaido / periodoTiempo) * 24</opcionC>
         <opcionD>Ninguna es correcta</opcionD>
         <solucion>A</solucion>
     </pregunta>
