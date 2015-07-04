@@ -192,6 +192,7 @@
 							<option value="7">Tema 7</option>
 							<option value="8">Tema 8</option>
 						</select>
+						<span id="contadorPreguntas"></span><span id="numTotalPreguntas"></span>
 					</h4>
 					<div id="pregunta" class="row">
 						<h4 id="enunciado"></h4>
@@ -234,14 +235,29 @@
 	<script>
 	$(document).ready(function() {
 		nuevaPregunta();
+		actualizarNumPreguntasTema();
 	});
 
 	// esto es para llevar un contador de la pregunta en la que estamos
 	var aleatorio = 0;
 
+	function actualizarNumPreguntasTema(){
+		$.ajax({
+			type: "GET",
+			url: "https://raw.githubusercontent.com/pacastillo/swap1415/master/preguntas_test_2014-2015/tema" + $("#tema_elegido").val() + ".xml",
+			dataType: "xml",
+			success: function (datos) {
+				// Número total de preguntas
+				var num_preguntas_tema = $(datos).find('tema').attr('cantidad_preguntas');
+				$("#numTotalPreguntas").html( num_preguntas_tema );
+			}
+		});
+	}
+
 	function cambioTema(){
 		aleatorio = 0;
 		nuevaPregunta();
+		actualizarNumPreguntasTema();
 	}
 
 	function nuevaPregunta(){
@@ -279,6 +295,7 @@
 		        });
 		    }
 		});
+		$("#contadorPreguntas").html("Pregunta " + (aleatorio+1) + " de ");
 	}
 
 	function muestraRespuesta(){
