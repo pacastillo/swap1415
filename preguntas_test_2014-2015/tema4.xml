@@ -38,7 +38,7 @@
         <opcionB>Basado en ponderación y por prioridad.</opcionB>
         <opcionC>Balanceo basado en tiempo por respuesta.</opcionC>
         <opcionD>Todas son correctas.</opcionD>
-        <solucion>D.</solucion>
+        <solucion>D</solucion>
     </pregunta>
     <pregunta>
         <enunciado>En el algoritmo round-robin...</enunciado>
