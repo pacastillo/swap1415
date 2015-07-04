@@ -438,7 +438,7 @@
 		<opcionB>De una red científica de altas prestaciones</opcionB>
 		<opcionC>De un protocolo de transferencia de datos</opcionC>
 		<opcionD>De un sistema de backup de alta capacidad</opcionD>
-		<solucion>D</solucion>
+		<solucion>A</solucion>
 	</pregunta>
 	<pregunta>
 		<enunciado>¿Cual de los siguientes objetivos no es uno de los principales objetivos del proyecto Open Compute?</enunciado>
@@ -550,7 +550,7 @@
 		<opcionB>A partir de los logs podremos descubrir posibles ataques</opcionB>
 		<opcionC>Podremos identificar fallos (errores tipo 404 ó 500)</opcionC>
 		<opcionD>Todos los anteriores son ciertos</opcionD>
-		<solucion>C</solucion>
+		<solucion>D</solucion>
 	</pregunta>
 	<pregunta>
 		<enunciado>¿En que consiste el elemento de un granja, NAS?</enunciado>
