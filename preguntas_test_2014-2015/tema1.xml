@@ -614,7 +614,7 @@
         <opcionB>Podemos prescindir del principal siempre que dispongamos de un cortafuegos que limite qué se ve desde Internet.</opcionB>
         <opcionC>Constituir un sustituto que podría estar rápidamente operativo si fallase nuestro servidor principal.</opcionC>
         <opcionD>Permitir probar el software que estamos desarrollando.</opcionD>
-        <solucion>D</solucion>
+        <solucion>C</solucion>
     </pregunta>
     <pregunta>
         <enunciado>Señala la opción falsa: Adquirir un segundo servidor para desarrollo es una buena opción porque:</enunciado>
