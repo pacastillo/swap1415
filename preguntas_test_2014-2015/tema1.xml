@@ -612,7 +612,7 @@
         <enunciado>La importancia de tener un servidor en producción y un "cold spare server" radica en</enunciado>
         <opcionA>Ser el servidor que solucionará nuestros problemas de disponibilidad.</opcionA>
         <opcionB>Podemos prescindir del principal siempre que dispongamos de un cortafuegos que limite qué se ve desde Internet.</opcionB>
-        <opcionC>Constituir un sustituto que podría estar rápidamente operativo si fallase nuestro servidor principal.</opcionC>
+        <opcionC>Disponer de un sustituto que podría estar rápidamente operativo si fallase nuestro servidor principal.</opcionC>
         <opcionD>Permitir probar el software que estamos desarrollando.</opcionD>
         <solucion>C</solucion>
     </pregunta>
