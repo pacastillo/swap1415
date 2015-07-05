@@ -574,7 +574,7 @@
         <opcionB>Se evita la sobrecarga de las máquinas que pudieran tener más trabajo</opcionB>
         <opcionC>Las respuestas 1 y 2 son correctas</opcionC>
         <opcionD>Aumenta la fiabilidad de los servidores</opcionD>
-        <solucion>C</solucion>
+        <solucion>B</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Cuál de los siguientes algoritmos es un algoritmo de balanceo de carga?</enunciado>
