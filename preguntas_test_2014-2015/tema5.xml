@@ -281,8 +281,8 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>Si cierto servidor web tiene un tráfico HTTP alto:</enunciado>
-        <opcionA>Rendimiento, en bits por segundos será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionA>
+        <enunciado>Si cierto servidor web tiene un tráfico HTTP alto, ¿qué métrica es la más importante?:</enunciado>
+        <opcionA>Rendimiento, en bits por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionA>
         <opcionB>Número de conexiones concurrentes será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionB>
         <opcionC>Conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga..</opcionC>
         <opcionD>Todas son correctas.</opcionD>
