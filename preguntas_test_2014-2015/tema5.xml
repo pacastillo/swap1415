@@ -425,7 +425,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>La métrica conexiones por segundo, hace referencia a:</enunciado>
+        <enunciado>La métrica "conexiones por segundo" hace referencia a:</enunciado>
         <opcionA>La cantidad de información que se transfiere en la petición.</opcionA>
         <opcionB>El abrir y cerrar conexiones HTTP.</opcionB>
         <opcionC>El número de conexiones concurrentes.</opcionC>
