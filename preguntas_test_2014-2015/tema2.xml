@@ -185,12 +185,12 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Como se suele implementar la escalabilidad?</enunciado>
-        <opcionA>Se ponen mas servidores redundantes</opcionA>
+        <enunciado>¿Cómo se suele implementar la escalabilidad?</enunciado>
+        <opcionA>Se ponen más servidores redundantes</opcionA>
         <opcionB>Se intenta poner el mayor numero de servidores apilados en un mismo armario</opcionB>
-        <opcionC>A la hora de escalar las aplicaciones WEB se intenta intercalar los procesos</opcionC>
-        <opcionD>Ninguna es correcta</opcionD>
-        <solucion>A</solucion>
+        <opcionC>A la hora de escalar las aplicaciones WEB se intentan intercalar los procesos</opcionC>
+        <opcionD>Todas las respuestas son correctas</opcionD>
+        <solucion>b</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Cuantos tipos de escalado hay?:</enunciado>
