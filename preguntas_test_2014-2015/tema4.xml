@@ -569,8 +569,8 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Cuales son las ventajas de usar un algoritmo de balanceo basado en el menor número de conexiones?</enunciado>
-        <opcionA>Se consigue una distribución adecuada del trabajo entre las máquinas</opcionA>
+        <enunciado>¿Cuáles son las ventajas de usar un algoritmo de balanceo basado en el menor número de conexiones?</enunciado>
+        <opcionA>Se consigue una distribución adecuada del trabajo entre las máquinas similares</opcionA>
         <opcionB>Se evita la sobrecarga de las máquinas que pudieran tener más trabajo</opcionB>
         <opcionC>Las respuestas 1 y 2 son correctas</opcionC>
         <opcionD>Aumenta la fiabilidad de los servidores</opcionD>
