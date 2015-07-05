@@ -505,9 +505,9 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>El uso de un algoritmo de balanceo basado en ponderacion esta recomendado cuando:</enunciado>
-        <opcionA>Se persigue una distribucion del trabajo entre máquinas similares.</opcionA>
-        <opcionB>Se persigue un metodo dinámico de distribucion del trabajo donde una petición puede tardar mas en una máquina concreta, es decir, está mas cargada que el resto.</opcionB>
+        <enunciado>El uso de un algoritmo de balanceo basado en ponderación está recomendado cuando:</enunciado>
+        <opcionA>Se persigue una distribución del trabajo entre máquinas similares.</opcionA>
+        <opcionB>Se persigue un método dinámico de distribucion del trabajo donde una petición puede tardar más en una máquina concreta, es decir, está más cargada que el resto.</opcionB>
         <opcionC>Se persigue una distribución del trabajo cuando todas las máquinas tienen una potencia similar.</opcionC>
         <opcionD>Se persigue una distribución del trabajo cuando no todas las maquinas tienen una potencia similar ( hay máquinas mas lentas ).</opcionD>
         <solucion>A</solucion>
