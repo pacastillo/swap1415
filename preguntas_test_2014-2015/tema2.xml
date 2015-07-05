@@ -190,7 +190,7 @@
         <opcionB>Se intenta poner el mayor numero de servidores apilados en un mismo armario</opcionB>
         <opcionC>A la hora de escalar las aplicaciones WEB se intentan intercalar los procesos</opcionC>
         <opcionD>Todas las respuestas son correctas</opcionD>
-        <solucion>b</solucion>
+        <solucion>A</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Cuantos tipos de escalado hay?:</enunciado>
