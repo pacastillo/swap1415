@@ -427,7 +427,7 @@
     <pregunta>
         <enunciado>La métrica "conexiones por segundo" hace referencia a:</enunciado>
         <opcionA>La cantidad de información que se transfiere en la petición.</opcionA>
-        <opcionB>El abrir y cerrar conexiones HTTP.</opcionB>
+        <opcionB>Al número de conexiones de entrada que cierto dispositivo puede manejar por segundo.</opcionB>
         <opcionC>El número de conexiones concurrentes.</opcionC>
         <opcionD>Al tiempo de repuesta del servidor.</opcionD>
         <solucion>B</solucion>
