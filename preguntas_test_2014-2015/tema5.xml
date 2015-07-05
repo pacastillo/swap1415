@@ -286,7 +286,7 @@
         <opcionB>Número de conexiones concurrentes será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionB>
         <opcionC>Conexiones por segundo será la métrica más importante a la hora de adquirir y configurar un balanceador de carga.</opcionC>
         <opcionD>Todas son correctas.</opcionD>
-        <solucion>D</solucion>
+        <solucion>C</solucion>
     </pregunta>
     <pregunta>
         <enunciado>Las pruebas de Estres ( Stress ) consisten en :</enunciado>
