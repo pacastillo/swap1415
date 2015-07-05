@@ -509,7 +509,7 @@
         <opcionA>Se persigue una distribución del trabajo entre máquinas similares.</opcionA>
         <opcionB>Se persigue un método dinámico de distribucion del trabajo donde una petición puede tardar más en una máquina concreta, es decir, está más cargada que el resto.</opcionB>
         <opcionC>Se persigue una distribución del trabajo cuando todas las máquinas tienen una potencia similar.</opcionC>
-        <opcionD>Se persigue una distribución del trabajo cuando no todas las maquinas tienen una potencia similar ( hay máquinas mas lentas ).</opcionD>
+        <opcionD>Se persigue una distribución del trabajo cuando no todas las máquinas tienen una potencia similar (hay máquinas más lentas que otras).</opcionD>
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
