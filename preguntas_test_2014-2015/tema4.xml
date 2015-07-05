@@ -198,7 +198,7 @@
         <opcionB>El balanceador redirige a todos los usuarios al mismo servidor.</opcionB>
         <opcionC>El balanceador mantiene a los usuarios en espera si el servicio no está disponible.</opcionC>
         <opcionD>El tráfico de un usuario se dirige al servidor que comenzó a atenderlo.</opcionD>
-        <solucion>C</solucion>
+        <solucion>D</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Cómo podemos usar el DNS para balancear la carga y cuál es el principal inconveniente de hacerlo?</enunciado>
