@@ -293,7 +293,7 @@
         <opcionA>Optimización de nuestros recursos hardware.</opcionA>
         <opcionB>Optimización de nuestro código.</opcionB>
         <opcionC>Optimización del producto.</opcionC>
-        <opcionD>Todas producen igual impacto en la escalabilidad.</opcionD>
+        <opcionD>Todas afectan por igual a la escalabilidad.</opcionD>
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
