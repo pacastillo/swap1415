@@ -17,14 +17,6 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>En una granja web, los posibles peligros llegan:</enunciado>
-        <opcionA>Desde Internet</opcionA>
-        <opcionB>Por la red WiFi.</opcionB>
-        <opcionC>Por los pen de los administradores</opcionC>
-        <opcionD>Ninguna es correcta.</opcionD>
-        <solucion>D</solucion>
-    </pregunta>
-    <pregunta>
         <enunciado>En una configuración de DMZ tradicional, el principal problema es... :</enunciado>
         <opcionA>El elevado ancho de banda que se necesita.</opcionA>
         <opcionB>La configuración de los servidores web.</opcionB>
