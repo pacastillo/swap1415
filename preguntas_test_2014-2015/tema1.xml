@@ -444,9 +444,9 @@
         <enunciado>¿Puede ser viable un sitio web que tiene todos sus servicios funcionando en la misma máquina?</enunciado>
         <opcionA>No, siempre es necesario albergar todos servicios en distintas máquinas y configurarlos de tal forma que en un futuro nos permitan hacer frente a un número creciente de usuarios.</opcionA>
         <opcionB>Sí, para un sitio con un tráfico bajo (que lo pueda gestionar la máquina en cuestión).</opcionB>
-        <opcionC>Sí, si el servidor tiene unas prestaciones altas podrá gestionar cualquier tráfico sin experimentar problemas. Sólo tenemos que preocuparnos de mantener el hardware y sustituirlo en caso de fallo.</opcionC>
+        <opcionC>Sí, si el servidor tiene unas prestaciones altas podrá gestionar cualquier nivel de tráfico sin experimentar problemas. Sólo tenemos que preocuparnos de mantener el hardware y sustituirlo en caso de fallo.</opcionC>
         <opcionD>No, nunca podemos hacerlo, siempre será necesario construir una granja web para poder ofrecer un servicio de calidad.</opcionD>
-        <solucion>A</solucion>
+        <solucion>B</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Es el aumento del tráfico de red el único problema al que se enfrentan los sitios y aplicaciones web?</enunciado>
