@@ -521,12 +521,12 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Que factores influyen en la escalabilidad de un sistema?</enunciado>
+        <enunciado>¿Qué factores influyen en la escalabilidad de un sistema?</enunciado>
         <opcionA>Adquirir productos hardware con elementos duplicados.</opcionA>
-        <opcionB> Sustituir elementos hardware por otros con mayores prestaciones.</opcionB>
+        <opcionB>Sustituir elementos hardware por otros con mayores prestaciones.</opcionB>
         <opcionC>Desarrollar aplicaciones redundantes.</opcionC>
         <opcionD>Todas son ciertas.</opcionD>
-        <solucion>B</solucion>
+        <solucion>D</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Para qué sirve un balanceador de carga?</enunciado>
