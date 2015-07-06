@@ -561,7 +561,7 @@
 		<solucion>C</solucion>
 	</pregunta>
 	<pregunta>
-		<enunciado>¿Qué caracteriza una conexion de red Myrinet?</enunciado>
+		<enunciado>¿Qué caracteriza una conexión de red Myrinet?</enunciado>
 		<opcionA>Tiene una latencia teórica es de 1,43 µs y ancho de banda de 5333 Mbit/s bidireccional</opcionA>
 		<opcionB>La conexión básica es de 2 Gbit/s efectivos</opcionB>
 		<opcionC>Su ancho de banda es de 2 a 10 Gbit/s</opcionC>
