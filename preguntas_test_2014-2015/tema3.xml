@@ -357,8 +357,8 @@
         <opcionA>No se puede configurar una zona sin DMZ, por lo que el problema es ese mismo.</opcionA>
         <opcionB>Ataques solamente externos a la zona</opcionB>
         <opcionC>Cuello de botella</opcionC>
-        <opcionD>B y C son correctas</opcionD>
-        <solucion>C</solucion>
+        <opcionD>Todas son incorrectas</opcionD>
+        <solucion>D</solucion>
     </pregunta>
     <pregunta>
         <enunciado>NAT nos sirve para</enunciado>
