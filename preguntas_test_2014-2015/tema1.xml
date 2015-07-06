@@ -489,9 +489,9 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Habitualmente, la estructura general de una granja web que escale correctamente sería?</enunciado>
+        <enunciado>La organización habitual de una granja web sería...</enunciado>
         <opcionA>Base De Datos + Web + Balanceador Global</opcionA>
-        <opcionB>Servidor de desarrollo + Web + Base de datos</opcionB>
+        <opcionB>Servidor de desarrollo + Servidores Web + Base de datos</opcionB>
         <opcionC>Correo + Web + Base de datos + Streaming</opcionC>
         <opcionD>Base de datos + Web + Mantenimiento + Refrigeración</opcionD>
         <solucion>B</solucion>
