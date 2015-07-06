@@ -678,7 +678,7 @@
         <opcionB>El diseño del sistema.</opcionB>
         <opcionC>La optimización del hardware.</opcionC>
         <opcionD>Las respuestas a) y c) son correctas.</opcionD>
-        <solucion>C</solucion>
+        <solucion>B</solucion>
     </pregunta>
     <pregunta>
         <enunciado>¿Cómo podemos calcular la disponibilidad de un sistema con varios servidores? (Medimos la disponibilidad en tanto por ciento)</enunciado>
