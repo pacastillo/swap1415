@@ -354,9 +354,9 @@
     </pregunta>
     <pregunta>
         <enunciado>Una configuración sin DMZ (demilitarized zone) presenta el problema de…</enunciado>
-        <opcionA>No se puede configurar una zona sin DMZ, por lo que el problema es ese mismo.</opcionA>
+        <opcionA>No se puede configurar sin DMZ</opcionA>
         <opcionB>Ataques solamente externos a la zona</opcionB>
-        <opcionC>Cuello de botella</opcionC>
+        <opcionC>Ataques solamente internos a la zona</opcionC>
         <opcionD>Todas son incorrectas</opcionD>
         <solucion>D</solucion>
     </pregunta>
