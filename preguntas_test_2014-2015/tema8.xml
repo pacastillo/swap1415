@@ -542,7 +542,7 @@
 		<opcionB>NAS</opcionB>
 		<opcionC>SAN</opcionC>
 		<opcionD>SSA</opcionD>
-		<solucion>C</solucion>
+		<solucion>A</solucion>
 	</pregunta>
 	<pregunta>
 		<enunciado>En cuanto al análisis de los logs</enunciado>
