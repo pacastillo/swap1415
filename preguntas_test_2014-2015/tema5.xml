@@ -113,7 +113,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Cual seria la métrica que deberíamos usar si nuestro servidor web tiene un tráfico HTTP muy alto?</enunciado>
+        <enunciado>¿Cuál seria la métrica que deberíamos usar si nuestro servidor web tiene un tráfico HTTP muy alto?</enunciado>
         <opcionA>Rendimiento (bits por segundo)</opcionA>
         <opcionB>Conexiones por segundo</opcionB>
         <opcionC>Número de FLOPS del servidores</opcionC>
@@ -121,11 +121,11 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿Por que está limitado el numero de conexiones concurrentes?</enunciado>
+        <enunciado>¿Por qué está limitado el número de conexiones concurrentes?</enunciado>
         <opcionA>Disco duro</opcionA>
         <opcionB>Cache del procesador</opcionB>
         <opcionC>Velocidad del procesador</opcionC>
-        <opcionD>Memoria del procesador</opcionD>
+        <opcionD>Memoria y el procesador</opcionD>
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
