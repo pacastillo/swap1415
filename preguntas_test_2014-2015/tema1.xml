@@ -489,12 +489,12 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
-        <enunciado>¿La estructura general para montar una granja web que escale correctamente sería?</enunciado>
-        <opcionA>Base De Datos + Web</opcionA>
+        <enunciado>¿Habitualmente, la estructura general de una granja web que escale correctamente sería?</enunciado>
+        <opcionA>Base De Datos + Web + Balanceador Global</opcionA>
         <opcionB>Servidor de desarrollo + Web + Base de datos</opcionB>
-        <opcionC>Correo + Web + Base de datos</opcionC>
+        <opcionC>Correo + Web + Base de datos + Streaming</opcionC>
         <opcionD>Base de datos + Web + Mantenimiento + Refrigeración</opcionD>
-        <solucion>C</solucion>
+        <solucion>B</solucion>
     </pregunta>
     <pregunta>
         <enunciado>Si montamos una granja web, ¿a qué adversidad nos enfrentaríamos?</enunciado>
